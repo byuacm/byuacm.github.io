@@ -1,10 +1,11 @@
 <template>
     <div class="acm">
         <header>
-            <img id="acm_logo" v-bind:src="imagePath"/> 
+            <a href="/"> <img id="acm_logo" v-bind:src="imagePath"/> </a>
             <h1 id="byuacm">
                 <b>BYU</b>ACM
             </h1>
+            <a href="https://goo.gl/8Gq7Cz" target="_blank"> <h3 id="getEmails">Get BYU ACM Emails</h3> </a>
             <p>Association for Computing Machinery</p>
 
         </header>
@@ -17,10 +18,6 @@
                 <li><router-link to="/about">About</router-link></li>
             </ul>
         </nav>
-
-        <!-- <footer id="footer">
-            © 2017 BYU Association for Computing Machinery
-        </footer> -->
     </div>
 </template>
 
@@ -28,7 +25,7 @@
  export default {
     data () {
         return {
-            imagePath: '/static/images/byu-acm-logo.png'
+            imagePath: '/static/byu-acm-logo.png'
         }
     }
  }
@@ -49,6 +46,14 @@ header {
     top: 0px;
     left: 0px;
     clear: both;
+}
+
+#getEmails {
+    color: white;
+    float: right;
+    padding-right: 3%;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 #acm_logo {
@@ -84,8 +89,7 @@ header p {
 
 ul {
     list-style: none;
-    /* display: inline; */
-    overflow: hidden;
+    margin: 0px;
 }
 
 nav {
@@ -102,16 +106,18 @@ nav {
 
 li {
     float: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-    line-height: 34px;
+    padding: 5px;
     margin: 0 41px;
 }
 
 li a {
     font-size: 24px;
     color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #2BBAE4;
 }
 
 

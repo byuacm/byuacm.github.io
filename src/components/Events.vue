@@ -153,13 +153,6 @@ div .event {
 }
 
 footer {
-    /* Puts the footer bar at the bottom of the page*/
-    /* position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    clear: both; */
-
     color: #2BBAE4;
     background-color: #2D2C2D;
     padding: 15px;

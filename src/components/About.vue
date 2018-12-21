@@ -1,70 +1,128 @@
 <template>
     <div id="about">
-        <h4>About Us</h4>
-        <p>{{about}}</p>
+        <article class="ng-scope">
+        <h3>About Us</h3>
+        <p>
+            The Association for Computing Machinery is the largest and oldest international scientific and educational computing society in the industry today.
+            The ACM is dedicated to advancing the art, science, engineering, and application of information technology.
+            The BYU chapter is just one of many student chapters throughout the United States.
+            You can view our bylaws <a href="static/bylaws.pdf" target="_blank">here</a>.
+            Our vision for the BYU chapter of ACM is:
+        </p>
+        <p><b>
+            "Enhancing our university experience through Networking, Education and Service"
+        </b></p>
+        </article>
 
-        <h4>Networking</h4>
-        <p>{{networking}}</p>
+        <article class="ng-scope">
+        <h3>Networking</h3>
+        <p>
+            ...as in people networking.
+            This aspect of our vision includes getting to know representatives from local and international companies, the faculty here at BYU and other universities and each other!
+            Activities include:
+        </p>
+        <p>
+            Tech Talks: Presentations from faculty and industrial sponsor representatives.
+        </p>
+        <p>
+            Job Openings: Career placement presentations.
+        </p>
+        <p>
+            On-on-one: Resume reviews and the recruitment dinner give you more one-on-one time with recruiters.
+        </p>
+        </article>
 
-        <h4>Education</h4>
-        <p>{{education}}</p>
+        <article class="ng-scope">
+        <h3>Education</h3>
+        <p>
+            This is why we're here at BYU, right?
+            But beyond the learning we do in the classroom, there are other topics that are important to helping us transition into the workplace.
+            Plus, it's fun to learn cool stuff!  Activities include:
+        </p>
+        <p>
+            Tech talks covering subjects such as machine learning, big data, and technologies used in the real world as well as the soft skills required to get the job that you want.
+        </p>
+        <p>
+            Programming Competitions:
+            At least once per semester, we have a four hour coding competition.
+            Check our events tab for more information!
+        </p>
+        <p>
+            Hackathons: Fall Semester we will host a 12-hour hackathon and during Winter Semester we will host a 24-hour hackathon.
+        </p>
+        </article>
 
-        <h4>Service</h4>
-        <p>{{service}}</p>
+        <article class="ng-scope">
+        <h3>Service</h3>
+        <p>
+            We are all blessed with talents and abilities and now BYU ACM is providing opportunities to use those to help others!
+        </p>
+        <p>
+            ACM helps host “Discover STEM”, a middle school career fair at BYU.
+            We also are always looking for opportunities to tutor and help all students, especially minorities and those K-12 get involved with computer science.
+        </p>
+        </article>
 
-        <h4>Paying Club Dues</h4>
+        <article class="ng-scope">
+        <h3 id="paying_club_dues">Paying Club Dues</h3>
+        To pay club dues, please go the the <a href="https://commerce.cashnet.com/cashneti/selfserve/EditItem.aspx?PC=webc-acmd&ItemCount=1" target="_blank">BYU Student Academic Clubs website</a>, enter your first and last name and your email.
+        
+        We will be checking that you've paid club dues at the door to the Recruitment Dinner. 
+        </article>
 
-        <h4>Contact Us</h4>
-        <p>{{contact}}
-        <p></p>
+        <article class="ng-scope">
+        <h3>Contact Us</h3>
+        <p>
+            Companies: Please email <a href="mailto:acm@byu.edu">acm@byu.edu</a> and put your company's name and the name of our networking lead, {{networking_officer}}, in the subject line.
+        </p>
+        <p>
+            Students: Contacting the ACM Slack account, <a href="https://byucompsci.slack.com/messages/D90FCBFMZ/" target="_blank">@ACM Club</a> at <a href="https://byucompsci.slack.com" target="_blank">byucompsci.slack.com</a> will probably be faster than emailing <a href="mailto:acm@byu.edu">acm@byu.edu</a> (but you can do either).
+        </p>
+        <p>
+            Professors: If neither Slack nor email work for you, our faculty advisor is Dr. Frank Jones and you can contact him <a href="mailto:frjones@cs.byu.edu">here</a>
+        </p>
+        </article>
+
+        <footer id="footer">
+            © 2017 BYU Association for Computing Machinery
+        </footer>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
-export default {
+export default { 
     data() {
         return {
-            contact: "",
-            contactSlack: "",
-            about: "",
-            aboutLink: "",
-            networking: "",
-            education: "",
-            service: "",
+            networking_officer: "",
         }
     },
     methods: {
         load: function() {
             axios.post('/acm/about').then( res => {
-                this.contact = res.data.contact;
-                this.contactSlack = res.data.contactSlack;
-                this.about = res.data.about;
-                this.aboutLink = res.data.aboutLink;
-                this.networking = res.data.networking;
-                this.education = res.data.education;
-                this.service = res.data.service;
-            })
-
+                this.networking_officer = res.data.networking_officer;
+            });
         }
     },
     created: function() {
         this.load();
     }
+
 }
 </script>
 
 <style scoped>
 
-#about {
-    /* text-align: center; */
+h3 {
+    color: #2BBAE4;
 }
 
-h4 {
+
+footer {
     color: #2BBAE4;
-    font-size: 22px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    line-height: 1.1;
+    background-color: #2D2C2D;
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana;
 }
 </style>

@@ -1,5 +1,5 @@
 /*
-    All information pertaining to the website will be handled here for ease.
+    All changing information pertaining to the website will be handled here for ease.
     The purpose is so updating the website will only consist of updating this server.js file, and then rebooting it.
     Passing in all the info from this server will try to decrease confusion of the old website, and increase simplicity.
     This node server and Vue 2.0 framework were all applied from the Winter 2018 CS 260 Web Programming class taught by Dr. Zappala.
@@ -27,7 +27,7 @@ const SEMESTER = "Fall 2018"; // TODO: Change this for each new semeseter!
 /*     ACM HOME PAGE    */
 /************************/
 app.post('/acm/home', (req, res) => {
-    flyer = './static/images/flyer.jpg';
+    flyer = './static/flyer.jpg';
     
     let frontpage = {
         flyer: flyer,
@@ -67,7 +67,7 @@ app.post('/acm/events/', (req, res) => {
     closingLoc = "1170 TMCB";
     closingDesc = "Fall Semester's closing social will be hosted by Apple. They are super excited to bring a presentation on personal branding and storytelling. This will be the last event of the semester.";
 
-    // Comment out first 4 if a Fall Sem
+    // Comment out first 4 if a Fall Sem, vice versa for Winter Sem
     // marchHack = "";
     // marchHackDate = "March xx - xx, 201x";
     // marchHackTime = "5pm - 5pm";
@@ -127,56 +127,56 @@ app.post('/acm/events/', (req, res) => {
 /************************/
 app.post('/acm/leadership', (req, res) => {
     // This will send a big list of the officer name, bio, and picture to the Vue framework.
-    // PLEASE save the officer photos by the officer position as a jpg in the /static/images/ directory (folder).
+    // PLEASE save the officer photos by the officer position as a jpg in the /static/officers/ directory (folder).
     // the server is already coded to accept this syntax for ease.
 
     president = "Nathan Geronimo";
     presBio = "Nathan is a junior in the Computer Science program. He started programming once he switched from being a chemistry major back in 2015, and he never regrets the switch. He loves music, anime, and of course learning about how technology is evolving.";
-    presPhoto = "./static/images/president.jpg";
+    presPhoto = "./static/officers/president.jpg";
 
     vpresident = "John Webster";
     vpresBio = "John is a junior in computer engineering with a minor in computer science. His interests include hacking on microcontrollers and hardware design. His favorite font is Ubuntu Monospace. In his free time he enjoys spending time outdoors, swimming, and hiking.";
-    vpresPhoto = "./static/images/vpresident.jpg";
+    vpresPhoto = "./static/officers/vpresident.jpg";
 
     secretary = "Chandra Goodell";
     secBio = "";
-    secPhoto = "./static/images/secretary.jpg";
+    secPhoto = "./static/officers/secretary.jpg";
 
     networking = "Braden Watkins";
     netBio = "Braden is a Junior in majoring in Computer Science and minoring in Business Management. He is passionate about building soft skills and networking to complement the hard skills we learn in school.";
-    netPhoto = "./static/images/networking.jpg";
+    netPhoto = "./static/officers/networking.jpg";
 
     finance = "Daniel Segrera";
     finBio = "Daniel is a Junior in Computer Science with a minor in business administration. His interests are machine learning, yoga, and choir. His future endeavors are to create a thriving tech industry in Utah that rivals the Silicon Valley!";
-    finPhoto = "./static/images/finance.jpg";
+    finPhoto = "./static/officers/finance.jpg";
 
     event = "Carson Campbell";
     eveBio = "Carson is from from Eagle Idaho. He\'s a junior studying computer science and business. I love playing soccer, volleyball and being outdoors doing extreme sports. I'm really interested in web development and SaaS."
-    evePhoto = "./static/images/event.jpg";
+    evePhoto = "./static/officers/event.jpg";
 
     marketing = "Sierra Davis";
     markBio = "Sierra is studying Computer Science with an Animation emphasis. She loves the outdoors, music, prank wars, watermelon, and creating cool things. She is a huge BYU fan and goes to way too many sporting events. Her dream is to create amazing procedural special effects for blockbuster action films or video games";
-    markPhoto = "./static/images/marketing.jpg";
+    markPhoto = "./static/officers/marketing.jpg";
 
     technology = "Eden Knudson";
     techBio = "Eden is a junior in the Computer Science major with a minor in Astronomy. Her interests are graphic design and watching the Amazing Race.";
-    techPhoto = "./static/images/technology.jpg";
+    techPhoto = "./static/officers/technology.jpg";
 
     service = "Arthur Buck";
     servBio = "";
-    servPhoto = "./static/images/service.jpg";
+    servPhoto = "./static/officers/service.jpg";
 
     socialmedia = "Andrew Marquez";
     socialBio = "Andrew is a first-year Master's student studying Information Systems. His interests include longboarding, playing ultimate frisbee, and spending time with his wife. He also enjoys learning about personal finance, the Unix philosophy, and most everything his major offers. He doesn't know what the future holds, but he's looking forward to it!";
-    socialPhoto = "./static/images/socialmedia.jpg";
+    socialPhoto = "./static/officers/socialmedia.jpg";
 
     hackathon = "Kevin Thompson";
     hackBio = "Kevin switched to studying Computer Science after his Freshman year and has never looked back. He is a native of California and loves the outdoors. His hobbies include reading, movies, and tennis. Kevin enjoys good food and good company. He hopes one day to create SpaceY, a bigger better SpaceX.";
-    hackPhoto = "./static/images/hackathon.jpg";
+    hackPhoto = "./static/officers/hackathon.jpg";
 
     faculty = "Frank Jones, PhD";
     facBio = "Dr. Jones received his B.S. and M.S. degrees in Computer Science from University of Idaho, investigating investigating high-performance architectures and compilers. He then received a Ph.D. at University of Colorado Boulder, additionally focusing on wearable computing and assistive technology. Prior to joining the Computer Science faculty at BYU, he spent time revitalizing the College of Idaho CS curriculum and working with the Naval Air Systems Command (NAVAIR) at China Lake California.";
-    facPhoto = "./static/images/faculty.jpg";
+    facPhoto = "./static/officers/faculty.jpg";
 
     // Make a data structure of all the info
     // We'll then send the data so the site can load all the info
@@ -237,28 +237,13 @@ app.post('/acm/leadership', (req, res) => {
 /*       ACM ABOUT      */
 /************************/
 app.post('/acm/about/', (req, res) => {
-    contact = "Companies: Please email acm@byu.edu and put your company's name and the name of our networking lead, Braden Watkins in the subject line.\nStudents: Contacting the ACM Slack account, @ACM Club at byucompsci.slack.com will probably be faster than emailing acm@byu.edu (but you can do either).\nProfessors: If neither Slack nor email work for you, our faculty advisor is Dr. Frank Jones.";
-    contactSlack = "https://byucompsci.slack.com/";
-
-    about = "The Association for Computing Machinery is the largest and oldest international scientific and educational computing society in the industry today. The ACM is dedicated to advancing the art, science, engineering, and application of information technology. The BYU chapter is just one of many student chapters throughout the United States. You can view our bylaws here. Our vision for the BYU chapter of ACM is:\n\"Enhancing our university experience through Networking, Education and Service\"";
-    aboutLink = "https://acm.byu.edu/misc/bylaws.pdf";
-
-    networking = "...as in people networking. This aspect of our vision includes getting to know representatives from local and international companies, the faculty here at BYU and other universities and each other! Activities include:\nTech Talks: Presentations from faculty and industrial sponsor representatives.\nJob Openings: Career placement presentations.\nOn-on-one: Resume reviews and the recruitment dinner give you more one-on-one time with recruiters.";
-
-    education = "This is why we're here at BYU, right? But beyond the learning we do in the classroom, there are other topics that are important to helping us transition into the workplace. Plus, it's fun to learn cool stuff! Activities include:\nTech talks covering subjects such as machine learning, big data, and technologies used in the real world as well as the soft skills required to get the job that you want.\nProgramming Competitions: At least once per semester, we have a four hour coding competition. Check our events tab for more information!\nHackathons: We will host a 24-hour hackathon during Winter Semester.";
-
-    service = "We are all blessed with talents and abilities and now BYU ACM is providing opportunities to use those to help others!\nACM helps host “Discover STEM”, a middle school career fair at BYU. We also are always looking for opportunities to tutor and help all students, especially minorities and those K-12 get involved with computer science.";
+    networking_officer = "Braden Watkins"; // Just change this name for the new networking officer.
 
     let abouts = {
-        contact: contact,
-        contactSlack: contactSlack,
-        about: about,
-        aboutLink: aboutLink,
-        networking: networking,
-        education: education,
-        service: service,
+        networking_officer: networking_officer,
     }
     res.send(abouts);
 });
+
 
 app.listen(7438, () => console.log('Server listening on port 7438!'));
