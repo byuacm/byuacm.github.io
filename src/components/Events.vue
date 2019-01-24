@@ -91,7 +91,7 @@ export default {
     },
     methods: {
         load: function() {
-            axios.post('/acm/events').then( res => {
+            axios.post('/api/acm').then( res => {
                 this.semester = res.data.semester;
                 this.opening = res.data.opening;
                 this.openingDate = res.data.openingDate;

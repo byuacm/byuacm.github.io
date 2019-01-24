@@ -22,7 +22,7 @@ export default {
     methods: {
         load: function() {
             console.log("loading items")
-            axios.post('/acm/home').then( res => {
+            axios.post('/api/acm').then( res => {
                 this.flyer = res.data.flyer;
                 this.semester = res.data.semester;
                 console.log("grabbed items")

@@ -125,7 +125,7 @@ export default {
     },
     methods: {
         load: function() {
-            axios.post('/acm/leadership').then( res => {
+            axios.post('/api/acm').then( res => {
                 // Loads the officer name, bio, and photo for the site
                 this.president = res.data.president;
                 this.presBio = res.data.presBio;
