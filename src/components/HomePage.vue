@@ -21,11 +21,12 @@ export default {
     },
     methods: {
         load: function() {
-            console.log("loading items")
+            console.log("loading items");
             axios.post('/acm/home').then( res => {
+                console.log("in axios.post");
                 this.flyer = res.data.flyer;
                 this.semester = res.data.semester;
-                console.log("grabbed items")
+                console.log("grabbed items");
             }).catch(err => {
                 console.log(err);
             });
