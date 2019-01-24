@@ -22,7 +22,6 @@ const SEMESTER = "Winter 2019"; // TODO: Change this for each new semeseter!
     The server will only store and push events, officer biographies, and other assets.
 */
 
-
 /************************/
 /*     ACM HOME PAGE    */
 /************************/
@@ -130,7 +129,7 @@ app.post('/acm/leadership', (req, res) => {
     // PLEASE save the officer photos by the officer position as a jpg in the /static/officers/ directory (folder).
     // the server is already coded to accept this syntax for ease.
 
-    console.log("@leadership");
+    // console.log("@leadership");
     president = "Nathan Geronimo";
     presBio = "Nathan is a senior in the Computer Science program. He started programming once he switched from being a chemistry major back in 2015, and he never regrets the switch. He loves music, anime, and of course learning about how technology is evolving.";
     presPhoto = "./static/officers/president.jpg";
@@ -231,7 +230,7 @@ app.post('/acm/leadership', (req, res) => {
         facPhoto: facPhoto,
     }
 
-    console.log("leadership:", leadership);
+    // console.log("leadership:", leadership);
     res.send(leadership);
 });
 
