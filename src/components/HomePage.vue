@@ -21,14 +21,17 @@ export default {
     },
     methods: {
         load: function() {
+            console.log("loading items")
             axios.post('/acm/home').then( res => {
                 this.flyer = res.data.flyer;
                 this.semester = res.data.semester;
+                console.log("grabbed items")
             })
         }
     },
     created: function() {
         this.load();
+        console.log("loaded items")
     },
 }
 </script>
