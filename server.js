@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static('dist'));
-const SEMESTER = "Fall 2018"; // TODO: Change this for each new semeseter!
+const SEMESTER = "Winter 2019"; // TODO: Change this for each new semeseter!
 
 /*
     The server will only store and push events, officer biographies, and other assets.
@@ -154,16 +154,16 @@ app.post('/acm/leadership', (req, res) => {
     eveBio = "Carson is from from Eagle Idaho. He\'s a junior studying computer science and business. I love playing soccer, volleyball and being outdoors doing extreme sports. I'm really interested in web development and SaaS."
     evePhoto = "./static/officers/event.jpg";
 
-    marketing = "Sierra Davis";
-    markBio = "Sierra is studying Computer Science with an Animation emphasis. She loves the outdoors, music, prank wars, watermelon, and creating cool things. She is a huge BYU fan and goes to way too many sporting events. Her dream is to create amazing procedural special effects for blockbuster action films or video games";
+    marketing = "Anwen Knudson";
+    markBio = "Anwen is studying Information Systems with a minor in Business Management. She just returned from serving an eighteen month service mission in João Pessoa, Brazil. She is not happy about the chilly weather here and she misses the giant mangos, but she is excited to be here at BYU and ACM.";
     markPhoto = "./static/officers/marketing.jpg";
 
     technology = "Eden Knudson";
     techBio = "Eden is a junior in the Computer Science major with a minor in Astronomy. Her interests are graphic design and watching the Amazing Race.";
     techPhoto = "./static/officers/technology.jpg";
 
-    service = "Arthur Buck";
-    servBio = "";
+    service = "Sarahkate Orr";
+    servBio = "Sarahkate is studying Math Education with a minor in Computer Science. She is from Park City, Utah and enjoys running, hiking, skiing, and pretty much any activity that involves being outdoors. Her pet fish named Boaz is the light of her life. She strives to help others succeed at what they are passionate about and be happy while they do it.";
     servPhoto = "./static/officers/service.jpg";
 
     socialmedia = "Andrew Marquez";
