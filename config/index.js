@@ -11,9 +11,9 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {
-        //target: 'http://localhost:7438', // Completely random port
-         target: 'http://159.89.144.81:7438', // Completely random port
+      '/acm': {
+        target: 'http://localhost:7438', // Completely random port
+        //target: 'http://159.89.144.81:7438', // Completely random port
         secure: false
       }
     },

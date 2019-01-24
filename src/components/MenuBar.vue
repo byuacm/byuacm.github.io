@@ -3,7 +3,8 @@
         <header>
             <a href="/"> <img id="acm_logo" v-bind:src="imagePath"/> </a>
             <h1 id="byuacm">
-                <b>BYU</b>ACM
+                <a href="/"> <b>BYU</b>ACM </a>
+                
             </h1>
             <a href="https://goo.gl/8Gq7Cz" target="_blank"> <h3 id="getEmails">Get BYU ACM Emails</h3> </a>
             <p>Association for Computing Machinery</p>
@@ -120,6 +121,9 @@ li a:hover {
     color: #2BBAE4;
 }
 
-
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 </style>

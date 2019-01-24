@@ -99,7 +99,7 @@ export default {
     },
     methods: {
         load: function() {
-            axios.post('/api/acm').then( res => {
+            axios.post('/acm/about').then( res => {
                 this.networking_officer = res.data.networking_officer;
             });
         }

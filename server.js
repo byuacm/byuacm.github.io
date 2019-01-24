@@ -26,7 +26,7 @@ const SEMESTER = "Winter 2019"; // TODO: Change this for each new semeseter!
 /************************/
 /*     ACM HOME PAGE    */
 /************************/
-app.post('/api/acm', (req, res) => {
+app.post('/acm/home', (req, res) => {
     flyer = './static/flyer.jpg';
     
     let frontpage = {
@@ -39,7 +39,7 @@ app.post('/api/acm', (req, res) => {
 /************************/
 /*      ACM EVENTS      */
 /************************/
-app.post('/api/acm/', (req, res) => {
+app.post('/acm/events', (req, res) => {
 
 
     // The main events and their dates, time, and location every semester
@@ -125,7 +125,7 @@ app.post('/api/acm/', (req, res) => {
 /************************/
 /*    ACM LEADERSHIP    */
 /************************/
-app.post('/api/acm', (req, res) => {
+app.post('/acm/leadership', (req, res) => {
     // This will send a big list of the officer name, bio, and picture to the Vue framework.
     // PLEASE save the officer photos by the officer position as a jpg in the /static/officers/ directory (folder).
     // the server is already coded to accept this syntax for ease.
@@ -239,7 +239,7 @@ app.post('/api/acm', (req, res) => {
 /************************/
 /*       ACM ABOUT      */
 /************************/
-app.post('/api/acm/', (req, res) => {
+app.post('/acm/about/', (req, res) => {
     networking_officer = "Braden Watkins"; // Just change this name for the new networking officer.
 
     let abouts = {
