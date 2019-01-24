@@ -174,7 +174,9 @@ export default {
                 this.faculty = res.data.faculty;
                 this.facBio = res.data.facBio;
                 this.facPhoto = res.data.facPhoto;
-            })
+            }).catch(err => {
+                console.log(err);
+            });   
         }
     },
     created: function() {
