@@ -6,7 +6,7 @@
 */
 
 
-// Express Setup //
+// Server Setup //
 const express = require('express');
 const bodyParser = require("body-parser");
 
@@ -237,11 +237,13 @@ app.post('/acm/leadership', (req, res) => {
 /*       ACM ABOUT      */
 /************************/
 app.post('/acm/about/', (req, res) => {
+    console.log("@acm about");
     networking_officer = "Braden Watkins"; // Just change this name for the new networking officer.
 
     let abouts = {
         networking_officer: networking_officer,
     }
+    console.log("abouts:", abouts);
     res.send(abouts);
 });
 
