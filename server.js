@@ -130,6 +130,7 @@ app.post('/acm/leadership', (req, res) => {
     // PLEASE save the officer photos by the officer position as a jpg in the /static/officers/ directory (folder).
     // the server is already coded to accept this syntax for ease.
 
+    console.log("@leadership");
     president = "Nathan Geronimo";
     presBio = "Nathan is a senior in the Computer Science program. He started programming once he switched from being a chemistry major back in 2015, and he never regrets the switch. He loves music, anime, and of course learning about how technology is evolving.";
     presPhoto = "./static/officers/president.jpg";
@@ -229,6 +230,8 @@ app.post('/acm/leadership', (req, res) => {
         facBio: facBio,
         facPhoto: facPhoto,
     }
+
+    console.log("leadership:", leadership);
     res.send(leadership);
 });
 
@@ -237,13 +240,11 @@ app.post('/acm/leadership', (req, res) => {
 /*       ACM ABOUT      */
 /************************/
 app.post('/acm/about/', (req, res) => {
-    console.log("@acm about");
     networking_officer = "Braden Watkins"; // Just change this name for the new networking officer.
 
     let abouts = {
         networking_officer: networking_officer,
     }
-    console.log("abouts:", abouts);
     res.send(abouts);
 });
 

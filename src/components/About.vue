@@ -48,7 +48,7 @@
             Check our events tab for more information!
         </p>
         <p>
-            Hackathons: Fall Semester we will host a 12-hour hackathon and during Winter Semester we will host a 24-hour hackathon.
+            Hackathons: During Winter Semester we will host a 24-hour hackathon.
         </p>
         </article>
 
