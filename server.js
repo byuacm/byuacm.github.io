@@ -131,7 +131,7 @@ app.post('/acm/leadership', (req, res) => {
     // the server is already coded to accept this syntax for ease.
 
     president = "Nathan Geronimo";
-    presBio = "Nathan is a junior in the Computer Science program. He started programming once he switched from being a chemistry major back in 2015, and he never regrets the switch. He loves music, anime, and of course learning about how technology is evolving.";
+    presBio = "Nathan is a senior in the Computer Science program. He started programming once he switched from being a chemistry major back in 2015, and he never regrets the switch. He loves music, anime, and of course learning about how technology is evolving.";
     presPhoto = "./static/officers/president.jpg";
 
     vpresident = "John Webster";
