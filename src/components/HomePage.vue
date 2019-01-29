@@ -51,6 +51,15 @@ export default {
      text-align: center;
  }
 
+.flyer {
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
 footer {
     color: #2BBAE4;
     background-color: #2D2C2D;
