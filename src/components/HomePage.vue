@@ -1,7 +1,7 @@
 <template>
     <div class="frontpage">
         <h1>Next club activity for {{semester}} semester!</h1>
-        <img id="flyer" v-bind:src="flyer"/>
+        <img class="flyer" v-bind:src="flyer"/>
 
         <footer id="footer">
             © 2019 BYU Association for Computing Machinery
