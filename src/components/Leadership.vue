@@ -63,7 +63,7 @@
         <p>{{facBio}}</p>
         
         <footer id="footer">
-            © 2017 BYU Association for Computing Machinery
+            © 2019 BYU Association for Computing Machinery
         </footer>
     </div>
 </template>

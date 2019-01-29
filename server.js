@@ -5,6 +5,20 @@
     This node server and Vue 2.0 framework were all applied from the Winter 2018 CS 260 Web Programming class taught by Dr. Zappala.
 */
 
+/*
+    If running on nginx, make sure you edit the /etc/nginx/sites-available/default.
+    Under the server {}, find the location / and enter this
+    location / {
+        proxy_pass http://localhost:PORT;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+    Where you change PORT to the actual number. This is port 7438
+*/
+
 
 // Server Setup //
 const express = require('express');
@@ -33,7 +47,7 @@ app.post('/acm/home', (req, res) => {
         semester: SEMESTER,
     }
     res.send(frontpage);
-})
+});
 
 /************************/
 /*      ACM EVENTS      */
