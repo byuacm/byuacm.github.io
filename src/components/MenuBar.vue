@@ -1,129 +1,88 @@
 <template>
-    <div class="acm">
-        <header>
-            <a href="/"> <img id="acm_logo" v-bind:src="imagePath"/> </a>
-            <h1 id="byuacm">
-                <a href="/"> <b>BYU</b>ACM </a>
-                
-            </h1>
-            <a href="https://goo.gl/8Gq7Cz" target="_blank"> <h3 id="getEmails">Get BYU ACM Emails</h3> </a>
-            <p>Association for Computing Machinery</p>
-
-        </header>
-        <nav>
-            <ul id="menu">
-                <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/events">Events</router-link></li>
-                <li><router-link to="/leadership">Leadership</router-link></li>
-                <li><router-link to="/contributors">Contributors</router-link></li>
-                <li><router-link to="/about">About</router-link></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="acm">
+    <md-toolbar class="header">
+      <div class="md-toolbar-row">
+        <a href="/">
+          <img class="acm_logo" v-bind:src="imagePath">
+        </a>
+        <div class="menu">
+          <md-button @click.native="$router.push('/')" class="menu-item">Home</md-button>
+          <md-button @click.native="$router.push('events')" class="menu-item">Events</md-button>
+          <md-button @click.native="$router.push('/leadership')" class="menu-item">Leadership</md-button>
+          <md-button @click.native="$router.push('/contributors')" class="menu-item">Sponsors</md-button>
+          <md-button @click.native="$router.push('/about')" class="menu-item">About</md-button>
+        </div>
+        <md-button
+          class="email-button md-raised md-primary"
+          href="https://goo.gl/8Gq7Cz"
+          target="_blank"
+        >Get BYU ACM Emails</md-button>
+      </div>
+    </md-toolbar>
+  </div>
 </template>
 
 <script>
- export default {
-    data () {
-        return {
-            imagePath: '/static/byu-acm-logo.png'
-        }
-    }
- }
+export default {
+  data() {
+    return {
+      imagePath: "/static/byu-acm-logo.png"
+    };
+  }
+};
 </script>
 
 <style scoped>
 body {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
-header {
-    width: inherit;
-    height: 170px;
-    background: #2D2C2D;
-    color: #AAA;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    clear: both;
+.header {
+  background: #2d2c2d;
+  color: #aaa;
+  padding: 0 20px;
 }
 
-#getEmails {
-    color: white;
-    float: right;
-    padding-right: 3%;
-    font-weight: 100;
-    font-size: 20px;
+.md-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-grow: 1;
+  padding: 10px;
 }
 
-#acm_logo {
-    float: left;
-    width: 170px;
-    height: 170px;
-    margin-left: 10px;
+.acm_logo {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  flex-shrink: 0;
 }
 
-#byuacm {
-    display: inline-block;
-    width: 400px;
-    font-size: 70px;
-    color: #2BBAE4;
-    font-weight: 100;
-    margin: 0;
-    filter: inherit;
-    margin: 45px 0 0 20px; /* Centered the B with the right side of diamond */
+.email-button {
+  color: white;
+  font-size: 14px;
+  min-width: 162px;
+  margin: 0;
 }
 
-#byuacm b {
-    color: white;
-    font-weight: bold;
+.bottom-row {
+  justify-content: center;
 }
 
-header p {
-    color: white;
-    /* padding-left: 5px; */
-    padding-left: 205px; /* Aligns the A under the B */
-    font-size: 18px;
-    margin: 0;
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-ul {
-    list-style: none;
-    margin: 0px;
+.menu-item {
+  margin: 0 16px !important;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  flex-shrink: 1;
 }
-
-nav {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background: #2D2C2D;
-    border-top-style: solid;
-    border-top-color: white;
-    border-top-width: 1px;    
-    color: white;
-    text-align: center;
-}
-
-li {
-    float: left;
-    padding: 5px;
-    margin: 0 41px;
-}
-
-li a {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-}
-
-li a:hover {
-    color: #2BBAE4;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 </style>

@@ -1,17 +1,13 @@
 <template>
-    <div class="frontpage">
+    <div v-if="semester !== ''" class="frontpage">
         <h1>Next club activity for {{semester}} semester!</h1>
         <img class="flyer" v-bind:src="flyer"/>
-
-        <footer id="footer">
-            © 2019 BYU Association for Computing Machinery
-        </footer>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
-// import express from 'express';
+
 export default {
     name: 'HomePage',
     data () {
@@ -22,20 +18,14 @@ export default {
     },
     methods: {
         load: function() {
-            console.log("loading items");
             axios.post('/acm/home').then( res => {
-                console.log("in axios.post");
                 this.flyer = res.data.flyer;
                 this.semester = res.data.semester;
-                console.log("grabbed items");
-            }).catch(err => {
-                console.log(err);
-            });
+            }).catch(err => {});
         }
     },
     created: function() {
         this.load();
-        console.log("loaded items")
     },
 }
 </script>
@@ -52,20 +42,11 @@ export default {
  }
 
 .flyer {
-    width: 800px;
+    width: 500px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     font-size: 20px;
 }
-
-footer {
-    color: #2BBAE4;
-    background-color: #2D2C2D;
-    padding: 15px;
-    text-align: center;
-    font-family: Verdana;
-}
-
 </style>

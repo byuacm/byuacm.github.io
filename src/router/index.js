@@ -17,22 +17,22 @@ export default new Router({
     },
     {
       path: '/events',
-      name: Events,
+      name: 'Events',
       component: Events,
     },
     {
       path: '/leadership',
-      name: Leadership,
+      name: 'Leadership',
       component: Leadership,
     },
     {
       path: '/contributors',
-      name: Contributors,
+      name: 'Contributors',
       component: Contributors,
     },
     {
       path: '/about',
-      name: About,
+      name: 'About',
       component: About,
     },
 

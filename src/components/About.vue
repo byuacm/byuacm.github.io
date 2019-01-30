@@ -66,8 +66,8 @@
         <article class="ng-scope">
         <h3 id="paying_club_dues">Paying Club Dues</h3>
         To pay club dues, please go the the <a href="https://commerce.cashnet.com/cashneti/selfserve/EditItem.aspx?PC=webc-acmd&ItemCount=1" target="_blank">BYU Student Academic Clubs website</a>, enter your first and last name and your email.
-        
-        We will be checking that you've paid club dues at the door to the Recruitment Dinner. 
+
+        We will be checking that you've paid club dues at the door to the Recruitment Dinner.
         </article>
 
         <article class="ng-scope">
@@ -82,16 +82,12 @@
             Professors: If neither Slack nor email work for you, our faculty advisor is Dr. Frank Jones and you can contact him <a href="mailto:frjones@cs.byu.edu">here</a>
         </p>
         </article>
-
-        <footer id="footer">
-            © 2019 BYU Association for Computing Machinery
-        </footer>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
-export default { 
+export default {
     data() {
         return {
             networking_officer: "",
@@ -115,14 +111,5 @@ export default {
 
 h3 {
     color: #2BBAE4;
-}
-
-
-footer {
-    color: #2BBAE4;
-    background-color: #2D2C2D;
-    padding: 15px;
-    text-align: center;
-    font-family: Verdana;
 }
 </style>

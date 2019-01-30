@@ -96,16 +96,12 @@
         </span><!-- end ngRepeat: sponsor in sponsors -->
         </div>
     </div>
-
-        <footer id="footer">
-            © 2019 BYU Association for Computing Machinery
-        </footer>
     </div>
 </template>
 
 <script>
 export default {
-    
+
 }
 </script>
 
@@ -116,14 +112,6 @@ h4 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
     line-height: 1.1;
-}
-
-footer {
-    color: #2BBAE4;
-    background-color: #2D2C2D;
-    padding: 15px;
-    text-align: center;
-    font-family: Verdana;
 }
 
 #sponsors {
