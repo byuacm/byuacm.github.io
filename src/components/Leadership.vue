@@ -265,15 +265,15 @@ export default {
 
 <style scoped>
 .leadership-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid; /* 1 */
+  grid-template-columns: repeat(auto-fill, 275px); /* 2 */
+  grid-gap: 1rem; /* 3 */
+  justify-content: space-between; /* 4 */
 }
 
 .md-card {
   width: 250px;
-  margin: 40px;
+  margin: 10px auto;
   border-radius: 10px;
 }
 
