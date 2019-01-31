@@ -269,6 +269,7 @@ export default {
   grid-template-columns: repeat(auto-fill, 275px); /* 2 */
   grid-gap: 1rem; /* 3 */
   justify-content: space-between; /* 4 */
+  margin: 0 50px;
 }
 
 .md-card {
