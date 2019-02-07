@@ -1,8 +1,9 @@
-# rest_acm_site
+# Rebuilt BYU ACM site
 
 > A new back and front end for the acm website using nodejs with the Vue framework.
-This Node server (configured with Nginx) and Vue Webpack/Vue 2.0 framework were all applied from the Winter 2018 CS 260 Web Programming class taught by Dr. Zappala.
-<br> The website was rebuilt by the BYU ACM leadership in the academic Fall/Winter 2018-19 year.
+This Node server (configured with Nginx) and Vue Webpack/Vue 2.0 framework were all applied from the Winter 2018 CS 260 Web Programming class taught by Dr. Zappala.<br> 
+The website was rebuilt by the BYU ACM leadership in the academic Fall/Winter 2018-19 year.<br><br> 
+*NOTE: it is currently being hosted on a digital ocean server while we finish the final version: http://159.89.144.81/
 
 # The Why
 
