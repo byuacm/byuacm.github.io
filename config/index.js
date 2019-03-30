@@ -14,7 +14,7 @@ module.exports = {
       '/acm': {
         //target: 'http://localhost:7438', // Completely random port
         // target: 'http://159.89.144.81:7438', // Completely random port
-        target: 'http://www.acm.byu.edu:7438',
+        target: 'http://www.acm.byu.edu:443',
         secure: false
       }
     },
