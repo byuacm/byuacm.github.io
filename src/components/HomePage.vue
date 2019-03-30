@@ -12,30 +12,15 @@
 </template>
 
 <script>
-import axios from "axios";
 
 export default {
   name: "HomePage",
   data() {
     return {
-      flyer: "",
-      semester: ""
+      semester: "Winter 2019", // Always change every semester
+      flyer: "../static/flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
     };
   },
-  methods: {
-    load: function() {
-      axios
-        .post("/acm/home")
-        .then(res => {
-          this.flyer = res.data.flyer;
-          this.semester = res.data.semester;
-        })
-        .catch(err => {});
-    }
-  },
-  created: function() {
-    this.load();
-  }
 };
 </script>
 

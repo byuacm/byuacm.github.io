@@ -20,7 +20,6 @@
 </template>
 
 <script>
-import axios from "axios";
 import events from "../constants/events.js";
 import * as moment from 'moment';
 
@@ -30,6 +29,11 @@ export default {
       events
     };
   },
+
+  /**
+   * This sorts the events chronologically. 
+   * If an event is one week old to the current date, it's not shown on the page.
+   */
   methods: {
     load: function() {
       this.events = this.events

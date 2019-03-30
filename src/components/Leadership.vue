@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import axios from "axios";
 import leadership from "../constants/leadership.js";
+
 export default {
   name: "Leadership",
   data() {
