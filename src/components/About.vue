@@ -1,7 +1,7 @@
 <template>
-    <div id="about">
+    <div class="about-container">
         <article class="ng-scope">
-        <h3>About Us</h3>
+        <h2>About Us</h2>
         <p>
             The Association for Computing Machinery is the largest and oldest international scientific and educational computing society in the industry today.
             The ACM is dedicated to advancing the art, science, engineering, and application of information technology.
@@ -15,7 +15,7 @@
         </article>
 
         <article class="ng-scope">
-        <h3>Networking</h3>
+        <h2>Networking</h2>
         <p>
             ...as in people networking.
             This aspect of our vision includes getting to know representatives from local and international companies, the faculty here at BYU and other universities and each other!
@@ -33,7 +33,7 @@
         </article>
 
         <article class="ng-scope">
-        <h3>Education</h3>
+        <h2>Education</h2>
         <p>
             This is why we're here at BYU, right?
             But beyond the learning we do in the classroom, there are other topics that are important to helping us transition into the workplace.
@@ -53,7 +53,7 @@
         </article>
 
         <article class="ng-scope">
-        <h3>Service</h3>
+        <h2>Service</h2>
         <p>
             We are all blessed with talents and abilities and now BYU ACM is providing opportunities to use those to help others!
         </p>
@@ -64,14 +64,14 @@
         </article>
 
         <article class="ng-scope">
-        <h3 id="paying_club_dues">Paying Club Dues</h3>
+        <h2 id="paying_club_dues">Paying Club Dues</h2>
         To pay club dues, please go the the <a href="https://commerce.cashnet.com/cashneti/selfserve/EditItem.aspx?PC=webc-acmd&ItemCount=1" target="_blank">BYU Student Academic Clubs website</a>, enter your first and last name and your email.
 
         We will be checking that you've paid club dues at the door to the Recruitment Dinner.
         </article>
 
         <article class="ng-scope">
-        <h3>Contact Us</h3>
+        <h2>Contact Us</h2>
         <p>
             Companies: Please email <a href="mailto:acm@byu.edu">acm@byu.edu</a> and put your company's name and the name of our networking lead, {{networking_officer}}, in the subject line.
         </p>
@@ -109,7 +109,9 @@ export default {
 
 <style scoped>
 
-h3 {
-    color: #2BBAE4;
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+
 }
 </style>

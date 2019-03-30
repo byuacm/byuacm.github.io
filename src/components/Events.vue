@@ -1,6 +1,6 @@
 <template>
   <div v-if="semester !== ''" class="events-container">
-    <h1>Events for {{semester}}</h1>
+    <h2 class="events-title">Events for {{semester}}</h2>
 
     <md-card class="event">
       <md-card-header>
@@ -12,7 +12,7 @@
         </div>
       </md-card-header>
       <md-card-content>
-        <h4>{{openingDesc}}</h4>
+        <div>{{openingDesc}}</div>
       </md-card-content>
     </md-card>
 
@@ -26,7 +26,7 @@
         </div>
       </md-card-header>
       <md-card-content>
-        <h4>{{dinnerDesc}}</h4>
+        <div>{{dinnerDesc}}</div>
       </md-card-content>
     </md-card>
 
@@ -40,7 +40,7 @@
         </div>
       </md-card-header>
       <md-card-content>
-        <h4>{{progcompDesc}}</h4>
+        <div>{{progcompDesc}}</div>
       </md-card-content>
     </md-card>
 
@@ -54,7 +54,7 @@
         </div>
       </md-card-header>
       <md-card-content>
-        <h4>{{closingDesc}}</h4>
+        <div>{{closingDesc}}</div>
       </md-card-content>
     </md-card>
   </div>
@@ -164,6 +164,10 @@ export default {
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.events-title {
+  color: white;
 }
 
 .md-card {
