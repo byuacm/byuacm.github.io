@@ -13,7 +13,8 @@ module.exports = {
     proxyTable: {
       '/acm': {
         //target: 'http://localhost:7438', // Completely random port
-        target: 'http://159.89.144.81:7438', // Completely random port
+        // target: 'http://159.89.144.81:7438', // Completely random port
+        target: 'http://acm.byu.edu:7438', // For the acm server
         secure: false
       }
     },
@@ -26,7 +27,7 @@ module.exports = {
     notifyOnErrors: true,
     poll: false, // https://webpack.js.org/configuration/dev-server/#devserver-watchoptions-
 
-    
+
     /**
      * Source Maps
      */
