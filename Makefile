@@ -27,5 +27,5 @@ npm-install:
 
 .PHONY: deploy-public
 deploy-public:
-	npm run build && rsync -r --update --delete public/ /var/www/acm-public/
+	npm run build && rsync -r --update --delete dist/ /var/www/acm-public/
 
