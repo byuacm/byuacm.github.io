@@ -66,7 +66,7 @@ const leadership = [
     name: "Griffin Holt",
     position: 'Social Media',
     bio: "",
-    // photo: "./static/officers/socialmedia.jpg",
+    photo: "./static/officers/socialmedia.jpg",
     },
 
     {
