@@ -16,7 +16,7 @@
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
-    Where you change PORT to the actual number. This is port 7438
+    Where you change PORT to the actual number. This is port 443
 */
 
 
@@ -260,4 +260,4 @@ app.post('/acm/about/', (req, res) => {
 });
 
 
-app.listen(7438, () => console.log('Server listening on port 7438!'));
+app.listen(443, () => console.log('Server listening on port 443!'));
