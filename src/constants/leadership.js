@@ -65,7 +65,7 @@ const leadership = [
     {
     name: "Griffin Holt",
     position: 'Social Media',
-    bio: "",
+    bio: "Griffin is a Sophmore, pursuing a B.S. in Computer Science, with a double minor in Russian and Mathematics. He fell in love with computer science last year, and is now passionate for the field. After completing his degree in Computer Science, Griffin would like to pursue a technical Master’s degree (most likely in Cyber Security) and an MBA. He is excited for the future of the BYU Chapter of the Association for Computing Machinery.",
     photo: "./static/officers/socialmedia.jpg",
     },
 
