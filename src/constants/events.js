@@ -29,7 +29,7 @@ const events = [
     end: moment('Apr 09 2019 07:00pm', 'MMM DD YYYY hh:mma'),
     location: '1170 TMCB',
     description:
-    "Fall Semester's closing social will be hosted by Apple. They are super excited to bring a presentation on personal branding and storytelling. This will be the last event of the semester."
+    "Winter Semester's closing social will be hosted by Pluralsight. They are super excited to bring a presentation on developer culture. This will be the last event of the semester. There will also be an election for the ACM officers for next school year."
   },
   {
     title: 'Hackathon',
