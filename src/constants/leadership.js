@@ -58,7 +58,7 @@ const leadership = [
     {
     name: "Sarahkate Orr",
     position: 'Service',
-    bio: "Sarahkate is studying Math Education with a minor in Computer Science. She is from Park City, Utah and enjoys running, hiking, skiing, and pretty much any activity that involves being outdoors. Her pet fish named Boaz is the light of her life. She strives to help others succeed at what they are passionate about and be happy while they do it.",
+    bio: "Sarahkate is studying Computer Science. She is from Park City, Utah and enjoys running, hiking, skiing, and pretty much any activity that involves being outdoors. Her pet fish Boaz is the light of her life. She strives to help others succeed at what they are passionate about and be happy while they do it.",
     photo: "./static/officers/service.jpg",
     },
 
