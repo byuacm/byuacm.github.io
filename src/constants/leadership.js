@@ -12,14 +12,14 @@ const leadership = [
     bio: "John is a junior in computer engineering with a minor in computer science. His interests include hacking on microcontrollers and hardware design. His favorite font is Ubuntu Monospace. In his free time he enjoys spending time outdoors, swimming, and hiking.",
     photo: "./static/officers/vpresident.jpg",
     },
-
+/*
     {
     name: "Chandra Goodell",
     position: 'Secretary',
     bio: "",
     photo: "./static/officers/secretary.jpg",
     },
-
+*/
     {
     name: "Braden Watkins",
     position: 'Networking',
