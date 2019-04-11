@@ -25,6 +25,13 @@ const leadership = [
     bio: "Anwen is studying Information Systems with a minor in Business Management. She just returned from serving an eighteen month service mission in João Pessoa, Brazil. She is not happy about the chilly weather here and she misses the giant mangos, but she is excited to be here at BYU and ACM.",
     photo: "./static/officers/marketing.jpg",
     },
+  
+    {
+    name: "Kevin Thompson",
+    position: 'Events',
+    bio: "Kevin switched to studying Computer Science after his Freshman year and has never looked back. He is a native of California and loves the outdoors. His hobbies include reading, movies, and tennis. Kevin enjoys good food and good company. He hopes one day to create SpaceY, a bigger better SpaceX.",
+    photo: "./static/officers/event.jpg",
+    },
 
     {
     name: "Eden Knudson",
@@ -45,13 +52,6 @@ const leadership = [
     position: 'Social Media',
     bio: "Griffin is a Sophmore, pursuing a B.S. in Computer Science, with a double minor in Russian and Mathematics. He fell in love with computer science last year, and is now passionate for the field. After completing his degree in Computer Science, Griffin would like to pursue a technical Master’s degree (most likely in Cyber Security) and an MBA. He is excited for the future of the BYU Chapter of the Association for Computing Machinery.",
     photo: "./static/officers/socialmedia.jpg",
-    },
-
-    {
-    name: "Kevin Thompson",
-    position: 'Events',
-    bio: "Kevin switched to studying Computer Science after his Freshman year and has never looked back. He is a native of California and loves the outdoors. His hobbies include reading, movies, and tennis. Kevin enjoys good food and good company. He hopes one day to create SpaceY, a bigger better SpaceX.",
-    photo: "./static/officers/event.jpg",
     },
   /*
     {
