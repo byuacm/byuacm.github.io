@@ -49,9 +49,9 @@ const leadership = [
 
     {
     name: "Kevin Thompson",
-    position: 'Hackathon',
+    position: 'Events',
     bio: "Kevin switched to studying Computer Science after his Freshman year and has never looked back. He is a native of California and loves the outdoors. His hobbies include reading, movies, and tennis. Kevin enjoys good food and good company. He hopes one day to create SpaceY, a bigger better SpaceX.",
-    photo: "./static/officers/events.jpg",
+    photo: "./static/officers/event.jpg",
     },
   /*
     {
