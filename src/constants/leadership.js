@@ -15,7 +15,7 @@ const leadership = [
     {
     name: "Carson Campbell",
     position: 'Networking',
-    bio: "Carson is from from Eagle Idaho. He\'s a junior studying computer science and business. I love playing soccer, volleyball and being outdoors doing extreme sports. I'm really interested in web development and SaaS.",
+    bio: "Carson is from from Eagle Idaho. He\'s a Junior studying computer science and business. I love playing soccer, volleyball and being outdoors doing extreme sports. I'm really interested in web development and SaaS.",
     photo: "./static/officers/networking.jpg",
     },
 
@@ -36,7 +36,7 @@ const leadership = [
     {
     name: "Eden Knudson",
     position: 'Technology',
-    bio: "Eden is a junior in the Computer Science major with a minor in Astronomy. Her interests are graphic design and watching the Amazing Race.",
+    bio: "Eden is a Senior in the Computer Science major with a minor in Astronomy. Her interests are graphic design and watching the Amazing Race.",
     photo: "./static/officers/technology.jpg",
     },
 
@@ -60,14 +60,14 @@ const leadership = [
     bio: "",
     photo: "./static/officers/hackathon.jpg",
     },
-  
+  */
     {
     name: "Ellie Van De Graaff",
     position: 'Service',
-    bio: "",
+    bio: "Ellie is a Junior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
     photo: "./static/officers/service.jpg",
     },
-*/
+
     {
     name: "Frank Jones, PhD",
     position: 'Faculty Advisor',
