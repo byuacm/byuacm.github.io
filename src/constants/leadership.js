@@ -53,14 +53,14 @@ const leadership = [
     bio: "Griffin is a Sophmore, pursuing a B.S. in Computer Science, with a double minor in Russian and Mathematics. He fell in love with computer science last year, and is now passionate for the field. After completing his degree in Computer Science, Griffin would like to pursue a technical Master’s degree (most likely in Cyber Security) and an MBA. He is excited for the future of the BYU Chapter of the Association for Computing Machinery.",
     photo: "./static/officers/socialmedia.jpg",
     },
-  /*
+  
     {
     name: "Daniel Ekpo",
     position: 'Hackathon',
-    bio: "",
+    bio: "Daniel is a Junior studying computer science. He's from Calabar, a fairly humid and warm city in Nigeria. Daniel always enjoys a good soccer game with friends. He also enjoys ping-pong, road biking and running. He's passionate about developing enterprise applications.",
     photo: "./static/officers/hackathon.jpg",
     },
-  */
+  
     {
     name: "Ellie Van De Graaff",
     position: 'Service',
