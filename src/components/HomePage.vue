@@ -3,7 +3,7 @@
     <md-card>
       <md-card-header>
         <!-- <div class="md-title">Next club activity for {{semester}} semester:</div> -->
-        <a href="www.hackerrank.com/summer-2019-space-challenge">
+        <a href="http://www.hackerrank.com/summer-2019-space-challenge">
           <div class="md-title">Participate in the 2019 Summer Hackerrank Space Coding Challenge!</div>
         </a>
       </md-card-header>
