@@ -2,13 +2,13 @@ const leadership = [
     {
     name: "Braden Watkins",
     position: 'President',
-    bio: "Braden is a Junior in majoring in Computer Science and minoring in Business Management. He is passionate about building soft skills and networking to complement the hard skills we learn in school.",
+    bio: "Braden is a Senior in majoring in Computer Science and minoring in Business Management. He is passionate about building soft skills and networking to complement the hard skills we learn in school.",
     photo: "./static/officers/president.jpg",
     },
     {
     name: "Daniel Segrera",
     position: 'Vice President',
-    bio: "Daniel is a Junior in Computer Science with a minor in business administration. His interests are machine learning, yoga, and choir. His future endeavors are to create a thriving tech industry in Utah that rivals the Silicon Valley!",
+    bio: "Daniel is a Senior in Computer Science with a minor in business administration. His interests are machine learning, yoga, and choir. His future endeavors are to create a thriving tech industry in Utah that rivals the Silicon Valley!",
     photo: "./static/officers/vpresident.jpg",
     },
 
