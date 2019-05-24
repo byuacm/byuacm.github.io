@@ -4,9 +4,9 @@
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
         <md-card-header>
           <h4 class="md-title">
-            <link rel="icon" href="<%= BASE_URL %>resource.link">
+            <a href="resource.link">
               {{resource.title}}
-            </link>
+            </a>
           </h4>
         </md-card-header>
         <md-card-content>
