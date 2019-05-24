@@ -2,10 +2,8 @@
   
     <div class="resources-container">
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
-        <md-card-header>
-          <a v-bind:href="resource.link" target="_blank">
+        <md-card-header onclick="location.href=resource.link">
             <h4 class="md-title">{{resource.title}}</h4>
-          </a>
         </md-card-header>
         <md-card-content>
           <div>{{resource.description}}</div>
