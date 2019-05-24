@@ -3,7 +3,11 @@
     <div class="resources-container">
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
         <md-card-header onclick="location.href=resource.link">
+          <a v-bind:href="resource.link">
+          <span>
             <h4 class="md-title">{{resource.title}}</h4>
+            </span>
+          </a>
         </md-card-header>
         <md-card-content>
           <div>{{resource.description}}</div>
