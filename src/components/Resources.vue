@@ -4,10 +4,9 @@
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
         <md-card-header>
           <h4 class="md-title">
-            <a v-bind:href="resource.link" target="_blank" v-bind:download="resource.link">
+            <a href="static/resources/qualtricsInterview.pdf" download>
               {{resource.title}}
             </a>
-            <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://example.com/the.pdf" width="500" height="375">
           </h4>
         </md-card-header>
         <md-card-content>
