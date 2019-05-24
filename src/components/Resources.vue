@@ -2,7 +2,7 @@
   
     <div class="resources-container">
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
-        <md-card-header onclick="location.href=resource.link">
+        <md-card-header>
           
             <h4 class="md-title">
             <a v-bind:href="resource.link">
