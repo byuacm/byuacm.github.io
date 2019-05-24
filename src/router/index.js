@@ -36,7 +36,11 @@ export default new Router({
       name: 'About',
       component: About,
     },
-
+    {
+      path: '/resources',
+      name: 'Resources',
+      component: Resources,
+    },
 
   ]
 })
