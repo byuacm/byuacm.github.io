@@ -1,15 +1,16 @@
 <template>
   
     <div class="resources-container">
-
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
-        <a v-bind:href="resource.link">
-        <md-card-header>
-          <h4 class="md-title">{{resource.title}}</h4>
-        </md-card-header>
-        <md-card-content>
-          <div>{{resource.description}}</div>
-        </md-card-content>
+        <a v-bind:href="resource.link" target="_blank>
+          <div>
+            <md-card-header>
+              <h4 class="md-title">{{resource.title}}</h4>
+            </md-card-header>
+            <md-card-content>
+              <div>{{resource.description}}</div>
+            </md-card-content>
+          </div>
         </a>
       </md-card>
     </div>
