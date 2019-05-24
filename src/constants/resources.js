@@ -1,4 +1,5 @@
 import * as moment from 'moment';
+import pdf from '../assets/mypdf.pdf';
 
 const resources = [
   {
