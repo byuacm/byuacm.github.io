@@ -4,7 +4,7 @@ const resources = [
   {
     title: 'How to Pass a Technical Interview',
     description: 'Qualtrics presentation given in Winter 2019',
-    link: 'static/resources/qualtricsInterview.pdf',
+    link: 'https://google.com',
   },
 ];
 
