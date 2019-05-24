@@ -6,7 +6,9 @@
       </md-card-header>
       <md-card-content>
         <div>{{resource.description}}</div>
-        <div>{{resource.link}}</div>
+        <div>
+          <a v-bind:href="resource.link">here</a>.
+        </div>
       </md-card-content>
     </md-card>
   </div>
