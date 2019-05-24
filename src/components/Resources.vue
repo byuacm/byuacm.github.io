@@ -4,7 +4,7 @@
       <md-card class="resource" v-for="resource in resources" v-bind:key="resource.title">
         <md-card-header>
           <h4 class="md-title">
-            <a href="static/resources/qualtricsInterview.pdf" download>
+            <a href="/static/resources/qualtricsInterview.pdf" download>
               {{resource.title}}
             </a>
           </h4>
