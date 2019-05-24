@@ -1,17 +1,16 @@
 <template>
-  <div class="resources-container">
-    <md-card class="resource" v-for="resource in resources" v-bind:key="resources.title">
-      <md-card-header>
-        <h4 class="md-title">{{resource.title}}</h4>
-      </md-card-header>
-      <md-card-content>
-        <div>{{resource.description}}</div>
-        <div>
-          <a v-bind:href="resource.link">here</a>.
-        </div>
-      </md-card-content>
-    </md-card>
-  </div>
+  <a v-bind:href="resource.link">
+    <div class="resources-container">
+      <md-card class="resource" v-for="resource in resources" v-bind:key="resources.title">
+        <md-card-header>
+          <h4 class="md-title">{{resource.title}}</h4>
+        </md-card-header>
+        <md-card-content>
+          <div>{{resource.description}}</div>
+        </md-card-content>
+      </md-card>
+    </div>
+  </a>
 </template>
 
 <script>
@@ -22,7 +21,7 @@ export default {
     return {
       resources
     };
-  }
+  },
 };
 </script>
 
