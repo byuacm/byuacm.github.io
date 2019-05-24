@@ -34,6 +34,11 @@
             v-bind:class="{ active: isPath('/about'), 'show-mobile': showMenu }"
             class="menu-item"
           >About</md-button>
+          <md-button
+            @click.native="routeTo('/resources')"
+            v-bind:class="{ active: isPath('/resources'), 'show-mobile': showMenu }"
+            class="menu-item"
+          >Resources</md-button>
         </div>
         <md-button
           class="email-button md-raised md-primary"
