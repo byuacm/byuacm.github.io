@@ -3,33 +3,75 @@ import * as moment from 'moment';
 const events = [
   {
     title: 'Opening Social',
-    start: moment('Jan 11 2019 06:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Jan 11 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    start: moment('Sep 10 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Sep 10 2019 07:00pm', 'MMM DD YYYY hh:mma'),
     location: '1170 TMCB',
-    description: 'Our first event of the semester! Come listen to an awesome presentation by Canopy to kick of the new school year. As always, there will be food and door prizes.'
+    description: 'Our first event of the semester! Come listen to a presentation by Lucid to kick of the new school year. As always, there will be food and door prizes.'
+  },
+  {
+    title: 'Resume/Hackerrank Workshop',
+    start: moment('Sep 17 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Sep 17 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: 'Hosted by Goldman Sachs'
+  },
+  {
+    title: 'AIS/ACM Social',
+    start: moment('Sep 20 2019 05:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Sep 20 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: 'Hosted by Pariveda'
   },
   {
     title: 'Recruitment Dinner',
-    start: moment('Feb 08 2019 05:30pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Feb 08 2019 07:30pm', 'MMM DD YYYY hh:mma'),
-    location: '',
+    start: moment('Sep 24 2019 05:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Sep 24 2019 08:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'Harman Building',
     description:
-      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register here before spots run out! You must pay your dues before attending the event. At least 24 recruiters are coming from companies like Sandia National Laboratories, Chicago Venture Partners, Facebook, Microsoft, ExxonMobil, Qualtrics, Zion's Bank, Pariveda, Lucidchart, SimpleNexus, Goldman Sachs, Chief Architect, & Rincon Research. Dress business casual."
+      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register here before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual."
+  },
+  {
+    title: 'STEM Fair',
+    start: moment('Sep 25 2019 09:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Sep 26 2019 03:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'WSC Ballroom',
+    description: 'Meet with recruiters from 9am to 3pm. Hand out your resume and start networking!'
+  },
+  {
+    title: 'Hallo',
+    start: moment('Oct 22 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Oct 22 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: ''
   },
   {
     title: 'Programming Competition',
-    start: moment('Mar 04 2019 07:00am', 'MMM DD YYYY hh:mma'),
-    end: moment('Mar 04 2019 01:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TMCB',
-    description: 'This is a contest between BYU, USU, and the U of U. Check back for updates as we get closer to the event. Register here!'
+    start: moment('Oct 26 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Oct 26 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: 'Hosted by Lucid'
+  },  
+  {
+    title: 'Presentation by Carine Clark',
+    start: moment('Nov 5 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Nov 5 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: 'Hosted by Microsoft. Carine Clark was a data-driven marketing executive at Novell, Altiris, and Symantec, which opened doors to lead Allegiance, MartizCX, Banyan, and Ember as president and CEO.'
+  },
+  {
+    title: 'Research Roundup',
+    start: moment('Nov 19 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Nov 19 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description: 'Come hear from Professors and Research Assistants about the cool projects being done in the Computer Science Department!'
   },
   {
     title: 'Closing Social',
-    start: moment('Apr 09 2019 06:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Apr 09 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    start: moment('Dec 03 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Dec 03 2019 07:00pm', 'MMM DD YYYY hh:mma'),
     location: '1170 TMCB',
     description:
-    "Winter Semester's closing social will be hosted by Pluralsight. They are super excited to bring a presentation on developer culture. This will be the last event of the semester. There will also be an election for the ACM officers for next school year."
+    "Fall Semester's closing social will be hosted by Qualtrics."
   },
   {
     title: 'Hackathon',
