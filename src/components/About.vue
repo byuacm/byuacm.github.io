@@ -82,6 +82,25 @@
             Professors: If neither Slack nor email work for you, our faculty advisor is Dr. Frank Jones and you can contact him <a href="mailto:frjones@cs.byu.edu">here</a>
         </p>
         </article>
+        
+        <article class="ng-scope">
+        <h2>Get Connected</h2>
+        <p>
+            Slack: Use your @byu.edu email to create an account on <a href="https://byucompsci.slack.com" target="_blank">byucompsci.slack.com</a>
+        </p>
+        <p>
+            Discord: <a href="https://discord.gg/X5BjgGK" target="_blank">BYU CS Discord Server</a>
+        </p>
+        <p>
+            Instagram: <a href="https://www.instagram.com/byu_acm/?hl=en" target="_blank">byu_acm</a>
+        </p>
+        <p>
+            Twitter: <a href="https://twitter.com/byuacm?lang=en" target="_blank">BYU ACM</a>
+        </p>
+        <p>
+            Facebook: <a href="https://www.facebook.com/acmbyu/" target="_blank">BYU ACM</a>
+        </p>
+        </article>
     </div>
 </template>
 
