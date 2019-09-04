@@ -6,7 +6,7 @@ const events = [
     start: moment('Sep 10 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Sep 10 2019 07:00pm', 'MMM DD YYYY hh:mma'),
     location: '1170 TMCB',
-    description: 'Our first event of the semester! Come listen to a presentation by Lucid to kick of the new school year. As always, there will be food and door prizes.'
+    description: 'Our first event of the semester! Come listen to a presentation by Lucid to kick of the new school year. There will be JDwags and over 300 dollars in door prizes!'
   },
   {
     title: 'Resume/Hackerrank Workshop',
@@ -19,14 +19,14 @@ const events = [
     title: 'AIS/ACM Social',
     start: moment('Sep 20 2019 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Sep 20 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    location: 'Good Move Cafe (1 E. Center St. Suite 100 Provo, UT 84601)',
     description: 'Hosted by Pariveda'
   },
   {
     title: 'Recruitment Dinner',
     start: moment('Sep 24 2019 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Sep 24 2019 08:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'Harman Building',
+    location: 'Harman Building (Rooms 209, 211, and 213)',
     description:
       "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register here before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual."
   },
