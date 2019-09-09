@@ -109,7 +109,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            networking_officer: "",
+            networking_officer: "Carson Campbell",
         }
     },
     methods: {
