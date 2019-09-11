@@ -41,9 +41,9 @@ const leadership = [
     },
 
     {
-    name: "Sarahkate Orr",
+    name: "Drake Foltz",
     position: 'Secretary',
-    bio: "Sarahkate is studying Computer Science. She is from Park City, Utah and enjoys running, hiking, skiing, and pretty much any activity that involves being outdoors. Her pet fish Boaz is the light of her life. She strives to help others succeed at what they are passionate about and be happy while they do it.",
+    bio: "Drake is studying Computer Science, and is in his junior year at the time of writing.  He enjoys the challenge of programming, and likes to teach others about it.  He speaks Dutch, can make some good pancakes, and loves playing Dungeons and Dragons.",
     photo: "./static/officers/secretary.jpg",
     },
 
@@ -66,6 +66,13 @@ const leadership = [
     position: 'Service',
     bio: "Ellie is a Junior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
     photo: "./static/officers/service.jpg",
+    },
+
+    {
+    name: "Lady Pulido",
+    position: 'Finance',
+    bio: "Lady is a junior in Computer Science. I'm from Peru where you can find the best food in the world. I love to hike, travel, watch movies and play volleyball.",
+    photo: "./static/officers/finance.jpg",
     },
 
     {
