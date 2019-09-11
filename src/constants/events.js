@@ -12,7 +12,7 @@ const events = [
     title: 'Resume/Hackerrank Workshop with Goldman Sachs',
     start: moment('Sep 17 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Sep 17 2019 08:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    location: '1170 TMCB',
     description: 'Bring your resume and be ready to prep yourself for interviews.'
   },
   {
