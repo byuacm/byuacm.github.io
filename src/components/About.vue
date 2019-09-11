@@ -65,7 +65,7 @@
 
         <article class="ng-scope">
         <h2 id="paying_club_dues">Paying Club Dues</h2>
-        To pay club dues, please go the the <a href="https://clubs.byu.edu/clubs#/byu-acm" target="_blank">BYU Student Organizations website</a>, sign in, and request to join club.
+        To pay club dues, please go the the <a href="https://commerce.cashnet.com/webc?itemcode=webc-acmd" target="_blank">BYU Student Organizations website</a>, sign in, and request to join club.
 
         We will be checking that you've paid club dues at the door to the Recruitment Dinner.
         </article>
