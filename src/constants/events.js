@@ -39,31 +39,38 @@ const events = [
     description: 'Meet with recruiters from 9am to 3pm. Hand out your resume and start networking! Even if you are not looking for a job/internship yet, go and meet people. See what recruiters expect in students and start building relationships.'
   },
   {
-    title: 'Hallo',
-    start: moment('Oct 22 2019 06:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Oct 22 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
-    description: ''
+    title: 'Plaid Tech Talk',
+    start: moment('Oct 8 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Oct 8 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description: 'Come for an awesome tech talk! Plaid is a company that helps developers work with bank APIs. Their software is used by many large companies including Venmo and American Express. There will be food and door prizes!'
   },
   {
-    title: 'Programming Competition',
-    start: moment('Oct 26 2019 06:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Oct 26 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
-    description: 'Hosted by Lucid'
+    title: 'Hallo Tech Talk',
+    start: moment('Oct 22 2019 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Oct 22 2019 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description: 'Hallo is a Provo based company connecting students with job opportunities. There will be good food and great door prizes!'
+  },
+  {
+    title: 'Lucid Programming Competition',
+    start: moment('Nov 2 2019 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Nov 2 2019 02:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description: 'This all day programming competition is going to be awesome. Stay tuned for more information!'
   },  
   {
     title: 'Presentation by Carine Clark',
     start: moment('Nov 5 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Nov 5 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    location: 'TMCB 1170',
     description: 'Hosted by Microsoft. Carine Clark was a data-driven marketing executive at Novell, Altiris, and Symantec, which opened doors to lead Allegiance, MartizCX, Banyan, and Ember as president and CEO.'
   },
   {
     title: 'Research Roundup',
     start: moment('Nov 19 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Nov 19 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    location: 'TMCB 1170',
     description: 'Come hear from Professors and Research Assistants about the cool projects being done in the Computer Science Department!'
   },
   {
