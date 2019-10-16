@@ -5,9 +5,9 @@
         <div class="md-title">Next club activity for {{semester}} semester:</div>
       </md-card-header>
       <md-card-media>
-        <!--<a href="https://byu.az1.qualtrics.com/jfe/form/SV_byMxYnBZm5SwWS9">-->
+        <a href="https://www.golucid.co/programming-competition">
           <img class="flyer" v-bind:src="flyer">
-        <!--</a>-->
+        </a>
       </md-card-media>
     </md-card>
   </div>
