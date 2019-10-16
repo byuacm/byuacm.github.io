@@ -57,7 +57,8 @@ const events = [
     start: moment('Nov 2 2019 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('Nov 2 2019 02:00pm', 'MMM DD YYYY hh:mma'),
     location: 'TMCB 1170',
-    description: 'This all day programming competition is going to be awesome. Stay tuned for more information!'
+    description: 'This is the  7th annual programming competition hosted by Lucid. Compete against teams from universities across Utah for a chance to win great prizes. You won\'t want to miss it! Teams will be composed of 1 to 3 students to solve as many problems as you can in 4 hours in your language of choice. There will be prizes worth $1000+ for top teams at each location as well as free breakfast and lunch. There will also be free T-shirts and a prize raffle for all participants.',
+    signup:'www.golucid.co/programming-competition'
   },  
   {
     title: 'Presentation by Carine Clark',
