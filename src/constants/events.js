@@ -68,11 +68,11 @@ const events = [
     description: 'Hosted by Microsoft. Carine Clark was a data-driven marketing executive at Novell, Altiris, and Symantec, which opened doors to lead Allegiance, MartizCX, Banyan, and Ember as president and CEO.'
   },
   {
-    title: 'Research Roundup',
+    title: 'Venture Capital Night',
     start: moment('Nov 19 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Nov 19 2019 07:00pm', 'MMM DD YYYY hh:mma'),
     location: 'TMCB 1170',
-    description: 'Come hear from Professors and Research Assistants about the cool projects being done in the Computer Science Department!'
+    description: 'Come hear from Vice President of Battery Ventures as he discusses how their company chooses companies in which to invest. He will then talk about how we as students can choose in which companies to invest our future time and careers. There will be food afterwards!'
   },
   {
     title: 'Closing Social',
