@@ -78,7 +78,7 @@ const events = [
     title: 'Closing Social',
     start: moment('Dec 03 2019 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Dec 03 2019 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: '1170 TMCB',
+    location: 'JFSB B002',
     description:
     "Fall Semester's closing social will be hosted by Qualtrics."
   },
