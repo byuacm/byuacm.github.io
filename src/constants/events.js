@@ -83,6 +83,14 @@ const events = [
     "Fall Semester's closing social will be hosted by Qualtrics."
   },
   {
+    title: 'Winter Semester Recruitment Dinner',
+    start: moment('Jan 29 2019 05:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Jan 29 2019 08:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'Harman Building (room 209)',
+    description:
+      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual."
+  },
+  {
     title: 'Hackathon',
     start: moment('Mar 29 2019 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Mar 30 2019 05:00pm', 'MMM DD YYYY hh:mma'),
