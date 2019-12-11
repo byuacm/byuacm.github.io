@@ -6,9 +6,10 @@
         <div class="md-title">Happy Holidays!</div>
       </md-card-header>
       <md-card-media>
-        <!-- <a href="https://www.golucid.co/programming-competition"> -->
+        <a href="https://www.adventofcode.com">
+          Advent of Code
           <!-- <img class="flyer" v-bind:src="flyer"> -->
-        <!-- </a> -->
+        </a>
       </md-card-media>
     </md-card>
   </div>
