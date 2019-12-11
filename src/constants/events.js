@@ -95,8 +95,7 @@ const events = [
     start: moment('Mar 29 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Mar 30 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     description: '24 hours of hacking!',
-    location: 'CB step-down lounge',
-    signup: 'https://google.com'
+    location: 'CB step-down lounge'
   }
 ];
 
