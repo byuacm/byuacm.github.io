@@ -2,11 +2,12 @@
   <div v-if="semester !== ''" class="home-container">
     <md-card>
       <md-card-header>
-        <div class="md-title">Next club activity for {{semester}} semester:</div>
+        <!-- <div class="md-title">Next club activity for {{semester}} semester:</div> -->
+        <div class="md-title">Happy Holidays!</div>
       </md-card-header>
       <md-card-media>
         <!-- <a href="https://www.golucid.co/programming-competition"> -->
-          <img class="flyer" v-bind:src="flyer">
+          <!-- <img class="flyer" v-bind:src="flyer"> -->
         <!-- </a> -->
       </md-card-media>
     </md-card>
@@ -19,7 +20,7 @@ export default {
   name: "HomePage",
   data() {
     return {
-      semester: "Fall 2019", // Always change every semester
+      semester: "Winter 2020", // Always change every semester
       flyer: "../static/flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
     };
   },
