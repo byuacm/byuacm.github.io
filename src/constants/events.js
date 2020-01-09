@@ -83,19 +83,51 @@ const events = [
     "Fall Semester's closing social will be hosted by Qualtrics."
   },
   {
-    title: 'Winter Semester Recruitment Dinner',
+    title: 'Winter Semester Opening Social',
+    start: moment('Jan 14 2020 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Jan 14 2020 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description:
+    "Winter Semester's opening social will be hosted by SimpleNexus."
+  },
+  {
+    title: 'Recruitment Dinner',
     start: moment('Jan 29 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Jan 29 2020 08:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'Harman Building (room 209)',
+    location: 'TBD',
     description:
-      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual."
+      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual.",
+    signup:'https://byu.az1.qualtrics.com/jfe/form/SV_6xr1LIApMrXSdHD'
+  },
+  {
+    title: 'STEM Fair',
+    start: moment('Jan 30 2020 09:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Jan 30 2020 03:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'WSC Ballroom',
+    description:
+      "Go and network with recruiters at the BYU STEM Fair!'
+  },
+  {
+    title: 'Apple Event',
+    start: moment('Feb 11 2020 06:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Feb 11 2020 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TBD',
+    description:
+      "Event hosted by Apple. Stay tuned for more details!'
   },
   {
     title: 'Hackathon',
     start: moment('Mar 29 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Mar 30 2020 05:00pm', 'MMM DD YYYY hh:mma'),
-    description: '24 hours of hacking!',
+    description: '24 hours of food, networking, cool projects, prizes, and more!',
     location: 'CB step-down lounge'
+  },  
+  {
+    title: 'Winter Semester Closing Social',
+    start: moment('Apr 7 2020 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Apr 7 2020 07:00pm', 'MMM DD YYYY hh:mma'),
+    description: 'The closing social will hosted by Pluralsight',
+    location: 'TBD'
   }
 ];
 
