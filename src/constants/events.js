@@ -105,7 +105,7 @@ const events = [
     end: moment('Jan 30 2020 03:00pm', 'MMM DD YYYY hh:mma'),
     location: 'WSC Ballroom',
     description:
-      "Go and network with recruiters at the BYU STEM Fair!'
+      "Go and network with recruiters at the BYU STEM Fair!"
   },
   {
     title: 'Apple Event',
@@ -113,7 +113,7 @@ const events = [
     end: moment('Feb 11 2020 07:00pm', 'MMM DD YYYY hh:mma'),
     location: 'TBD',
     description:
-      "Event hosted by Apple. Stay tuned for more details!'
+      "Event hosted by Apple. Stay tuned for more details!"
   },
   {
     title: 'Hackathon',
