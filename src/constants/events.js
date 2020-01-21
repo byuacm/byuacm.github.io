@@ -92,11 +92,11 @@ const events = [
   },
   {
     title: 'Recruitment Dinner',
-    start: moment('Jan 29 2020 05:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Jan 29 2020 08:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    start: moment('Jan 29 2020 05:45pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Jan 29 2020 07:30pm', 'MMM DD YYYY hh:mma'),
+    location: 'BYU Harman Building rooms 2258 & 2260',
     description:
-      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register before spots run out! You must pay your dues before attending the event. At least 35 recruiters are coming from top companies across the United States. Dress business casual.",
+      "Sit down and enjoy a catered meal with industry recruiters. This is a great opportunity to network! Register before spots run out! Dress business casual.",
     signup:'https://byu.az1.qualtrics.com/jfe/form/SV_6xr1LIApMrXSdHD'
   },
   {
