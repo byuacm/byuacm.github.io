@@ -5,7 +5,7 @@
         <div class="md-title">Next club activity for {{semester}} semester:</div>
       </md-card-header>
       <md-card-media>
-        <a href="https://byu.az1.qualtrics.com/jfe/form/SV_6xr1LIApMrXSdHD"> -->
+        <a href="https://byu.az1.qualtrics.com/jfe/form/SV_6xr1LIApMrXSdHD">
           <img class="flyer" v-bind:src="flyer">
         </a>
       </md-card-media>
