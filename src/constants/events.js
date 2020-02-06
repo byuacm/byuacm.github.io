@@ -108,17 +108,41 @@ const events = [
       "Go and network with recruiters at the BYU STEM Fair!"
   },
   {
-    title: 'Apple Event',
-    start: moment('Feb 11 2020 06:00am', 'MMM DD YYYY hh:mma'),
+    title: 'Whistic Tech Talk',
+    start: moment('Feb 11 2020 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Feb 11 2020 07:00pm', 'MMM DD YYYY hh:mma'),
-    location: 'TBD',
+    location: 'TMCB 1170',
     description:
-      "Event hosted by Apple. Stay tuned for more details!"
+      "Tech talk hosted by Whistic. "
+  },
+  {
+    title: 'Google Tech Challenge',
+    start: moment('Feb 20 2020 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Feb 20 2020 08:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'CB step-down lounge',
+    description:
+      "Cool tech challenge hosted by Google. Stay tuned for details."
+  },
+   {
+    title: 'Fireeye Tech Talk',
+    start: moment('Feb 25 2020 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Feb 25 2020 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description:
+      "Tech talk hosted by Fireeye. "
+  },
+   {
+    title: 'BambooHR Tech Talk',
+    start: moment('Mar 10 2020 06:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Mar 10 2020 07:00pm', 'MMM DD YYYY hh:mma'),
+    location: 'TMCB 1170',
+    description:
+      "Tech talk hosted by BambooHR. "
   },
   {
     title: 'Hackathon',
-    start: moment('Mar 29 2020 05:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Mar 30 2020 05:00pm', 'MMM DD YYYY hh:mma'),
+    start: moment('Mar 27 2020 05:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Mar 28 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     description: '24 hours of food, networking, cool projects, prizes, and more!',
     location: 'CB step-down lounge'
   },  
@@ -127,7 +151,7 @@ const events = [
     start: moment('Apr 7 2020 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Apr 7 2020 07:00pm', 'MMM DD YYYY hh:mma'),
     description: 'The closing social will hosted by Pluralsight',
-    location: 'TBD'
+    location: 'TMCB 1170'
   }
 ];
 
