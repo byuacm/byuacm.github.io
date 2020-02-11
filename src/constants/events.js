@@ -141,10 +141,11 @@ const events = [
   },
   {
     title: 'Hackathon',
-    start: moment('Mar 27 2020 05:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Mar 28 2020 05:00pm', 'MMM DD YYYY hh:mma'),
+    start: moment('Mar 13 2020 05:00pm', 'MMM DD YYYY hh:mma'),
+    end: moment('Mar 14 2020 05:00pm', 'MMM DD YYYY hh:mma'),
     description: '24 hours of food, networking, cool projects, prizes, and more!',
-    location: 'CB step-down lounge'
+    location: 'CB step-down lounge',
+    signup:'https://byu.az1.qualtrics.com/jfe/form/SV_aVmeFBusXsnw1tH'
   },  
   {
     title: 'Winter Semester Closing Social',
