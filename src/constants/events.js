@@ -121,7 +121,8 @@ const events = [
     end: moment('Feb 20 2020 08:00pm', 'MMM DD YYYY hh:mma'),
     location: 'CB step-down lounge',
     description:
-      "Cool tech challenge hosted by Google. Stay tuned for details."
+      "Create a team up to five people and compete in a puzzle competition. Before the Tech Challenge, Google will host a Machine Learning Tech Talk/Application Info Session from 4:30-5:30pm in TMCB 1170. Learn tips on updating your resume, preparing for technical interviews, and communicating effectively with your recruiter.",
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSc6hT04P7oPFKZxXWhlnhWWEB59pQYGm4IHTQNSTDh61ELPTA/viewform'
   },
    {
     title: 'Fireeye Tech Talk',
