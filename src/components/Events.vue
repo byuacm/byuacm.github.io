@@ -21,7 +21,7 @@
 
 <script>
 import events from "../constants/events.js";
-import * as moment from 'moment';
+import moment from 'moment';
 
 export default {
   data() {
