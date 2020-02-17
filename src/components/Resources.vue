@@ -19,7 +19,6 @@
 
 <script>
 import resources from "../constants/resources.js";
-import * as moment from 'moment';
 export default {
   data() {
     return {

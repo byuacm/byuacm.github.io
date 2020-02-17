@@ -1,5 +1,3 @@
-import * as moment from 'moment';
-
 const resources = [
   {
     title: 'How to Pass a Technical Interview',
