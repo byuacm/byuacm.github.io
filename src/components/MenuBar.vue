@@ -39,6 +39,11 @@
             v-bind:class="{ active: isPath('/resources'), 'show-mobile': showMenu }"
             class="menu-item"
           >Resources</md-button>
+          <md-button
+            @click.native="routeTo('/hackathon')"
+            v-bind:class="{ active: isPath('/hackathon'), 'show-mobile': showMenu }"
+            class="menu-item"
+          >Hackathon</md-button>
         </div>
         <md-button
           class="email-button md-raised md-primary"
@@ -114,7 +119,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  max-width: 700px;
+  max-width: 900px;
   width: 100%;
 }
 

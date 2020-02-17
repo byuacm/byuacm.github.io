@@ -6,6 +6,7 @@ import Leadership  from '@/components/Leadership'
 import Contributors from '@/components/Contributors'
 import About from '@/components/About'
 import Resources from '@/components/Resources'
+import Hackathon from '@/components/Hackathon'
 
 Vue.use(Router)
 
@@ -41,6 +42,10 @@ export default new Router({
       name: 'Resources',
       component: Resources,
     },
-
+    {
+      path: '/hackathon',
+      name: 'Hackathon',
+      component: Hackathon,
+    },
   ]
 })
