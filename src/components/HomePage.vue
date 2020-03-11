@@ -5,9 +5,10 @@
         <div class="md-title">Next club activity for {{semester}} semester:</div>
       </md-card-header>
       <md-card-media>
-        <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6hT04P7oPFKZxXWhlnhWWEB59pQYGm4IHTQNSTDh61ELPTA/viewform"> --> 
-          <img class="flyer" v-bind:src="flyer">
-        <!-- </a> -->
+        <a href="https://acm.byu.edu/#/hackathon"> 
+          BYU Hackathon!
+          <!-- <img class="flyer" v-bind:src="flyer"> -->
+        </a>
       </md-card-media>
     </md-card>
   </div>
