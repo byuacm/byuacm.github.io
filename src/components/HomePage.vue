@@ -5,9 +5,8 @@
         <div class="md-title">Next club activity for {{semester}} semester:</div>
       </md-card-header>
       <md-card-media>
-        <a href="https://acm.byu.edu/#/hackathon"> 
-          BYU Hackathon!
-          <!-- <img class="flyer" v-bind:src="flyer"> -->
+        <a href="https://byu.az1.qualtrics.com/jfe/form/SV_aVmeFBusXsnw1tH"> 
+          <img class="flyer" v-bind:src="hackathon_flyer">
         </a>
       </md-card-media>
     </md-card>
@@ -22,6 +21,7 @@ export default {
     return {
       semester: "Winter 2020", // Always change every semester
       flyer: "../static/flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
+      hackathon_flyer: "../static/hackathon_flyer.jpg",
     };
   },
 };
