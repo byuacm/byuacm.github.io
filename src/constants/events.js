@@ -149,11 +149,11 @@ const events = [
     signup:'https://byu.az1.qualtrics.com/jfe/form/SV_aVmeFBusXsnw1tH'
   },  
   {
-    title: 'Winter Semester Closing Social',
-    start: moment('Apr 7 2020 06:00pm', 'MMM DD YYYY hh:mma'),
-    end: moment('Apr 7 2020 07:00pm', 'MMM DD YYYY hh:mma'),
-    description: 'The closing social will hosted by Pluralsight',
-    location: 'TMCB 1170'
+    title: 'ACM Leadership Vote',
+    start: moment('Apr 6 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Apr 8 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Because of the current circumstances we are holding the ACM Leadership for the 2020-21 school year online. An email will be coming soon with the link.',
+    location: 'Online'
   }
 ];
 
