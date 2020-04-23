@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import HomePage from '@/components/HomePage'
 import Events from '@/components/Events'
 import Leadership  from '@/components/Leadership'
@@ -8,9 +8,10 @@ import About from '@/components/About'
 import Resources from '@/components/Resources'
 import Hackathon from '@/components/Hackathon'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
+  mode: 'history',
   routes: [
     {
       path: '/',
