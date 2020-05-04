@@ -1,29 +1,50 @@
 <template>
-  <div v-if="semester !== ''" class="home-container">
-    <md-card>
-      <md-card-header>
-        <div class="md-title">Notice: YHack is canceled</div>
-        <!--<div class="md-title">Next club activity for {{semester}} semester:</div>-->
-      </md-card-header>
-      <md-card-content>
-        <div>
-          <p>Hello everyone,</p>
-          <p>Due to the direction provided by the Utah State Governor, Gary Herbert, BYUSA has been asked to discontinue activities and events until further notice, with intention to slow down the spread of COVID-19. All club gatherings over 100 must be cancelled. So, unfortunately, the YHack is canceled this year. We will keep you updated on future club events. If you have any questions, please feel free to email us at <a href="cs.byu.acm@gmail.com">cs.byu.acm@gmail.com</a>.</p>
-          <p>For additional information, look at the links below:</p>
-          <ul>
-            <li>Link to BYU's article about coronavirus: <a href="https://newsroom.churchofjesuschrist.org/article/ces-guidelines-covid-19">https://newsroom.churchofjesuschrist.org/article/ces-guidelines-covid-19</a></li>
-            <li>Link to the Salt Lake Tribune's Article about Gov Herbert's speech today: <a href="https://www.sltrib.com/news/2020/03/12/coronavirus-spreads-utah/">https://www.sltrib.com/news/2020/03/12/coronavirus-spreads-utah</a></li>
-          </ul>
-        </div>
-      </md-card-content>
-      <!--
-      <md-card-media>
-        <a href="https://byu.az1.qualtrics.com/jfe/form/SV_aVmeFBusXsnw1tH"> 
-          <img class="flyer" v-bind:src="hackathon_flyer">
-        </a>
-      </md-card-media>
-      -->
-    </md-card>
+  <div>
+    <div v-if="semester !== ''" class="home-container">
+      <md-card>
+        <md-card-header>
+          <div class="md-title">Annual Hackerrank Competition!!</div>
+        </md-card-header>
+        <md-card-content>
+          <div>
+            <p>Hackerrank is a website where coders can hone their skills and find great jobs with companies. We will again be hosting our Hackerrank competition where BYU Students and friends can compete in figuring out coding challenges!</p>
+            <b>The Deets:</b>
+            <ul>
+              <li>Two different tracks this year: Beginners/No Experience Track and Competitive Track</li>
+              <li>First challenge released(one for each track): May 8th, 2020 at 8am</li>
+              <li>There will be a new challenge every Friday of increasing difficulty!</li>
+              <li>Final Challenge: Jun 12th, 2020</li>
+              <li>Winners of each track announced: Jun 20th, 2020</li>
+            </ul>
+
+            <b>Prizes for the winners:</b>
+            <ul>
+              <li>Featured on the website</li>
+              <li>Receive ACM swag bag</li>
+              <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year</li>
+            </ul>
+          </div>
+          <div class="md-image">
+            <img src="static/events/hacker_rank_photo.png" />
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+    <div class='home-container'>
+      <md-card>
+        <md-card-header>
+          <div class="md-title">Stay Safe During COVID-19!!</div>
+        </md-card-header>
+        <md-card-content>
+          <div>
+            <p>The ACM club hopes that you are doing well during the current circumstances with COVID-19! Where ever you are, we hope that you and your family is safe during this time. While you are inside this is a great time to work on building your competitive skillset, we're doing our best to help with this by hosting our annual Hackerrank competition, details forthcoming. Stay safe! We look forward to seeing you again in the fall!</p>
+          </div>
+          <div class="md-image">
+            <img src="static/images/the_office_i_love_you.gif" />
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
   </div>
 </template>
 
@@ -46,10 +67,11 @@ export default {
 .home-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .md-card {
-  max-width: 550px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,5 +79,13 @@ export default {
 
 .flyer {
   padding: 0 30px 30px 30px;
+}
+
+.md-image img {
+  max-width: 750px;
+  min-width: 400px;
+  max-height: 500px;
+  height: auto;
+  border-radius: 10px;
 }
 </style>

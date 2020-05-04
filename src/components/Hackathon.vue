@@ -30,8 +30,8 @@ export default {
   data() {
     return {
       semester: "Winter 2020", // Always change every semester
-      flyer: "../static/hackathon_flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
-      info_flyer: "../static/hackathon_info_flyer.jpg"
+      flyer: "../static/images/hackathon_flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
+      info_flyer: "../static/images/hackathon_info_flyer.jpg"
     };
   },
 };

@@ -59,7 +59,7 @@ const events = [
     location: 'TMCB 1170',
     description: 'This is the  7th annual programming competition hosted by Lucid. Compete against teams from universities across Utah for a chance to win great prizes. You won\'t want to miss it! Teams will be composed of 1 to 3 students to solve as many problems as you can in 4 hours in your language of choice. There will be prizes worth $1000+ for top teams at each location as well as free breakfast and lunch. There will also be free T-shirts and a prize raffle for all participants.',
     signup:'https://www.golucid.co/programming-competition'
-  },  
+  },
   {
     title: 'Presentation by Carine Clark',
     start: moment('Nov 5 2019 06:00pm', 'MMM DD YYYY hh:mma'),
@@ -137,8 +137,7 @@ const events = [
     start: moment('Mar 10 2020 06:00pm', 'MMM DD YYYY hh:mma'),
     end: moment('Mar 10 2020 07:00pm', 'MMM DD YYYY hh:mma'),
     location: 'TMCB 1170',
-    description:
-      "Tech talk hosted by BambooHR. "
+    description: "Tech talk hosted by BambooHR."
   },
   {
     title: 'Hackathon',
@@ -147,14 +146,83 @@ const events = [
     description: '24 hours of food, networking, cool projects, prizes, and more!',
     location: 'CB step-down lounge',
     signup:'https://byu.az1.qualtrics.com/jfe/form/SV_aVmeFBusXsnw1tH'
-  },  
+  },
   {
-    title: 'ACM Leadership Vote',
-    start: moment('Apr 6 2020 08:00am', 'MMM DD YYYY hh:mma'),
-    end: moment('Apr 8 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Because of the current circumstances we are holding the ACM Leadership for the 2020-21 school year online. An email will be coming soon with the link.',
-    location: 'Online'
-  }
+    title: 'ACM Annual HackerRank Challenge Kickoff!',
+    start: moment('May 8 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    description: 'Hackerrank is a website where coders can hone their skills and find great jobs with companies. We will again be hosting our hackerrank competition where BYU Students and friends can compete in figuring out coding challenges! This year we will have two different challenge tracks, one track is for those who are beginners to coding, and the other for those who are fairly experienced with coding. Find more details on the main page of the website!',
+    location: 'Online',
+    photo: "./static/events/hacker_rank_photo.png"
+  },
+  {
+    title: 'Hackerrank Challenge 1',
+    start: moment('May 8 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('May 14 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 1! A link will appear here when this challenge unlocks on May 8!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge1.jpg"
+  },
+  {
+    title: 'Hackerrank Challenge 2',
+    start: moment('May 15 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('May 21 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 2! A link will appear here when this challenge unlocks on May 15!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge2.jpg"
+  },
+  {
+    title: 'Hackerrank Challenge 3',
+    start: moment('May 22 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('May 28 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 3! A link will appear here when this challenge unlocks on May 22!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge3.gif"
+  },
+  {
+    title: 'Hackerrank Challenge 4',
+    start: moment('May 29 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Jun 4 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 4! A link will appear here when this challenge unlocks on May 29!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge4.jpg"
+  },
+  {
+    title: 'Hackerrank Challenge 5',
+    start: moment('Jun 5 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Jun 11 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 5! A link will appear here when this challenge unlocks on Jun 5!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge5.jpg"
+  },
+  {
+    title: 'Hackerrank Challenge 6',
+    start: moment('Jun 12 2020 08:00am', 'MMM DD YYYY hh:mma'),
+    end: moment('Jun 18 2020 11:59pm', 'MMM DD YYYY hh:mma'),
+    description: 'Challenge 6! A link will appear here when this challenge unlocks on Jun 12!',
+    location: 'Online',
+    photo: "./static/events/hr_challenge6.gif"
+  },
+  {
+    title: 'Hackerrank Challenge Winners Announced!',
+    start: moment('Jun 20 2020 03:00pm', 'MMM DD YYYY hh:mma'),
+    description: 'Winners will be announced for the 2020 BYU ACM Hackerrank challenge!',
+    location: 'Online',
+    photo: "./static/events/hacker_rank_photo.png"
+  },
+
+
+
 ];
 
 export default events;
+
+/*
+All of the possible fields for events:
+title
+start
+end
+description
+location
+signup (link to qualtrics or something)
+photo (place event image in "./static/events/your_event_image.jpg")
+*/
