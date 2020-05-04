@@ -2,20 +2,18 @@
 
   <div class="leadership-container" >
     <md-card v-for="leader in leadership" v-bind:key="leader.name">
-        <md-card-media>
-          <img v-bind:src="leader.photo">
-        </md-card-media>
-        <md-card-header>
-          <div class="md-title">{{leader.name}}</div>
-          <div class="md-subhead">{{leader.position}}</div>
-        </md-card-header>
-        <md-card-content>
-          <p>{{leader.bio}}</p>
-        </md-card-content>
+      <md-card-media>
+        <img v-bind:src="leader.photo">
+      </md-card-media>
+      <md-card-header>
+        <div class="md-title">{{leader.name}}</div>
+        <div class="md-subhead">{{leader.position}}</div>
+      </md-card-header>
+      <md-card-content>
+        <p>{{leader.bio}}</p>
+      </md-card-content>
     </md-card>
-            
   </div>
-
 </template>
 
 <script>
@@ -25,7 +23,7 @@ export default {
   name: "Leadership",
   data() {
     return {
-      leadership,
+      leadership
     }
   },
 };
@@ -33,15 +31,16 @@ export default {
 
 <style scoped>
 .leadership-container {
-  display: grid; /* 1 */
-  grid-template-columns: repeat(auto-fill, 275px); /* 2 */
-  grid-gap: 1rem; /* 3 */
-  justify-content: space-between; /* 4 */
-  margin: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 1rem;
+  justify-content: space-between;
+  margin: 0 60px; /*10%;*/
 }
 
 .md-card {
-  width: 250px;
+  max-width: 300px;
+  min-width: 250px;
   margin: 10px auto;
   border-radius: 10px;
 }
@@ -49,8 +48,6 @@ export default {
 img {
   border-radius: 10px;
   display: inline;
-  width: 250px;
-  height: 250px;
   margin-right: 10px;
 }
 </style>

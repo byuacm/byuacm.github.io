@@ -39,11 +39,11 @@
             v-bind:class="{ active: isPath('/resources'), 'show-mobile': showMenu }"
             class="menu-item"
           >Resources</md-button>
-          <md-button
+          <!--<md-button
             @click.native="routeTo('/hackathon')"
             v-bind:class="{ active: isPath('/hackathon'), 'show-mobile': showMenu }"
             class="menu-item"
-          >Hackathon</md-button>
+          >Hackathon</md-button>-->
         </div>
         <md-button
           class="email-button md-raised md-primary"
@@ -60,7 +60,7 @@
 export default {
   data() {
     return {
-      imagePath: "/static/byu-acm-logo.png",
+      imagePath: "/static/images/byu-acm-logo.png",
       showMenu: false
     };
   },

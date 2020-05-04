@@ -6,7 +6,7 @@
     <div class="content">
       <router-view/>
     </div>
-    <footer id="footer">© 2019 BYU Association for Computing Machinery</footer>
+    <footer id="footer">© 2020 BYU Association for Computing Machinery</footer>
   </div>
 </template>
 
