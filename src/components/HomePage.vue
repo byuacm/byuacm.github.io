@@ -20,8 +20,7 @@
             <b>Prizes for the winners:</b>
             <ul>
               <li>Featured on the website</li>
-              <li>Receive ACM swag bag</li>
-              <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year</li>
+              <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year!</li>
             </ul>
           </div>
           <div class="md-image">
@@ -30,6 +29,20 @@
         </md-card-content>
       </md-card>
     </div>
+
+    <div class='home-container'>
+      <md-card>
+        <md-card-header>
+          <div class="md-title">Awesome Events For Summer/Spring 2020!!</div>
+        </md-card-header>
+        <md-card-content>
+          <div class="md-image-large">
+            <img src="static/images/flyer.jpg" />
+          </div>
+        </md-card-content>
+      </md-card>
+    </div>
+
     <div class='home-container'>
       <md-card>
         <md-card-header>
@@ -71,7 +84,7 @@ export default {
 }
 
 .md-card {
-  max-width: 1000px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,6 +98,13 @@ export default {
   max-width: 750px;
   min-width: 400px;
   max-height: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.md-image-large img {
+  min-width: 400px;
+  max-width: 750px;
   height: auto;
   border-radius: 10px;
 }
