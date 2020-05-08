@@ -11,9 +11,8 @@
             <b>The Deets:</b>
             <ul>
               <li>Two different tracks this year: Beginners/No Experience Track and Competitive Track</li>
-              <li>First challenge released(one for each track): May 8th, 2020 at 8am</li>
-              <li>There will be a new challenge every Friday of increasing difficulty!</li>
-              <li>Final Challenge: Jun 12th, 2020</li>
+              <li>There will be six challenges for each track of increasing difficulty!</li>
+              <li>The challenge ends on Jun 19th, 2020!</li>
               <li>Winners of each track announced: Jun 20th, 2020</li>
             </ul>
 
@@ -21,7 +20,11 @@
             <ul>
               <li>Featured on the website</li>
               <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year!</li>
+              <li>Personal glory, increased vigor, and bragging rights!</li>
             </ul>
+
+            <h2><b>Sign up for the BEGINNER'S TRACK: <a href='https://www.hackerrank.com/acm-2020-beginners-track-1588905694'>CLICK HERE!</a></b></h2>
+            <h2><b>Sign up for the COMPETITIVE TRACK: <a href='https://www.hackerrank.com/acm-2020-medium-track'>CLICK HERE!</a></b></h2>
           </div>
           <div class="md-image">
             <img src="static/events/hacker_rank_photo.png" />

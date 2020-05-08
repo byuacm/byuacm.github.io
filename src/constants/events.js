@@ -158,7 +158,7 @@ const events = [
     title: 'Hackerrank Challenge 1',
     start: moment('May 8 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('May 14 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 1! A link will appear here when this challenge unlocks on May 8!',
+    description: 'You should be on to challenge 1 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!',
     location: 'Online',
     photo: "./static/events/hr_challenge1.jpg"
   },
@@ -166,7 +166,7 @@ const events = [
     title: 'Hackerrank Challenge 2',
     start: moment('May 15 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('May 21 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 2! A link will appear here when this challenge unlocks on May 15!',
+    description: 'You should be on to challenge 2 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!!',
     location: 'Online',
     photo: "./static/events/hr_challenge2.jpg"
   },
@@ -174,7 +174,7 @@ const events = [
     title: 'Hackerrank Challenge 3',
     start: moment('May 22 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('May 28 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 3! A link will appear here when this challenge unlocks on May 22!',
+    description: 'You should be on to challenge 3 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!!',
     location: 'Online',
     photo: "./static/events/hr_challenge3.gif"
   },
@@ -182,7 +182,7 @@ const events = [
     title: 'Hackerrank Challenge 4',
     start: moment('May 29 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('Jun 4 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 4! A link will appear here when this challenge unlocks on May 29!',
+    description: 'You should be on to challenge 4 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!!',
     location: 'Online',
     photo: "./static/events/hr_challenge4.jpg"
   },
@@ -190,7 +190,7 @@ const events = [
     title: 'Hackerrank Challenge 5',
     start: moment('Jun 5 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('Jun 11 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 5! A link will appear here when this challenge unlocks on Jun 5!',
+    description: 'You should be on to challenge 5 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!',
     location: 'Online',
     photo: "./static/events/hr_challenge5.jpg"
   },
@@ -198,7 +198,7 @@ const events = [
     title: 'Hackerrank Challenge 6',
     start: moment('Jun 12 2020 08:00am', 'MMM DD YYYY hh:mma'),
     end: moment('Jun 18 2020 11:59pm', 'MMM DD YYYY hh:mma'),
-    description: 'Challenge 6! A link will appear here when this challenge unlocks on Jun 12!',
+    description: 'You should be on to challenge 6 by now! There is still time to join and crush the competition! Find the links to sign up on the homepage!!',
     location: 'Online',
     photo: "./static/events/hr_challenge6.gif"
   },
@@ -208,10 +208,7 @@ const events = [
     description: 'Winners will be announced for the 2020 BYU ACM Hackerrank challenge!',
     location: 'Online',
     photo: "./static/events/hacker_rank_photo.png"
-  },
-
-
-
+  }
 ];
 
 export default events;
