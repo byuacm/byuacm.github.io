@@ -16,9 +16,9 @@
               <li>Winners of each track announced: Jun 20th, 2020</li>
             </ul>
 
-            <b>Prizes for the winners:</b>
+            <b>Prizes for the winners of the Competitive Track:</b>
             <ul>
-              <li>Featured on the website</li>
+              <li>Featured on the website!</li>
               <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year!</li>
               <li>Personal glory, increased vigor, and bragging rights!</li>
             </ul>
