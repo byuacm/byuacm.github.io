@@ -23,8 +23,8 @@
               <li>Personal glory, increased vigor, and bragging rights!</li>
             </ul>
 
-            <h2><b>Sign up for the BEGINNER'S TRACK: <a href='https://www.hackerrank.com/acm-2020-beginners-track-1588905694'>CLICK HERE!</a></b></h2>
-            <h2><b>Sign up for the COMPETITIVE TRACK: <a href='https://www.hackerrank.com/acm-2020-medium-track'>CLICK HERE!</a></b></h2>
+            <h2><b>Sign up for the BEGINNER'S TRACK: <a href='https://www.hackerrank.com/byu-acm-2020-beginners-track' target="_blank">CLICK HERE!</a></b></h2>
+            <h2><b>Sign up for the COMPETITIVE TRACK: <a href='https://www.hackerrank.com/acm-2020-medium-track' target="_blank">CLICK HERE!</a></b></h2>
           </div>
           <div class="md-image">
             <img src="static/events/hacker_rank_photo.png" />
