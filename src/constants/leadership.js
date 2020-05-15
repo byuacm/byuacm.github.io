@@ -36,7 +36,7 @@ const leadership = [
     {
     name: "Cailyn Bosworth",
     position: 'Service/Inclusion/Inter-club Relations',
-    bio: "Cailyn is a Junior in the Computer Science Program pursuing interests in machine learning and security. She has worked with Dr. Egbert researching machine learning and VR. She is passionate about encouraging people to be involved and helping them feel included. She is pretty cool.",
+    bio: "Cailyn is a Junior in the Computer Science Program pursuing interests in machine learning and security. She has worked with Dr. Egbert researching machine learning and VR. She is passionate about encouraging people to be involved and helping them feel included.",
     photo: "./static/officers/cailyn_bosworth.jpg",
     },
 
