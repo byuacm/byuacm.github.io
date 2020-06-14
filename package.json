@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "file": "^0.2.2",
     "filereader": "^0.10.3",
     "moment": "^2.24.0",
+    "mongodb": "^3.5.9",
     "vue": "^2.5.22",
     "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1"
@@ -36,6 +40,7 @@
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^3.2.0",
     "node-notifier": "^5.1.2",
+    "nodemon": "^2.0.4",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.20",
@@ -64,5 +69,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".postcssrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuacm/new-acm-site.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byuacm/new-acm-site/issues"
+  },
+  "homepage": "https://github.com/byuacm/new-acm-site#readme"
 }
