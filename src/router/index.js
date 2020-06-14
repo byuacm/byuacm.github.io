@@ -7,9 +7,6 @@ import Contributors from '@/components/Contributors'
 import About from '@/components/About'
 import Resources from '@/components/Resources'
 import Hackathon from '@/components/Hackathon'
-import Posts from '@/components/Posts'
-import NewPost from '@/components/NewPost'
-import EditPost from '@/components/EditPost'
 
 Vue.use(VueRouter)
 
@@ -50,21 +47,6 @@ export default new VueRouter({
       path: '/hackathon',
       name: 'Hackathon',
       component: Hackathon,
-    },
-    {
-      path: '/posts',
-      name: 'Posts',
-      component: Posts
-    },
-    {
-      path: '/posts/new',
-      name: 'NewPost',
-      component: NewPost
-    },
-    {
-      path: '/posts/:id',
-      name: 'EditPost',
-      component: EditPost
     }
   ]
 })
