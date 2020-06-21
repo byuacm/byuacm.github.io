@@ -3,32 +3,55 @@
     <div v-if="semester !== ''" class="home-container">
       <md-card>
         <md-card-header>
-          <div class="md-title">Annual Hackerrank Competition!!</div>
+          <div class="md-title">Annual Hackerrank Winners!!</div>
         </md-card-header>
         <md-card-content>
           <div>
-            <p>Hackerrank is a website where coders can hone their skills and find great jobs with companies. We will again be hosting our Hackerrank competition where BYU Students and friends can compete in figuring out coding challenges!</p>
-            <b>The Deets:</b>
-            <ul>
-              <li>Two different tracks this year: Beginners/No Experience Track and Competitive Track</li>
-              <li>There will be six challenges for each track of increasing difficulty!</li>
-              <li>The challenge ends on Jun 19th, 2020!</li>
-              <li>Winners of each track announced: Jun 20th, 2020</li>
-            </ul>
-
-            <b>Prizes for the winners of the Competitive Track:</b>
-            <ul>
-              <li>Featured on the website!</li>
-              <li>Automatically entered into all ACM door prize raffles for the 2020-21 school year!</li>
-              <li>Personal glory, increased vigor, and bragging rights!</li>
-            </ul>
-
-            <h2><b>Sign up for the BEGINNER'S TRACK: <a href='https://www.hackerrank.com/byu-acm-2020-beginners-track' target="_blank">CLICK HERE!</a></b></h2>
-            <h2><b>Sign up for the COMPETITIVE TRACK: <a href='https://www.hackerrank.com/acm-2020-medium-track' target="_blank">CLICK HERE!</a></b></h2>
+            <p>Congradulations to our top winners of the annual Hackerrank Competition! It was a tough competition this year, many copetitors finished the first three problems of the competitive track but that is where they really started getting hard. The average success rate across all of the competitive problems was 59.41% No entrants were able to complete the second to last problem, "Cards Permutation."</p>
+            <p>Here are the top three winners! (More info about each winner will be posted as we hear back from our winners!)</p>
           </div>
-          <div class="md-image">
+          <!-- <div class="md-image">
             <img src="static/events/hacker_rank_photo.png" />
+          </div> -->
+          <div class='inner-cards'>
+            <div class='md-card-inner'>
+              <div class='md-card-light'>
+                <md-card-header>
+                  <span class='md-pretitle'>1st Place</span>
+                  <div class="md-title">Joseph Scholl</div>
+                </md-card-header>
+                <md-card-content>
+                  Total Points: 375
+                </md-card-content>
+              </div>
+            </div>
+
+            <div class='md-card-inner'>
+              <div class='md-card-light'>
+                <md-card-header>
+                  <span class='md-pretitle'>2nd Place</span>
+                  <div class="md-title">Stephen Cowley</div>
+                </md-card-header>
+                <md-card-content>
+                  Total Points: 371.50
+                </md-card-content>
+              </div>
+            </div>
+
+            <div class='md-card-inner'>
+              <div class='md-card-light'>
+                <md-card-header>
+                  <span class='md-pretitle'>3rd Place</span>
+                  <div class="md-title">Isaac Pugh</div>
+                </md-card-header>
+                <md-card-content>
+                  Total Points: 270
+                </md-card-content>
+              </div>
+            </div>
           </div>
+          <p>All of the winners will also be automatically entered into all ACM door prize raffles for the 2020-21 school year!</p>
+          <p>Thank you to everyone who participated in both the Beginners' Track and the Competitive Track!! Join us next year for our annual Hackerrank Competition!</p>
         </md-card-content>
       </md-card>
     </div>
@@ -70,8 +93,8 @@ export default {
   name: "HomePage",
   data() {
     return {
-      semester: "Winter 2020", // Always change every semester
-      flyer: "../static/flyer.jpg", // DON'T change! Make sure the flyer has the same file name and extention.
+      semester: "Winter 2020",
+      flyer: "../static/flyer.jpg",
       hackathon_flyer: "../static/hackathon_flyer.jpg",
     };
   },
@@ -85,6 +108,7 @@ export default {
   justify-content: center;
   margin-bottom: 30px;
 }
+
 
 .md-card {
   width: 1000px;
@@ -110,5 +134,38 @@ export default {
   max-width: 750px;
   height: auto;
   border-radius: 10px;
+}
+
+.md-card-light {
+  background-color: white;
+  color: #2d2c2d;
+}
+
+.md-card-inner {
+  max-width: 600px;
+  min-width: 450px;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+
+.md-subhead {
+  display: flex;
+  flex-direction: row;
+  color: #2BBAE4;
+  padding: auto;
+}
+
+.md-subhead div {
+  margin: 0 20px 0 5px;
+}
+
+.md-pretitle {
+  color: #2BBAE4;
+}
+
+.inner-cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
