@@ -7,7 +7,7 @@
         </md-card-header>
         <md-card-content>
           <div>
-            <p>Congradulations to our top winners of the annual Hackerrank Competition! It was a tough competition this year, many copetitors finished the first three problems of the competitive track but that is where they really started getting hard. The average success rate across all of the competitive problems was 59.41% No entrants were able to complete the second to last problem, "Cards Permutation."</p>
+            <p>Congratulations to our top winners of the annual Hackerrank Competition! It was a tough competition this year, many competitors finished the first three problems of the competitive track but that is where they really started getting hard. The average success rate across all of the competitive problems was 59.41% No entrants were able to complete the second to last problem, "Cards Permutation."</p>
             <p>Here are the top three winners! (More info about each winner will be posted as we hear back from our winners!)</p>
           </div>
           <!-- <div class="md-image">
@@ -59,7 +59,7 @@
     <div class='home-container'>
       <md-card>
         <md-card-header>
-          <div class="md-title">Awesome Events For Summer/Spring 2020!!</div>
+          <div class="md-title">Awesome Events For Spring/Summer 2020!!</div>
         </md-card-header>
         <md-card-content>
           <div class="md-image-large">
