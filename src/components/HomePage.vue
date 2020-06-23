@@ -52,6 +52,7 @@
           </div>
           <p>All of the winners will also be automatically entered into all ACM door prize raffles for the 2020-21 school year!</p>
           <p>Thank you to everyone who participated in both the Beginners' Track and the Competitive Track!! Join us next year for our annual Hackerrank Competition!</p>
+          <p>If you are a winner listed here and you would like to update/add information about yourself, please email us at <a href='mailto:cs.byu.acm@gmail.com'>cs.byu.acm@gmail.com</a></p>
         </md-card-content>
       </md-card>
     </div>
