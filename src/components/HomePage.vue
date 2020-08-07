@@ -6,18 +6,12 @@
           <div class="md-title">Prepare for the ACM 2020 Opening Social!!</div>
         </md-card-header>
         <md-card-content>
-          <div class="md-image-large">
-            <img src="static/images/prepare.gif" />
-          </div>
-            <h1>September 8th!</h1>
-          <div class="md-image-large">
-            <img src="static/images/dinosaurs.gif" />
-          </div>
-            <h1>Online, Virtual giveaways, Multiplayer games!!</h1>
+          <h1>September 8th!</h1>
+          <h1>Online, Virtual giveaways, Multiplayer games!!</h1>
+          <h1>Kick off a epic (virtual) semester at BYU with ACM!</h1>
           <div class="md-image-large">
             <img src="static/images/grue.gif" />
           </div>
-            <h1>Kick off a epic (virtual) semester at BYU with ACM!</h1>
         </md-card-content>
       </md-card>
     </div>
