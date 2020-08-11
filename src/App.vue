@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div class="menu-bar">
+    <!-- <div class="menu-bar">
       <menu-bar/>
-    </div>
+    </div> -->
     <div class="content">
       <router-view/>
     </div>
@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import MenuBar from "./components/MenuBar";
+//import MenuBar from "./components/MenuBar";
 export default {
   name: "App",
-  components: { MenuBar }
+  //components: { MenuBar }
 };
 </script>
 
