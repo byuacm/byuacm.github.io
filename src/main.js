@@ -1,22 +1,40 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import { MdButton, MdIcon, MdToolbar, MdCard, MdProgress } from 'vue-material/dist/components'
-import router from './router'
-import 'vue-material/dist/vue-material.min.css'
-import 'vue-material/dist/theme/default-dark.css'
+// =========================================================
+// * Vue Material Kit - v1.2.2
+// =========================================================
+//
+// * Product Page: https://www.creative-tim.com/product/vue-material-kit
+// * Copyright 2019 Creative Tim (https://www.creative-tim.com)
+// * Licensed under MIT (https://github.com/creativetimofficial/vue-material-kit/blob/master/LICENSE.md)
+//
+// * Coded by Creative Tim
+//
+// =========================================================
+//
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Vue.config.productionTip = false
-Vue.use(MdButton)
-Vue.use(MdIcon)
-Vue.use(MdToolbar)
-Vue.use(MdCard)
-Vue.use(MdProgress)
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-/* eslint-disable no-new */
+import MaterialKit from "./plugins/material-kit";
+
+Vue.config.productionTip = false;
+
+Vue.use(MaterialKit);
+
+const NavbarStore = {
+  showNavbar: false
+};
+
+Vue.mixin({
+  data() {
+    return {
+      NavbarStore
+    };
+  }
+});
+
 new Vue({
-  el: '#app',
   router,
-  render: h => h(App),
-})
+  render: h => h(App)
+}).$mount("#app");
