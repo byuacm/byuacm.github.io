@@ -2,18 +2,20 @@
 const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
-const vueLoaderConfig = require('./vue-loader.conf')
+//const vueLoaderConfig = require('./vue-loader.conf')
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
+
+const isDev = process.env.NODE_ENV === 'development';
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    app: './src/main.js'
+    app: './src/main.js' // app will be the [name] in filename output
   },
   output: {
     path: config.build.assetsRoot,
@@ -34,12 +36,20 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: vueLoaderConfig
+        /*options: vueLoaderConfig*/
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
+          { loader: 'css-loader', options: { sourceMap: isDev } },
+          { loader: 'postcss-loader', options: { sourceMap: isDev } }
+        ]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -67,6 +77,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new VueLoaderPlugin()
+  ],
   node: {
     // prevent webpack from injecting useless setImmediate polyfill because Vue
     // source contains it (although only uses it if it's native).
