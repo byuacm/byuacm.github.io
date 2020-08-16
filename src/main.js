@@ -35,6 +35,7 @@ Vue.mixin({
 });
 
 new Vue({
+  el: '#app', /* This is the id of the element in index.html that vue should insert code into */
   router,
   render: h => h(App)
 }).$mount("#app");
