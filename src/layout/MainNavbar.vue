@@ -7,9 +7,8 @@
     :color-on-scroll="colorOnScroll"
   >
     <div class="md-toolbar-row md-collapse-lateral">
-      <img src="@/assets/img/byu-acm-logo.png" id='acm_logo' style='height: 15vh' />
       <div class="md-toolbar-section-start">
-        <h3 id='acm_logo_text' style='margin: 3px; visibility: hidden' > BYU ACM</h3>
+        <h3 class="md-title">Vue Material Kit</h3>
       </div>
       <div class="md-toolbar-section-end">
         <md-button
@@ -51,7 +50,9 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://demos.creative-tim.com/vue-material-kit/documentation/">
+                          <a
+                            href="https://demos.creative-tim.com/vue-material-kit/documentation/"
+                          >
                             <i class="material-icons">content_paste</i>
                             <p>Documentation</p>
                           </a>
@@ -63,17 +64,62 @@
               </li>
 
               <md-list-item
-                href="https://goo.gl/8Gq7Cz"
+                href="https://demos.creative-tim.com/vue-material-kit/documentation/"
                 target="_blank"
+                v-if="showDownload"
               >
-                <i class="material-icons">mail</i>
-                <p>Join Email List</p>
+                <i class="material-icons">content_paste</i>
+                <p>Documentation</p>
               </md-list-item>
 
-              <md-list-item href="mailto:cs.byu.acm@gmail.com?subject=We%20would%20be%20interested%20in%20connecting!&body=Thanks%20for%20reaching%20out!%20Here's%20a%20cat%20for%20your%20enjoyment%3A)%0A%20%20%20%20%20%20%20%20%20%20%20__..--''%60%60---....___%20%20%20_..._%20%20%20%20__%0A%20%2F%2F%2F%20%2F%2F_.-'%20%20%20%20.-%2F%22%3B%20%20%60%20%20%20%20%20%20%20%20%60%60%3C._%20%20%60%60.''_%20%60.%20%2F%20%2F%2F%20%2F%0A%2F%2F%2F_.-'%20_..--.'_%20%20%20%20%5C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%60(%20)%20)%20%2F%2F%20%2F%2F%0A%2F%20(_..-'%20%2F%2F%20(%3C%20_%20%20%20%20%20%3B_..__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3B%20%60'%20%2F%20%2F%2F%2F%0A%20%2F%20%2F%2F%20%2F%2F%20%2F%2F%20%20%60-._%2C_)'%20%2F%2F%20%2F%20%60%60--...____..-'%20%2F%2F%2F%20%2F%20%2F%2F">
-                <i class="material-icons">history_edu</i>
-                <p>Company Inqueries</p>
+              <md-list-item
+                href="javascript:void(0)"
+                @click="scrollToElement()"
+                v-if="showDownload"
+              >
+                <i class="material-icons">cloud_download</i>
+                <p>Download</p>
               </md-list-item>
+
+              <li class="md-list-item" v-else>
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                >
+                  <div class="md-list-item-content">
+                    <drop-down direction="down">
+                      <md-button
+                        slot="title"
+                        class="md-button md-button-link md-white md-simple dropdown-toggle"
+                        data-toggle="dropdown"
+                      >
+                        <i class="material-icons">view_carousel</i>
+                        <p>Examples</p>
+                      </md-button>
+                      <ul class="dropdown-menu dropdown-with-icons">
+                        <li>
+                          <a href="#/landing">
+                            <i class="material-icons">view_day</i>
+                            <p>Landing Page</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#/login">
+                            <i class="material-icons">fingerprint</i>
+                            <p>Login Page</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#/profile">
+                            <i class="material-icons">account_circle</i>
+                            <p>Profile Page</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </drop-down>
+                  </div>
+                </a>
+              </li>
 
               <md-list-item
                 href="https://twitter.com/CreativeTim"
@@ -187,22 +233,17 @@ export default {
       this.bodyClick();
     },
     handleScroll() {
-      let scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
+      let scrollValue =
+        document.body.scrollTop || document.documentElement.scrollTop;
       let navbarColor = document.getElementById("toolbar");
-      let acmLogo = document.getElementById("acm_logo");
-      let acmLogoText = document.getElementById("acm_logo_text");
       this.currentScrollValue = scrollValue;
       if (this.colorOnScroll > 0 && scrollValue > this.colorOnScroll) {
         this.extraNavClasses = `md-${this.type}`;
         navbarColor.classList.remove("md-transparent");
-        acmLogo.style.height = '5vh';
-        acmLogoText.style.visibility = 'visible';
       } else {
         if (this.extraNavClasses) {
           this.extraNavClasses = "";
           navbarColor.classList.add("md-transparent");
-          acmLogo.style.height = '15vh';
-          acmLogoText.style.visibility = 'hidden';
         }
       }
     },

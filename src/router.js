@@ -7,6 +7,8 @@ import Contributors from '@/views/Contributors';
 import About from '@/views/About';
 import Resources from '@/views/Resources';
 import Hackathon from '@/views/Hackathon';
+import Landing from '@/views/Landing';
+import Index from '@/views/Index';
 
 import Footer from '@/views/Footer';
 import HomeNavBar from '@/views/HomeNavBar';
@@ -19,9 +21,22 @@ export default new VueRouter({
     {
       path: '/',
       name: 'HomePage',
-      components: { default: HomePage, header: HomeNavBar, footer: Footer }
+      components: { default: HomePage, header: HomeNavBar, footer: Footer },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
     },
     {
+      path: '/index',
+      name: 'Creative Tim Example Index',
+      components: { default: Index, header: HomeNavBar, footer: Footer }
+    },
+    {
+      path: '/Landing',
+      name: 'Creative Tim Example Landing',
+      components: { default: Landing, header: HomeNavBar, footer: Footer }
+    },
+    /*{
       path: '/events',
       name: 'Events',
       components: { default: Events, header: HomeNavBar, footer: Footer }
@@ -50,7 +65,7 @@ export default new VueRouter({
       path: '/hackathon',
       name: 'Hackathon',
       components: { default: Hackathon, header: HomeNavBar, footer: Footer }
-    }
+    }*/
   ],
   scrollBehavior: to => {
     if (to.hash) {

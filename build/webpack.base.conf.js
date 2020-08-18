@@ -52,6 +52,15 @@ module.exports = {
         ]
       },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+          isDev ? 'vue-style-loader' : MiniCSSExtractPlugin.loader,
+          //{ loader: 'postcss-loader', options: { sourceMap: isDev } },
+          { loader: 'css-loader', options: { sourceMap: isDev } },
+          { loader: 'sass-loader', options: { sourceMap: isDev } }
+        ],
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {
