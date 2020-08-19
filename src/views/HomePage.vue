@@ -44,7 +44,7 @@
                   {{event.description.substring(0, 100)}}
                   <span v-if="event.description.length > 100">...</span>
                   <br /><br />
-                  Date: {{event.start}}
+                  Date: {{printDate(event)}}
                   <br />
                   Location: {{event.location}}
                 </template>
@@ -54,15 +54,11 @@
                   Date: {{event.start}}
                   <br />
                   Location: {{event.location}}
+                  <br />
+                  RSVP: {{event.rsvp}}
+                  <br />
+                  Cost: {{event.cost}}
                 </template>
-                <!-- <template slot="tab-pane-3">
-                  Completely synergize resource taxing relationships via premier
-                  niche markets. Professionally cultivate one-to-one customer
-                  service with robust ideas.
-                  <br /><br />
-                  Dynamically innovate resource-leveling customer service for state
-                  of the art customer service.
-                </template> -->
               </tabs>
             </div>
           </div>
@@ -133,28 +129,48 @@ export default {
     image: {
       type: String,
       default: require("@/assets/img/mother_board.jpg")
-    },
-    daniel_ekpo: {
-      type: String,
-      default: require("@/assets/img/officers/daniel_ekpo.jpg")
-    },
-    signup: {
-      type: String,
-      default: require("@/assets/img/city.jpg")
-    },
-    landing: {
-      type: String,
-      default: require("@/assets/img/landing.jpg")
-    },
-    profile: {
-      type: String,
-      default: require("@/assets/img/profile.jpg")
     }
   },
   data() {
     return {
       leadership,
-      events
+      events,
+      printDate: function(event) {
+        let preferred_date = 'MMM D, h:mm A';
+        let stnd_date = 'MMM D';
+
+        let start_day_string = undefined;
+        let end_day_string = undefined;
+
+        if(event.start){
+          if(event.start.hour() == 0){
+            // We'll assume that we will never has an activity at midnight
+            start_day_string = event.start.format(stnd_date);
+          }else{
+            start_day_string = event.start.format(preferred_date);
+          }
+        }else{
+          return 'TBD'
+        }
+
+        if(event.end){
+          let end_day_format = 'MMM D';
+
+          if(event.start.format('l') === event.end.format('l')){
+            end_day_format = '';
+          }
+
+          if(event.end.hour() != 0){
+            end_day_format = end_day_format + ' h:mm A';
+          }
+
+          end_day_string = event.end.format(end_day_format);
+        }else{
+          return start_day_string;
+        }
+
+        return `${start_day_string} - ${end_day_string}`
+      }
     };
   },
   computed: {
