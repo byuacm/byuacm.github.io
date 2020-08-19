@@ -25,8 +25,75 @@
             <p>Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Aliquet lectus proin nibh nisl condimentum id venenatis. In pellentesque massa placerat duis ultricies lacus sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Phasellus faucibus scelerisque eleifend donec pretium. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. In hac habitasse platea dictumst quisque sagittis purus. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Facilisi etiam dignissim diam quis. Commodo sed egestas egestas fringilla. Enim ut tellus elementum sagittis vitae et leo duis ut. Erat imperdiet sed euismod nisi porta lorem mollis. Consectetur libero id faucibus nisl tincidunt eget nullam non. Nisl tincidunt eget nullam non nisi est sit. Adipiscing diam donec adipiscing tristique risus nec feugiat in.</p>
             <p>Vitae nunc sed velit dignissim. Tellus in hac habitasse platea dictumst vestibulum rhoncus est. Eget nunc scelerisque viverra mauris. Risus commodo viverra maecenas accumsan lacus. Risus at ultrices mi tempus imperdiet nulla. Massa placerat duis ultricies lacus sed turpis tincidunt id. Sagittis vitae et leo duis ut diam quam. Phasellus faucibus scelerisque eleifend donec pretium. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Odio morbi quis commodo odio aenean sed adipiscing diam donec. Tincidunt dui ut ornare lectus. Pellentesque habitant morbi tristique senectus.</p>
           </div>
-        </div>
 
+          <div class="title">
+            <h2>Some of Our Personal Favs</h2>
+          </div>
+
+          <div class='title'>
+            <h3>Annual Recruitment Dinner</h3>
+          </div>
+          <div class='md-layout'>
+            <div class='md-layout-item md-size-50 md-small-size-100'>
+              <img src="@/assets/img/acm_img/recruitment_dinner.jpg" />
+            </div>
+            <div class='md-layout-item md-size-50 md-small-size-100'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Eu consequat ac felis donec et odio. At ultrices mi tempus imperdiet nulla. Ipsum suspendisse ultrices gravida dictum fusce ut. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Integer eget aliquet nibh praesent. Aenean et tortor at risus viverra. Dignissim sodales ut eu sem integer vitae justo. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Integer vitae justo eget magna fermentum iaculis eu non. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Vel pharetra vel turpis nunc eget lorem dolor sed viverra. Massa id neque aliquam vestibulum morbi blandit cursus. Ultrices gravida dictum fusce ut placerat orci nulla. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Viverra mauris in aliquam sem fringilla ut morbi. Tristique risus nec feugiat in fermentum posuere urna.</p>
+            </div>
+          </div>
+
+          <div class='title'>
+            <h3>YHack</h3>
+          </div>
+          <div class='md-layout'>
+            <div class='md-layout-item md-size-50 md-small-size-100'>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Eu consequat ac felis donec et odio. At ultrices mi tempus imperdiet nulla. Ipsum suspendisse ultrices gravida dictum fusce ut. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Integer eget aliquet nibh praesent. Aenean et tortor at risus viverra. Dignissim sodales ut eu sem integer vitae justo. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Integer vitae justo eget magna fermentum iaculis eu non. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Vel pharetra vel turpis nunc eget lorem dolor sed viverra. Massa id neque aliquam vestibulum morbi blandit cursus. Ultrices gravida dictum fusce ut placerat orci nulla. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Viverra mauris in aliquam sem fringilla ut morbi. Tristique risus nec feugiat in fermentum posuere urna.</p>
+            </div>
+            <div class='md-layout-item md-size-50 md-small-size-100'>
+              <img src="@/assets/img/acm_img/hackathon.jpg" />
+            </div>
+          </div>
+
+          <div class='title'>
+            <h3>General Computing Awesomeness!</h3>
+          </div>
+          <div class='md-layout'>
+            <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
+              <md-card>
+                <carousel
+                  :per-page="1"
+                  loop
+                  :speed="700"
+                  autoplay
+                  :autoplay-timeout="5000"
+                  :mouse-drag="false"
+                  navigationEnabled
+                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+                >
+                  <slide>
+                    <img src="@/assets/img/acm_img/tech_talks.jpg" alt="carousel3" />
+                  </slide>
+                  <slide>
+                    <!-- <div class="carousel-caption">
+                      <h4>
+                        <md-icon>location_on</md-icon>
+                        Yellowstone National Park, United States
+                      </h4>
+                    </div> -->
+                    <img src="@/assets/img/acm_img/donuts.png" alt="carousel2" />
+                  </slide>
+                  <slide>
+                    <img src="@/assets/img/acm_img/prizes.jpg" alt="carousel3" />
+                  </slide>
+                  <slide>
+                    <img src="@/assets/img/acm_img/pizza.jpg" alt="carousel2" />
+                  </slide>
+                </carousel>
+              </md-card>
+            </div>
+          </div>
+        </div>
         <div class="container">
           <div class="title">
             <h2>Upcoming Events</h2>
@@ -126,10 +193,11 @@ import events from "../constants/events.js";
 export default {
   name: "HomePage",
   props: {
-    image: {
+    main_image: {
       type: String,
       default: require("@/assets/img/mother_board.jpg")
-    }
+    },
+
   },
   data() {
     return {
@@ -176,7 +244,7 @@ export default {
   computed: {
     headerStyle() {
       return {
-        backgroundImage: `url(${this.image})`
+        backgroundImage: `url(${this.main_image})`
       };
     },
     signupImage() {
@@ -215,6 +283,4 @@ export default {
       display: flex;
     }
   }
-
-
 </style>
