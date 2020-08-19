@@ -9,7 +9,7 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <img src="@/assets/img/byu-acm-logo.png" id='acm_logo' style='height: 15vh' />
       <div class="md-toolbar-section-start">
-        <h3 id='acm_logo_text' style='margin: 3px; visibility: hidden' > BYU ACM</h3>
+        <h3 id='acm_logo_text' style='margin: 3px; visibility: hidden' >BYU ACM</h3>
       </div>
       <div class="md-toolbar-section-end">
         <md-button

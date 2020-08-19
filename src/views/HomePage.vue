@@ -151,7 +151,7 @@
           <div class="md-layout">
             <!-- officers go here! -->
             <div
-              v-for="leader in leadership"
+              v-for="(leader, index) in leadership"
               v-bind:key="leader.name"
               class="md-layout-item md-size-33 md-medium-size-50 md-small-size-100"
             >
@@ -159,23 +159,19 @@
                 <md-card>
                   <md-card-media>
                     <!-- <img :src=leader.photo v-bind:alt="leader.name"> -->
-                    <img src="@/assets/img/officers/daniel_ekpo.jpg" v-bind:alt="leader.name" />
+                    <img :src="officer_images[index]" v-bind:alt="leader.name" />
                   </md-card-media>
-
-                  <md-card-header>
-                    <div class="md-title">{{leader.position}}</div>
-                    <div class="md-subhead">Subtitle here</div>
+                  <md-card-header class='md-primary' style='position: relative; top: 0px; z-index: 100; background-color: white; padding-left: 10px'>
+                    <div class="md-title">{{leader.name}}</div>
+                    <div class="md-subhead">{{leader.position}}</div>
                   </md-card-header>
 
                   <md-card-expand>
-                    <md-card-actions md-alignment="space-between">
-                      <div>
-                        <md-button>Action</md-button>
-                        <md-button>Action</md-button>
-                      </div>
-
+                    <md-card-actions md-alignment='space-between' style='background: transparent;'>
+                        <md-button class="md-primary md-round md-just-icon" ng-click="alert('clicked')"
+                          ><font-awesome-icon title='View My LinkedIn' class='md-default' :icon="['fab', 'linkedin']"></font-awesome-icon></md-button>
                       <md-card-expand-trigger>
-                        <md-button class="md-icon-button">
+                        <md-button class="md-icon-button md-just-icon md-round md-primary">
                           <md-icon>keyboard_arrow_down</md-icon>
                         </md-button>
                       </md-card-expand-trigger>
@@ -207,12 +203,25 @@ export default {
     main_image: {
       type: String,
       default: require("@/assets/img/mother_board.jpg"),
-    },
+    }
   },
   data() {
     return {
       leadership,
       events,
+      // TODO: Find a better way to do this lol
+      officer_images: [
+        require("@/assets/img/officers/daniel_ekpo.jpg"),
+        require("@/assets/img/officers/griffin_holt.jpg"),
+        require("@/assets/img/officers/franklin_yuan.jpg"),
+        require("@/assets/img/officers/cache_ostler.jpg"),
+        require("@/assets/img/officers/corban_anderson.jpg"),
+        require("@/assets/img/officers/cailyn_bosworth.jpg"),
+        require("@/assets/img/officers/joshua_wilson.jpg"),
+        require("@/assets/img/officers/drake_foltz.jpg"),
+        require("@/assets/img/officers/ellie_van_de_graaff.jpg"),
+        require("@/assets/img/officers/riley_norton.jpg")
+      ],
       printDate: function (event) {
         let preferred_date = "MMM D, h:mm A";
         let stnd_date = "MMM D";
