@@ -169,7 +169,10 @@
                   <md-card-expand>
                     <md-card-actions md-alignment='space-between' style='background: transparent;'>
                         <md-button class="md-primary md-round md-just-icon" ng-click="alert('clicked')"
-                          ><font-awesome-icon title='View My LinkedIn' class='md-default' :icon="['fab', 'linkedin']"></font-awesome-icon></md-button>
+                          ><font-awesome-icon class='md-default' :icon="['fab', 'linkedin']"></font-awesome-icon>
+                          <md-tooltip md-direction="bottom"
+                            >View My LinkedIn</md-tooltip>
+                          </md-button>
                       <md-card-expand-trigger>
                         <md-button class="md-icon-button md-just-icon md-round md-primary">
                           <md-icon>keyboard_arrow_down</md-icon>
