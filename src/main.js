@@ -15,12 +15,13 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faLinkedin, faTwitter, faFacebookSquare, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPenFancy } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faLinkedin)
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faLinkedin, faTwitter, faFacebookSquare, faInstagram, faDiscord, faEnvelope, faPenFancy);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 import MaterialKit from "./plugins/material-kit";
 Vue.use(MaterialKit);

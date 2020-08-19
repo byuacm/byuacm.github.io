@@ -28,81 +28,57 @@
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
-              <li class="md-list-item" v-if="!showDownload">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <drop-down direction="down">
-                      <md-button
-                        slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <i class="material-icons">apps</i>
-                        <p>Components</p>
-                      </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <a href="#/">
-                            <i class="material-icons">layers</i>
-                            <p>All Components</p>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://demos.creative-tim.com/vue-material-kit/documentation/">
-                            <i class="material-icons">content_paste</i>
-                            <p>Documentation</p>
-                          </a>
-                        </li>
-                      </ul>
-                    </drop-down>
-                  </div>
-                </a>
-              </li>
-
               <md-list-item
                 href="https://goo.gl/8Gq7Cz"
                 target="_blank"
               >
-                <i class="material-icons">mail</i>
-                <p>Join Email List</p>
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fas', 'envelope']"></font-awesome-icon>
+                <p style='margin-left: 5px;'>Join Email List</p>
               </md-list-item>
 
               <md-list-item href="mailto:cs.byu.acm@gmail.com?subject=We%20would%20be%20interested%20in%20connecting!&body=Thanks%20for%20reaching%20out!%20Here's%20a%20cat%20for%20your%20enjoyment%3A)%0A%20%20%20%20%20%20%20%20%20%20%20__..--''%60%60---....___%20%20%20_..._%20%20%20%20__%0A%20%2F%2F%2F%20%2F%2F_.-'%20%20%20%20.-%2F%22%3B%20%20%60%20%20%20%20%20%20%20%20%60%60%3C._%20%20%60%60.''_%20%60.%20%2F%20%2F%2F%20%2F%0A%2F%2F%2F_.-'%20_..--.'_%20%20%20%20%5C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%60(%20)%20)%20%2F%2F%20%2F%2F%0A%2F%20(_..-'%20%2F%2F%20(%3C%20_%20%20%20%20%20%3B_..__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3B%20%60'%20%2F%20%2F%2F%2F%0A%20%2F%20%2F%2F%20%2F%2F%20%2F%2F%20%20%60-._%2C_)'%20%2F%2F%20%2F%20%60%60--...____..-'%20%2F%2F%2F%20%2F%20%2F%2F">
-                <i class="material-icons">history_edu</i>
-                <p>Company Inqueries</p>
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fas', 'pen-fancy']"></font-awesome-icon>
+                <p style='margin-left: 5px;'>Company Inqueries</p>
               </md-list-item>
 
               <md-list-item
-                href="https://twitter.com/CreativeTim"
+                href="https://twitter.com/byuacm?lang=en"
                 target="_blank"
               >
-                <i class="fab fa-twitter"></i>
-                <p class="hidden-lg">Twitter</p>
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fab', 'twitter']"></font-awesome-icon>
+                <p class="hidden-lg" style='margin-left: 5px;'>Twitter</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Twitter</md-tooltip
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.facebook.com/CreativeTim"
+                href="https://www.facebook.com/acmbyu/"
                 target="_blank"
               >
-                <i class="fab fa-facebook-square"></i>
-                <p class="hidden-lg">Facebook</p>
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fab', 'facebook-square']"></font-awesome-icon>
+                <p class="hidden-lg" style='margin-left: 5px;'>Facebook</p>
                 <md-tooltip md-direction="bottom"
                   >Like us on Facebook</md-tooltip
                 >
               </md-list-item>
               <md-list-item
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/byu_acm/?hl=en"
                 target="_blank"
               >
-                <i class="fab fa-instagram"></i>
-                <p class="hidden-lg">Instagram</p>
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fab', 'instagram']"></font-awesome-icon>
+                <p class="hidden-lg" style='margin-left: 5px;'>Instagram</p>
                 <md-tooltip md-direction="bottom"
                   >Follow us on Instagram</md-tooltip
+                >
+              </md-list-item>
+              <md-list-item
+                href="https://discord.gg/X5BjgGK"
+                target="_blank"
+              >
+                <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fab', 'discord']"></font-awesome-icon>
+                <p class="hidden-lg" style='margin-left: 5px;'>Discord</p>
+                <md-tooltip md-direction="bottom"
+                  >Join our Discord Server</md-tooltip
                 >
               </md-list-item>
             </md-list>
