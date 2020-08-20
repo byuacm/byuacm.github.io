@@ -27,6 +27,11 @@ export default new VueRouter({
       }
     },
     {
+      // TODO: Someday I'll put a real 404 page in here
+      path: '/*',
+      redirect: '/'
+    }
+    /*{
       path: '/index',
       name: 'Creative Tim Example Index',
       components: { default: Index, header: HomeNavBar, footer: Footer }
@@ -36,7 +41,7 @@ export default new VueRouter({
       name: 'Creative Tim Example Landing',
       components: { default: Landing, header: HomeNavBar, footer: Footer }
     },
-    /*{
+    {
       path: '/events',
       name: 'Events',
       components: { default: Events, header: HomeNavBar, footer: Footer }
