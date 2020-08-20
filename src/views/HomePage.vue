@@ -85,7 +85,7 @@
                         Yellowstone National Park, United States
                       </h4>
                     </div>-->
-                    <img src="@/assets/img/acm_img/donuts.png" alt="carousel2" />
+                    <img src="@/assets/img/acm_img/donuts.jpg" alt="carousel2" />
                   </slide>
                   <slide>
                     <img src="@/assets/img/acm_img/prizes.jpg" alt="carousel3" />

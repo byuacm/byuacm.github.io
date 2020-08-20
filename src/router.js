@@ -1,15 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HomePage from '@/views/HomePage';
-import Events from '@/views/Events';
-import Leadership  from '@/views/Leadership';
-import Contributors from '@/views/Contributors';
-import About from '@/views/About';
-import Resources from '@/views/Resources';
-import Hackathon from '@/views/Hackathon';
-import Landing from '@/views/Landing';
-import Index from '@/views/Index';
-
 import Footer from '@/views/Footer';
 import HomeNavBar from '@/views/HomeNavBar';
 
