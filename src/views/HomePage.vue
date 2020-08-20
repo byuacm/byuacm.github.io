@@ -21,7 +21,9 @@
             <h2 id="about">What We're About</h2>
           </div>
           <div class="tim-typo">
-            <h2 class='title'>Enhancing our university experience through Networking, Education and Service</h2>
+            <h2
+              class="title"
+            >Enhancing our university experience through Networking, Education and Service</h2>
             <p>We are about connecting students and companies together through awesome events and activies like YHack, Recruitment Dinner, and club meetings! We strive to prepare students to be ready to go out and change the world in tech.</p>
             <p>BYU's ACM Chapter is just a small part of the world wide ACM community. The Association for Computing Machinery was founded in 1947 and is the largest educational and computing society in the world! ACM continues to deliver resources that advance computing as a science and a profession even into the 21st century. The BYU ACM club is the goto Computer Science club at BYU. We host the annual Recruitment Dinner and YHack events that have become staples of the BYU student college experience.</p>
             <p>Join our email list to get all of the latest up to date info about the BYU ACM Chapter straight to your inbox! If you own or represent a company and you would like to get information about how you can connect with, and support our students, please send us an email!</p>
@@ -161,18 +163,20 @@
                     <!-- <img :src=leader.photo v-bind:alt="leader.name"> -->
                     <img :src="officer_images[index]" v-bind:alt="leader.name" />
                   </md-card-media>
-                  <md-card-header class='md-primary' style='position: relative; top: 0px; z-index: 100; background-color: white; padding-left: 10px'>
+                  <md-card-header
+                    class="md-primary"
+                    style="position: relative; top: 0px; z-index: 100; background-color: white; padding-left: 10px"
+                  >
                     <div class="md-title">{{leader.name}}</div>
                     <div class="md-subhead">{{leader.position}}</div>
                   </md-card-header>
 
                   <md-card-expand>
-                    <md-card-actions md-alignment='space-between' style='background: transparent;'>
-                        <md-button class="md-primary md-round md-just-icon" ng-click="alert('clicked')"
-                          ><font-awesome-icon class='md-default' :icon="['fab', 'linkedin']"></font-awesome-icon>
-                          <md-tooltip md-direction="bottom"
-                            >View My LinkedIn</md-tooltip>
-                          </md-button>
+                    <md-card-actions md-alignment="space-between" style="background: transparent;">
+                      <md-button class="md-primary md-round md-just-icon md-center-text" :href="leader.linkedIn" target="_blank">
+                        <font-awesome-icon class="md-default" :icon="['fab', 'linkedin']"></font-awesome-icon>
+                        <md-tooltip md-direction="bottom">View My LinkedIn</md-tooltip>
+                      </md-button>
                       <md-card-expand-trigger>
                         <md-button class="md-icon-button md-just-icon md-round md-primary">
                           <md-icon>keyboard_arrow_down</md-icon>
@@ -206,7 +210,7 @@ export default {
     main_image: {
       type: String,
       default: require("@/assets/img/mother_board.jpg"),
-    }
+    },
   },
   data() {
     return {
@@ -223,7 +227,7 @@ export default {
         require("@/assets/img/officers/joshua_wilson.jpg"),
         require("@/assets/img/officers/drake_foltz.jpg"),
         require("@/assets/img/officers/ellie_van_de_graaff.jpg"),
-        require("@/assets/img/officers/riley_norton.jpg")
+        require("@/assets/img/officers/riley_norton.jpg"),
       ],
       printDate: function (event) {
         let preferred_date = "MMM D, h:mm A";
@@ -276,7 +280,7 @@ export default {
     },
   },
   components: {
-    Tabs
+    Tabs,
   },
   methods: {
     /**
@@ -296,10 +300,8 @@ export default {
 };
 </script>
 <style lang="scss">
-.section-download {
-  .md-button + .md-button {
-    margin-left: 5px;
-  }
+.md-center-text {
+  text-align: center;
 }
 
 @media all and (min-width: 991px) {

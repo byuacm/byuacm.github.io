@@ -13,6 +13,11 @@
             </a>
           </li>
           <li>
+            <a href="https://www.acm.org">
+              acm.org
+            </a>
+          </li>
+          <li>
             <a href="javascript:void(0);" v-on:click="scrollToElement('scroll_to_about');">
               About Us
             </a>
@@ -22,7 +27,7 @@
       <div class="copyright">
         &copy; {{ year }} BYU ACM. Theme courtesy of
         <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a><br />
-        Images provided by <a href='https://www.unsplash.com'>Unsplash</a>
+        Motherboard image provided by <a href='https://www.unsplash.com'>Unsplash</a>
       </div>
     </div>
   </footer>
