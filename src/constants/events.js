@@ -27,26 +27,35 @@ const events = [
   },
   {
     title: 'Recruitment Dinner',
-    start: moment('Sep 15 2020', 'MMM DD YYYY'),
+    start: moment('Sep 22 2020', 'MMM DD YYYY'),
     description: 'Exciting event where ACM club members can meet with real recruiter before STEM fair!',
     location: 'Online',
     rsvp: "None",
     cost: "Free"
   },
   {
-    title: 'BYU STEM Fair',
+    title: 'BYU STEM Fair - Science/Math & Data',
     start: moment('Sep 16 2020', 'MMM DD YYYY'),
     end: moment('Sep 17 2020', 'MMM DD YYYY'),
     description: 'STEM Fair is where those majoring in STEM fields can meet with companies and apply for positions and internships after the 2020-21 school year!',
-    location: 'Location TBD',
+    location: 'TBD',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'BYU STEM Fair - Engineering/Technology',
+    start: moment('Sep 23 2020', 'MMM DD YYYY'),
+    end: moment('Sep 24 2020', 'MMM DD YYYY'),
+    description: 'STEM Fair is where those majoring in STEM fields can meet with companies and apply for positions and internships after the 2020-21 school year!',
+    location: 'TBD',
     rsvp: "None",
     cost: "Free"
   },
   {
     title: 'ACM Club Event',
-    start: moment('Sep 22 2020', 'MMM DD YYYY'),
-    description: 'TBD',
-    location: 'Location TBD',
+    start: moment('Sep 29 2020', 'MMM DD YYYY'),
+    description: 'Awesome club activity where we will be meeting with Lucid!',
+    location: 'TBD',
     rsvp: "None",
     cost: "Free"
   },

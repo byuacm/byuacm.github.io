@@ -4,10 +4,10 @@
       <div class="md-layout">
         <div class="md-layout-item">
           <div class="image-wrapper">
-            <div class="brand" style="color: white;">
+            <div class="brand">
               <h1>BYU ACM</h1>
-              <h3>Excellerate your career, excellerate the world.</h3>
-              <!-- <md-button class="md-primary">Default</md-button> -->
+              <h3> Accelerate your career. Accelerate the world.</h3>
+              <md-button class="md-primary" href='https://goo.gl/8Gq7Cz'>Join Us!</md-button>
             </div>
           </div>
         </div>
@@ -20,13 +20,11 @@
           <div class="title">
             <h2 id="about">What We're About</h2>
           </div>
-          <div class="tim-typo">
-            <h2
-              class="title"
-            >Enhancing our university experience through Networking, Education and Service</h2>
-            <p>We are about connecting students and companies together through awesome events and activities like YHack, Recruitment Dinner, and club meetings! We strive to prepare students to be ready to go out and change the world in tech.</p>
-            <p>BYU's ACM Chapter is just a small part of the world wide ACM community. The Association for Computing Machinery was founded in 1947 and is the largest educational and computing society in the world! ACM continues to deliver resources that advance computing as a science and a profession even into the 21st century. The BYU ACM club is the goto Computer Science club at BYU. We host the annual Recruitment Dinner and YHack events that have become staples of the BYU student college experience!</p>
-            <p>Join our email list to get all of the latest up to date info about the BYU ACM Chapter straight to your inbox! If you own or represent a company and you would like to get information about how you can connect with, and support our students, please send us an email!</p>
+          <div>
+            <h2 class="title">Enhancing our university experience through Networking, Education and Service</h2>
+            <p>We are about connecting students and companies together through awesome events and activities like the YHack, our annual Recruitment Dinner, and regular club meetings! We strive to prepare students to go out and change the world in tech.</p>
+            <p>BYU's ACM Chapter is just a small part of the worldwide ACM community. The Association for Computing Machinery was founded in 1947 and is the largest educational and computing society in the world! ACM continues to deliver resources that advance computing as a science and a profession even into the 21st century. The BYU ACM club is the go-to Computer Science club at BYU. We host the annual Recruitment Dinner and YHack events that have become staples of the BYU student college experience!</p>
+            <p>Join our email list to get all of the latest up to date info about the BYU ACM Chapter straight to your inbox! If you represent a company or organization, send us an email at <a href='mailto:cs.byu.acm@gmail.com?subject=We%20would%20be%20interested%20in%20connecting!'>cs.byu.acm@gmail.com</a> to get more information about supporting or connecting with our students!</p>
           </div>
 
           <div class="title">
@@ -41,8 +39,8 @@
               <img src="@/assets/img/acm_img/recruitment_dinner.jpg" />
             </div>
             <div class="md-layout-item md-size-50 md-small-size-100">
-              <p>Every year we love to hold our annual recruitment dinner, an excellent opportunity for students and recruiters to chat over a catered meal about interview tips, resume hacks, and 30 second elevator pitches. The dinner is held at the Hinkley Center on the eve of the first day of BYU's Fall Semester STEM fair, a fair where companies and prospective students will meet to quickly exchange contact info and resumes and hopefully the student may leave with a scheduled interview with a company. The BYU ACM Recruitment Dinner is a great way for students who are interested in going to the STEM Fair to meet with recruiters under a more casual setting and ask them basic questions before the day of. Not only do the students have a blast, but recruiters also have a great time meeting with students and seeing their energy and enthusiasm before a long two days working on the STEM Fair floor.</p>
-              <p>Traditionally 2 recruiters will sit at a table with 6-8 students over a two course meal and then dessert. One or two speakers will present briefly at the beginning or end of the dinner, but other than that the one and a half hour dinner is set to allow the students and recruiters time to connect, socialize, and destress before the next two days of the STEM Fair.</p>
+              <p>Every year we love to hold our annual recruitment dinner, an excellent opportunity for students and recruiters to chat over a catered meal about interview tips, resume hacks, and 30 second elevator pitches. The dinner is held at the Hinkley Center on the eve of BYU's Fall Semester STEM fair, where companies and current students meet to exchange info and explore employment opportunities. The BYU ACM Recruitment Dinner is a great way for students interested in going to the STEM Fair to meet with recruiters under a more relaxed setting and ask them basic questions. Not only do the students have a blast, but recruiters also have a great time meeting with students and seeing their energy and enthusiasm before a long two days working on the STEM Fair floor.</p>
+              <p>Traditionally 2 recruiters will sit at a table with 6-8 students over a two-course meal and dessert. This event is a great opportunity for students and recruiters to connect and socialize more informally before STEM fair!</p>
             </div>
           </div>
 
@@ -51,7 +49,7 @@
           </div>
           <div class="md-layout">
             <div class="md-layout-item md-size-50 md-small-size-100">
-              <p>The YHack has become an annual tradition for the students at BYU. Once a year, pizza suppliers, coke distillers, and special security clearances are garnered for the 24 hour straight BYU YHack. Where, fueled primarily on pizza and soda, students and friends can meet and work on any projects they desire. Even though we are hosting it, all students are welcome to attend and join in the fun and caffeine. Students may work by themselves, in pairs, or groups. Projects can be a special challenge solely for the 24 hour YHack, or something a student has been working on for awhile. Companies and industry professionals are invited to come and present interesting tech insights at certain times during the YHack. Companies also love to provide merch and food during the hackathon. Special workshops and learning sessions are also provided at certain times throughout the hack! By the end of the 24 hours, even in the midst of a caffeine crash, students always leave having had a great time socializing and getting to work on cool projects together. The YHack has been an awesome experience for students to connect with and inspire each other to build and create cool code projects!</p>
+              <p>The YHack has become an annual tradition for students at BYU. Once a year, pizza suppliers, coke distillers, and special security clearances are garnered for the 24 hour straight BYU YHack. Fueled primarily on that pizza and soda, students and friends can meet and work on any project they desire. Despite being an official BYU ACM event, all students are welcome to attend and join in the fun and caffeine. Students may work by themselves, in pairs, or groups. Projects can be a special challenge solely for the 24 hour YHack, or something a student has been working on for a while. Companies and industry professionals present interesting tech insights at designated times throughout the YHack. Local companies often give away swag during the hackathon. Special workshops and learning sessions are also provided at certain times throughout the hack! By the end of the 24 hours, even in the midst of a caffeine crash, students always leave having had a great time socializing and getting to work on cool projects together. The YHack has been an awesome experience for students to connect with and inspire each other to build and create cool code projects!</p>
             </div>
             <div class="md-layout-item md-size-50 md-small-size-100">
               <img src="@/assets/img/acm_img/hackathon.jpg" />
@@ -130,7 +128,7 @@
                   {{event.description}}
                   <br />
                   <br />
-                  Date: {{event.start}}
+                  Date: {{printDate(event)}}
                   <br />
                   Location: {{event.location}}
                   <br />
@@ -304,9 +302,28 @@ export default {
   text-align: center;
 }
 
+.brand {
+  background-color: rgba(25,25,25,.5);
+  width: 40vw;
+  color: white;
+  padding: 25px;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
 @media all and (min-width: 991px) {
   .btn-container {
     display: flex;
   }
 }
+
+@media all and (max-width: 1191px) {
+  .brand {
+    width: 90vw;
+    padding: 10px
+  }
+}
+
 </style>

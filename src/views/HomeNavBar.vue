@@ -36,7 +36,7 @@
                 <p style='margin-left: 5px;'>Join Email List</p>
               </md-list-item>
 
-              <md-list-item href="mailto:cs.byu.acm@gmail.com?subject=We%20would%20be%20interested%20in%20connecting!&body=Thanks%20for%20reaching%20out!%20Here's%20a%20cat%20for%20your%20enjoyment%3A)%0A%20%20%20%20%20%20%20%20%20%20%20__..--''%60%60---....___%20%20%20_..._%20%20%20%20__%0A%20%2F%2F%2F%20%2F%2F_.-'%20%20%20%20.-%2F%22%3B%20%20%60%20%20%20%20%20%20%20%20%60%60%3C._%20%20%60%60.''_%20%60.%20%2F%20%2F%2F%20%2F%0A%2F%2F%2F_.-'%20_..--.'_%20%20%20%20%5C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%60(%20)%20)%20%2F%2F%20%2F%2F%0A%2F%20(_..-'%20%2F%2F%20(%3C%20_%20%20%20%20%20%3B_..__%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3B%20%60'%20%2F%20%2F%2F%2F%0A%20%2F%20%2F%2F%20%2F%2F%20%2F%2F%20%20%60-._%2C_)'%20%2F%2F%20%2F%20%60%60--...____..-'%20%2F%2F%2F%20%2F%20%2F%2F">
+              <md-list-item href="mailto:cs.byu.acm@gmail.com?subject=We%20would%20be%20interested%20in%20connecting!">
                 <font-awesome-icon class='md-default fa-lg fa-fw' :icon="['fas', 'pen-fancy']"></font-awesome-icon>
                 <p style='margin-left: 5px;'>Company Inqueries</p>
               </md-list-item>
