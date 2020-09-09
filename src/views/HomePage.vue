@@ -287,7 +287,7 @@ export default {
      */
     load: function () {
       this.events = this.events
-        .filter((a) => a.start.isAfter(moment().subtract(1, "week")))
+        .filter((a) => a.start.isAfter(moment().subtract(3, "day")))
         .sort((a, b) => a.start - b.start)
         .slice(0, 4);
     },

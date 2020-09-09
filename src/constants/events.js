@@ -18,7 +18,7 @@ const events = [
   },
   {
     title: 'Opening Social',
-    start: moment('Sep 8 2020', 'MMM DD YYYY'),
+    start: moment('Sep 3 2020', 'MMM DD YYYY'),
     description: 'Opening social for ACM!!! Prepare for awesome online giveaways, online multiplayer games, and meeting with great companies to kick off your epic (virtual) semester at BYU!',
     location: 'Online',
     photo: './static/images/grue.gif',
@@ -26,9 +26,9 @@ const events = [
     cost: "Free"
   },
   {
-    title: 'Recruitment Dinner',
-    start: moment('Sep 22 2020', 'MMM DD YYYY'),
-    description: 'Exciting event where ACM club members can meet with real recruiter before STEM fair!',
+    title: '"Algorithm Patterns towards Acing Your Technical Interview" Dr. Ryan Farrell',
+    start: moment('Sep 15 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Come and hear a great tech talk by Dr. Ryan Farrell about algorithm patterns that will help you succeed with your technical interview as you prepare your resume and presentation at the STEM fair!',
     location: 'Online',
     rsvp: "None",
     cost: "Free"
@@ -38,7 +38,7 @@ const events = [
     start: moment('Sep 16 2020', 'MMM DD YYYY'),
     end: moment('Sep 17 2020', 'MMM DD YYYY'),
     description: 'STEM Fair is where those majoring in STEM fields can meet with companies and apply for positions and internships after the 2020-21 school year!',
-    location: 'TBD',
+    location: 'Online',
     rsvp: "None",
     cost: "Free"
   },
@@ -47,15 +47,39 @@ const events = [
     start: moment('Sep 23 2020', 'MMM DD YYYY'),
     end: moment('Sep 24 2020', 'MMM DD YYYY'),
     description: 'STEM Fair is where those majoring in STEM fields can meet with companies and apply for positions and internships after the 2020-21 school year!',
-    location: 'TBD',
+    location: 'Online',
     rsvp: "None",
     cost: "Free"
   },
   {
-    title: 'ACM Club Event',
-    start: moment('Sep 29 2020', 'MMM DD YYYY'),
+    title: 'Tech workshop with Lucid',
+    start: moment('Sep 29 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
     description: 'Awesome club activity where we will be meeting with Lucid!',
-    location: 'TBD',
+    location: 'Online',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech workshop with Podium',
+    start: moment('Oct 6 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Awesome club activity where we will be meeting with Podium!',
+    location: 'Online',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech workshop with Qualtrics',
+    start: moment('Oct 13 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Awesome club activity where we will be meeting with Qualtrics!',
+    location: 'Online',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Lunch N’ Learn with Linda Thakeray - Microsoft Garage',
+    start: moment('Oct 20 2020 12:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Awesome club activity where we will be meeting with Lucid!',
+    location: 'Online',
     rsvp: "None",
     cost: "Free"
   },
