@@ -223,8 +223,8 @@ export default {
         require("@/assets/img/officers/corban_anderson.jpg"),
         require("@/assets/img/officers/cailyn_bosworth.jpg"),
         require("@/assets/img/officers/joshua_wilson.jpg"),
-        require("@/assets/img/officers/drake_foltz.jpg"),
         require("@/assets/img/officers/ellie_van_de_graaff.jpg"),
+        require("@/assets/img/officers/drake_foltz.jpg"),
         require("@/assets/img/officers/riley_norton.jpg"),
       ],
       printDate: function (event) {

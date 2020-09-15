@@ -76,10 +76,26 @@ const events = [
     cost: "Free"
   },
   {
+    title: '2020 Lucid Programming Competition',
+    start: moment('Oct 17 2020', 'MMM DD YYYY'),
+    description: 'Annual programming competition with Lucid where students cam come together with a healthy dose of competitiveness and pizza for awesome sponsered prizes!',
+    location: 'TBD',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
     title: 'Lunch N’ Learn with Linda Thakeray - Microsoft Garage',
     start: moment('Oct 20 2020 12:00 PM', 'MMM DD YYYY h:mm A'),
     description: 'Awesome club activity where we will be meeting with Lucid!',
-    location: 'Online',
+    location: 'TBD',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'ACM Club Event',
+    start: moment('Oct 27 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'More details coming soon',
+    location: 'TBD',
     rsvp: "None",
     cost: "Free"
   },

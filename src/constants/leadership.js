@@ -31,7 +31,7 @@ const leadership = [
 
     {
     name: "Corban Anderson",
-    position: 'Technology/Social Media',
+    position: 'Technology',
     bio: "Corban is a Junior studying Computer Science: Data Science and getting a minor in Business. Someday he hopes to start his own tech company and take over the world with Artificial Intellience technologies. In his free time he enjoys playing the piano, reading, running, playing board games, snowboarding, trespassing, and work on programming projects. Corban also enjoys binge watching tv shows like The Office and Parks and Rec.",
     photo: "@/assets/img/officers/corban_anderson.jpg",
     linkedIn: 'https://www.linkedin.com/in/corban-anderson-a3546366/'
@@ -52,7 +52,13 @@ const leadership = [
     photo: "@/assets/img/officers/joshua_wilson.jpg",
     linkedIn: '#'
     },
-
+    {
+    name: "Ellie Van De Graaff",
+    position: 'Social Media',
+    bio: "Ellie is a Senior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
+    photo: "@/assets/img/officers/ellie_van_de_graaff.jpg",
+    linkedIn: 'https://www.linkedin.com/in/ellie-van-de-graaff/'
+    },
     {
     name: "Drake Foltz",
     position: 'Associate Officer',
@@ -60,15 +66,6 @@ const leadership = [
     photo: "@/assets/img/officers/drake_foltz.jpg",
     linkedIn: 'https://www.linkedin.com/in/drake-foltz/'
     },
-
-    {
-    name: "Ellie Van De Graaff",
-    position: 'Associate Officer',
-    bio: "Ellie is a Senior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
-    photo: "@/assets/img/officers/ellie_van_de_graaff.jpg",
-    linkedIn: 'https://www.linkedin.com/in/ellie-van-de-graaff/'
-    },
-
     {
     name: "Riley Norton",
     position: 'Associate Officer',
