@@ -110,7 +110,7 @@ const events = [
   {
     title: 'Tech Talk with Dr. Kimball Germane',
     start: moment('Nov 17 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: 'Dr. Kimball Germane is a ',
+    description: 'Dr. Kimball Germane is a Professor at Brigham Young University and he is the faculty advisor for the ACM Club.',
     location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
     rsvp: "None",
     cost: "Free"
