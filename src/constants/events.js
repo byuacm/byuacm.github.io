@@ -92,10 +92,26 @@ const events = [
     cost: "Free"
   },
   {
-    title: 'ACM Club Event',
+    title: 'Tech Talk with Bryan Mangelson Cofounder of Crowdstorage',
     start: moment('Oct 27 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: 'More details coming soon',
-    location: 'TBD',
+    description: 'Hear from the cofounder of Crowdstorage! His talk is entitled Distributed Data Storage: Airbnb for the Cloud',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech Talk with Fast Enterprises',
+    start: moment('Nov 3 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Exciting club event where we will be able to meet one on one with Fast Enterprises! FAST is dedicated to problem-solving, creating solutions, and maintaining strong partnerships with government agencies.',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech Talk with Dr. Kimball Germane',
+    start: moment('Nov 17 2020 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Dr. Kimball Germane is a ',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
     rsvp: "None",
     cost: "Free"
   },

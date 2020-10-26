@@ -114,27 +114,20 @@
               >
                 <!-- here you can add your content for tab-content -->
                 <template slot="tab-pane-1">
-                  {{event.description.substring(0, 100)}}
-                  <span
-                    v-if="event.description.length > 100"
-                  >...</span>
-                  <br />
-                  <br />
-                  Date: {{printDate(event)}}
-                  <br />
-                  Location: {{event.location}}
+                  <p>{{event.description.substring(0, 100)}}
+                    <span
+                      v-if="event.description.length > 100"
+                    >...</span>
+                    <br />
+                    <br />
+                    Date: {{printDate(event)}}
+                  </p>
+                  <p slot="location" v-html="event.location"></p>
                 </template>
                 <template slot="tab-pane-2">
-                  {{event.description}}
-                  <br />
-                  <br />
-                  Date: {{printDate(event)}}
-                  <br />
-                  Location: {{event.location}}
-                  <br />
-                  RSVP: {{event.rsvp}}
-                  <br />
-                  Cost: {{event.cost}}
+                  <p>{{event.description}}<br/><br/>Date: {{printDate(event)}}</p>
+                  <p slot="location" v-html="event.location"></p>
+                  <p>RSVP: {{event.rsvp}}<br/>Cost: {{event.cost}}</p>
                 </template>
               </tabs>
             </div>
