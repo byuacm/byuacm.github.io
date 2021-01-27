@@ -53,42 +53,26 @@ const leadership = [
     linkedIn: '#'
     },
     {
-    name: "Ellie Van De Graaff",
-    position: 'Social Media',
-    bio: "Ellie is a Senior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
-    photo: "@/assets/img/officers/ellie_van_de_graaff.jpg",
-    linkedIn: 'https://www.linkedin.com/in/ellie-van-de-graaff/'
-    },
-    {
-    name: "Drake Foltz",
-    position: 'Associate Officer',
-    bio: "Drake is studying Computer Science, and is in his senior year. He enjoys the challenge of programming, and likes to teach others about it. He speaks Dutch, can make some good pancakes, and loves playing Dungeons and Dragons.",
-    photo: "@/assets/img/officers/drake_foltz.jpg",
-    linkedIn: 'https://www.linkedin.com/in/drake-foltz/'
-    },
-    {
     name: "Riley Norton",
     position: 'Associate Officer',
     bio: "Riley is a Senior, pursuing a B.S. in Computer Science. After writing “Hello World” in 2018, he started a minor and eventually switched majors into C.S. He wants to help make Computer Science more accessible for students from other disciplines. After graduation, he plans to work as a software engineer. Outside of school, Riley is an avid mountaineer, skier, climber, and backpacker.",
     photo: "@/assets/img/officers/riley_norton.jpg",
     linkedIn: 'https://www.linkedin.com/in/riley-norton/'
     },
-
-    /*{
-    name: "Adnan Khayyat",
-    position: 'Associate Officer',
-    bio: "Adnan is a sophomore majoring in Computer Science and has a passion for involvement and community in the tech industry. He is originally Palestinian and grew up in Jerusalem all his life. He can speak English, Arabic and Hebrew. His favorate food is pizza (but without pineapples)",
-    photo: "@/assets/img/officers/adnan_khayyat.jpg",
-    linkedIn: '#'
-    },
-
     {
-    name: "Frank Jones, PhD",
+      name: "Ignacio Almeida",
+      position: 'Associate Officer',
+      bio: "Ignacio is a Junior Computer Science student from Uruguay who, after getting an AAS in Accounting and learning the language of business, realized that he needed to learn the language of computers to one day help societies or organizations that are struggling financially. In his free time, Ignacio likes to read, play a variety of sports such as tennis, basketball, soccer, or swimming, and he likes to play online or board games with friends.",
+      photo: "@/assets/img/officers/ignacio_de_aleida.jpg",
+      linkedIn: 'https://www.linkedin.com/in/ignacio-almeida/'
+    },
+    {
+    name: "Dr. Kimball Germane",
     position: 'Faculty Advisor',
-    bio: "Dr. Jones received his B.S. and M.S. degrees in Computer Science from University of Idaho, investigating investigating high-performance architectures and compilers. He then received a Ph.D. at University of Colorado Boulder, additionally focusing on wearable computing and assistive technology. Prior to joining the Computer Science faculty at BYU, he spent time revitalizing the College of Idaho CS curriculum and working with the Naval Air Systems Command (NAVAIR) at China Lake California.",
-    photo: "@/assets/img/officers/frank_jones.jpg",
+    bio: "Dr. Kimball Germane ",
+    photo: "@/assets/img/officers/kimball_germane.jpg",
     linkedIn: '#'
-    }*/
+    }
 ];
 
 export default leadership;

@@ -115,6 +115,94 @@ const events = [
     rsvp: "None",
     cost: "Free"
   },
+  {
+    title: 'Opening Social',
+    start: moment('Feb 2 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Opening social for ACM!!! Prepare for awesome online giveaways, and meeting with great companies to kick off your epic (virtual) semester at BYU!',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual Careers & Internship Fair',
+    start: moment('Jan 28 2021', 'MMM DD YYYY'),
+    description: "Join BYU's virtual career fair! All majors are welcome! See you there!",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual STEM Fair: Technology',
+    start: moment('Feb 2 2021', 'MMM DD YYYY'),
+    description: "Welcome to the BYU STEM Fair: Technology.<br/>The focus of this fair is to connect employers with students in the following technology-related disciplines:<br/><il><li>Computer Engineering</li><li>Computer Science</li><li>Cybersecurity</li><li>Information Systems</li><li>Information Technology</li><li>Software Engineering</li><li>Technology & Engineering Studies</li></il><br/>Please note this fair is open to all majors and will be hosted virtually within the Handshake platform.",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual STEM Fair: Engineering',
+    start: moment('Feb 4 2021', 'MMM DD YYYY'),
+    description: "Welcome to the BYU STEM Fair: Engineering.<br/>The focus of this fair is to connect employers with students in the following engineering-related disciplines:<il><li>Chemical Engineering</li><li>Civil and Environmental Engineering</li><li>Computer Engineering</li><li>Construction and Facilities Management</li><li>Electrical Engineering</li><li>Industrial Design</li><li>Manufacturing Engineering</li><li>Mechanical Engineering</li></il><br/>Please note this fair is open to all majors and will be hosted virtually within the Handshake platform.",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual STEM Fair: Math & Data',
+    start: moment('Feb 11 2021', 'MMM DD YYYY'),
+    description: "Welcome to the BYU STEM Fair: Math & Data.<br/>The focus of this fair is to connect employers with students in the following math and data-related disciplines:<il><li>Actuarial Science</li><li>Applied & Computational Mathematics</li><li>Data Science</li><li>Information Systems</li><li>Mathematics</li><li>Statistics</li></il><br/>All students with an interest in analytics are welcome!<br/>Please note this fair is open to all majors and will be hosted virtually within the Handshake platform.",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual STEM Fair: Science',
+    start: moment('Feb 23 2021', 'MMM DD YYYY'),
+    description: "Welcome to the BYU STEM Fair Fall 2021: Science!<br/>The focus of this fair is to connect employers with students in the following science-related disciplines:<il><li>Applied Physics</li><li>Astronomy</li><li>Biochemistry</li><li>Chemistry</li><li>Geology</li><li>Life Sciences</li><li>Physics.</li></il><br/>Please note this fair is open to all majors and will be hosted virtually within the Handshake platform.",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'BYU Virtual Summer Job Fair',
+    start: moment('Mar 4 2021', 'MMM DD YYYY'),
+    description: "Welcome to BYU's Summer Job fair! An excellent place to find a great summer job and make some money in between semesters!",
+    location: 'Register on <a href="http://handshake.byu.edu">Handshake</a>',
+    rsvp: "Register on Handshake",
+    cost: "Free"
+  },
+  {
+    title: 'ACM Club Meeting',
+    start: moment('Feb 16 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: '',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'ACM Club Meeting',
+    start: moment('Mar 2 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: '',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'ACM Club Meeting',
+    start: moment('Mar 16 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: '',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'ACM Closing Social',
+    start: moment('Mar 30 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Closing Social for ACM Club',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
 
 ];
 
