@@ -9,7 +9,7 @@ const leadership = [
     {
     name: "Griffin Holt",
     position: 'Vice President',
-    bio: "Griffin is a Junior, pursuing a B.S. in Computer Science, with a double minor in Russian and Mathematics. He fell in love with computer science last year, and is now passionate for the field. After completing his degree in Computer Science, Griffin would like to pursue a technical Master’s degree (most likely in Cyber Security) and an MBA. He is excited for the future of the BYU Chapter of the Association for Computing Machinery.",
+    bio: "Griffin Holt is majoring in Computer Science with an emphasis in Data Science and a minor in Mathematics. His academic and professional interests are in the underlying mathematics and application of Artificial Intelligence, Machine Learning, and Control Theory. In his free time Griffin loves to bike, ski, play baseball, and spend time with his wife and family. He speaks Bulgarian, Russian, and studied Chinese for five years. His goal after graduating in April 2022 is to attend graduate school where he can gain more expertise in the field of data science.",
     photo: "@/assets/img/officers/griffin_holt.jpg",
     linkedIn: 'https://www.linkedin.com/in/griffinbholt/'
     },
@@ -69,7 +69,7 @@ const leadership = [
     {
     name: "Dr. Kimball Germane",
     position: 'Faculty Advisor',
-    bio: "Dr. Kimball Germane ",
+    bio: "Dr. Kimball Germane is an Assistant Professor at Brigham Young University. He received his PhD from the University of Utah in 2018. In his free time he enjoys spending time with his family and tinkering on projects.",
     photo: "@/assets/img/officers/kimball_germane.jpg",
     linkedIn: '#'
     }

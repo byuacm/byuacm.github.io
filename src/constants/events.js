@@ -172,32 +172,56 @@ const events = [
     cost: "Free"
   },
   {
-    title: 'ACM Club Meeting',
+    title: 'My Adventures in Cybersecurity at Microsoft (and how you can join me)',
     start: moment('Feb 16 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: '',
+    description: 'Come and join us at our techtalk with Tom Stolk a Consulting and Cybersecurity Professional from Microsoft! His talk is entitled "My Adventures in Cybersecurity at Microsoft (and how you can join me)"',
     location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
     rsvp: "None",
     cost: "Free"
   },
   {
-    title: 'ACM Club Meeting',
+    title: 'Tech Talk with PwC',
     start: moment('Mar 2 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: '',
+    description: 'Come and join our ACM Club Meeting where we will be getting an awesome tech talk from engineers at PricewaterhouseCoopers! PwC is a multinational professional services network of firms, operating as partnerships under the PwC brand. PwC ranks as the second-largest professional services network in the world and is considered one of the BIg Four accounting firms, along with Deloitte, EY, and KPMG.',
     location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
     rsvp: "None",
     cost: "Free"
   },
   {
-    title: 'ACM Club Meeting',
+    title: 'Tech Talk with Esri',
     start: moment('Mar 16 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: '',
+    description: 'Come join us with a tech talk with Esri! Esri is an international supplier of geographic information system software, web GIS and geodatabase management applications. The company is headquartered in Redlands, California. The company was founded as the Environmental Systems Research Institute in 1969 as a land-use consulting firm.',
     location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech Talk with The Church of Jesus Christ of Latter-day Saints',
+    start: moment('Mar 23 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Join us for this exciting club meeting where we will be meeting with the The Church of Jesus Christ of Latter-day Saints! The Church of Christ is an international church whose role is in bringing the restored gospel of Jesus Christ to the world in its fulness. The Church is also involved in numerous volunteer and other activities.',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Tech workshop with Goldman Sachs',
+    start: moment('Mar 30 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'We have an exciting tech workshop planned with Goldman Sachs! The Goldman Sachs Group, Inc., is an American multinational investment bank and financial services company headquartered in New York City. It offers services in investment management, securities, asset management, prime brokerage, and securities underwriting.',
+    location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
+    rsvp: "None",
+    cost: "Free"
+  },
+  {
+    title: 'Club Elections',
+    start: moment('Apr 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Are you interested in serving as an officer with ACM? The ACM club runs and operates various functions and activities at BYU, service only requires a couple hours a week and enjoy giving back to the future ACM and BYU community!',
+    location: 'Online',
     rsvp: "None",
     cost: "Free"
   },
   {
     title: 'ACM Closing Social',
-    start: moment('Mar 30 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
+    start: moment('Apr 6 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
     description: 'Closing Social for ACM Club',
     location: 'Attend the event virtually on Zoom <a href="https://byu.zoom.us/my/byuacm">here!</a>',
     rsvp: "None",
