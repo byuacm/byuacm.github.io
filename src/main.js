@@ -39,6 +39,14 @@ Vue.mixin({
   }
 });
 
+// Cleanse a string of html tags
+Vue.filter('striphtml', function (value) {
+  var div = document.createElement("div");
+  div.innerHTML = value;
+  var text = div.textContent || div.innerText || "";
+  return text;
+});
+
 new Vue({
   router,
   render: h => h(App)
