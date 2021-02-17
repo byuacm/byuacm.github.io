@@ -114,27 +114,21 @@
               >
                 <!-- here you can add your content for tab-content -->
                 <template slot="tab-pane-1">
-                  {{event.description.substring(0, 100)}}
-                  <span
-                    v-if="event.description.length > 100"
-                  >...</span>
-                  <br />
-                  <br />
-                  Date: {{printDate(event)}}
-                  <br />
-                  Location: {{event.location}}
+                  <p>{{event.description.substring(0, 100) | striphtml }}
+                    <span
+                      v-if="event.description.length > 100"
+                    >...</span>
+                    <br />
+                    <br />
+                    Date: {{printDate(event)}}
+                  </p>
+                  <p slot="location" v-html="event.location"></p>
                 </template>
                 <template slot="tab-pane-2">
-                  {{event.description}}
-                  <br />
-                  <br />
-                  Date: {{printDate(event)}}
-                  <br />
-                  Location: {{event.location}}
-                  <br />
-                  RSVP: {{event.rsvp}}
-                  <br />
-                  Cost: {{event.cost}}
+                  <p slot="description" v-html="event.description"></p>
+                  <p>Date: {{printDate(event)}}</p>
+                  <p slot="location" v-html="event.location"></p>
+                  <p>RSVP: {{event.rsvp}}<br/>Cost: {{event.cost}}</p>
                 </template>
               </tabs>
             </div>
@@ -223,9 +217,9 @@ export default {
         require("@/assets/img/officers/corban_anderson.jpg"),
         require("@/assets/img/officers/cailyn_bosworth.jpg"),
         require("@/assets/img/officers/joshua_wilson.jpg"),
-        require("@/assets/img/officers/drake_foltz.jpg"),
-        require("@/assets/img/officers/ellie_van_de_graaff.jpg"),
         require("@/assets/img/officers/riley_norton.jpg"),
+        require("@/assets/img/officers/ignacio_de_almeida.jpg"),
+        require("@/assets/img/officers/kimball_germane.jpg")
       ],
       printDate: function (event) {
         let preferred_date = "MMM D, h:mm A";
@@ -287,7 +281,7 @@ export default {
      */
     load: function () {
       this.events = this.events
-        .filter((a) => a.start.isAfter(moment().subtract(1, "week")))
+        .filter((a) => a.start.isAfter(moment().subtract(3, "day")))
         .sort((a, b) => a.start - b.start)
         .slice(0, 4);
     },

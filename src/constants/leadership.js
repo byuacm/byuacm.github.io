@@ -9,7 +9,7 @@ const leadership = [
     {
     name: "Griffin Holt",
     position: 'Vice President',
-    bio: "Griffin is a Junior, pursuing a B.S. in Computer Science, with a double minor in Russian and Mathematics. He fell in love with computer science last year, and is now passionate for the field. After completing his degree in Computer Science, Griffin would like to pursue a technical Master’s degree (most likely in Cyber Security) and an MBA. He is excited for the future of the BYU Chapter of the Association for Computing Machinery.",
+    bio: "Griffin Holt is majoring in Computer Science with an emphasis in Data Science and a minor in Mathematics. His academic and professional interests are in the underlying mathematics and application of Artificial Intelligence, Machine Learning, and Control Theory. In his free time Griffin loves to bike, ski, play baseball, and spend time with his wife and family. He speaks Bulgarian, Russian, and studied Chinese for five years. His goal after graduating in April 2022 is to attend graduate school where he can gain more expertise in the field of data science.",
     photo: "@/assets/img/officers/griffin_holt.jpg",
     linkedIn: 'https://www.linkedin.com/in/griffinbholt/'
     },
@@ -31,7 +31,7 @@ const leadership = [
 
     {
     name: "Corban Anderson",
-    position: 'Technology/Social Media',
+    position: 'Technology',
     bio: "Corban is a Junior studying Computer Science: Data Science and getting a minor in Business. Someday he hopes to start his own tech company and take over the world with Artificial Intellience technologies. In his free time he enjoys playing the piano, reading, running, playing board games, snowboarding, trespassing, and work on programming projects. Corban also enjoys binge watching tv shows like The Office and Parks and Rec.",
     photo: "@/assets/img/officers/corban_anderson.jpg",
     linkedIn: 'https://www.linkedin.com/in/corban-anderson-a3546366/'
@@ -52,23 +52,6 @@ const leadership = [
     photo: "@/assets/img/officers/joshua_wilson.jpg",
     linkedIn: '#'
     },
-
-    {
-    name: "Drake Foltz",
-    position: 'Associate Officer',
-    bio: "Drake is studying Computer Science, and is in his senior year. He enjoys the challenge of programming, and likes to teach others about it. He speaks Dutch, can make some good pancakes, and loves playing Dungeons and Dragons.",
-    photo: "@/assets/img/officers/drake_foltz.jpg",
-    linkedIn: 'https://www.linkedin.com/in/drake-foltz/'
-    },
-
-    {
-    name: "Ellie Van De Graaff",
-    position: 'Associate Officer',
-    bio: "Ellie is a Senior studying computer science with a minor in mathematics. Her interests include volleyball, reading, and watching lots of movies. She hopes to receive an MBA and work in software consulting.",
-    photo: "@/assets/img/officers/ellie_van_de_graaff.jpg",
-    linkedIn: 'https://www.linkedin.com/in/ellie-van-de-graaff/'
-    },
-
     {
     name: "Riley Norton",
     position: 'Associate Officer',
@@ -76,22 +59,20 @@ const leadership = [
     photo: "@/assets/img/officers/riley_norton.jpg",
     linkedIn: 'https://www.linkedin.com/in/riley-norton/'
     },
-
-    /*{
-    name: "Adnan Khayyat",
-    position: 'Associate Officer',
-    bio: "Adnan is a sophomore majoring in Computer Science and has a passion for involvement and community in the tech industry. He is originally Palestinian and grew up in Jerusalem all his life. He can speak English, Arabic and Hebrew. His favorate food is pizza (but without pineapples)",
-    photo: "@/assets/img/officers/adnan_khayyat.jpg",
-    linkedIn: '#'
-    },
-
     {
-    name: "Frank Jones, PhD",
+      name: "Ignacio Almeida",
+      position: 'Associate Officer',
+      bio: "Ignacio is a Junior Computer Science student from Uruguay who, after getting an AAS in Accounting and learning the language of business, realized that he needed to learn the language of computers to one day help societies or organizations that are struggling financially. In his free time, Ignacio likes to read, play a variety of sports such as tennis, basketball, soccer, or swimming, and he likes to play online or board games with friends.",
+      photo: "@/assets/img/officers/ignacio_de_aleida.jpg",
+      linkedIn: 'https://www.linkedin.com/in/ignacio-almeida/'
+    },
+    {
+    name: "Dr. Kimball Germane",
     position: 'Faculty Advisor',
-    bio: "Dr. Jones received his B.S. and M.S. degrees in Computer Science from University of Idaho, investigating investigating high-performance architectures and compilers. He then received a Ph.D. at University of Colorado Boulder, additionally focusing on wearable computing and assistive technology. Prior to joining the Computer Science faculty at BYU, he spent time revitalizing the College of Idaho CS curriculum and working with the Naval Air Systems Command (NAVAIR) at China Lake California.",
-    photo: "@/assets/img/officers/frank_jones.jpg",
+    bio: "Dr. Kimball Germane is an Assistant Professor at Brigham Young University. He received his PhD from the University of Utah in 2018. In his free time he enjoys spending time with his family and tinkering on projects.",
+    photo: "@/assets/img/officers/kimball_germane.jpg",
     linkedIn: '#'
-    }*/
+    }
 ];
 
 export default leadership;
