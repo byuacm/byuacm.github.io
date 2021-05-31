@@ -3,23 +3,31 @@ const path = require('path')
 const utils = require('./utils')
 const webpack = require('webpack')
 const config = require('../config')
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const baseWebpackConfig = require('./webpack.base.conf')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const env = require('../config/prod.env')
 
 const webpackConfig = merge(baseWebpackConfig, {
   mode: 'production',
-  devtool: config.build.productionSourceMap ? config.build.devtool : false,
+  // devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
     path: config.build.assetsRoot,
     filename: utils.assetsPath('js/[name].[chunkhash].js'),
     chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
+  // module: {
+  //   rules: [
+  //     {
+  //       test: /.s?css$/,
+  //       use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+  //     },
+  //   ],
+  // },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'static/css/[name].[chunkhash].css'
@@ -35,13 +43,6 @@ const webpackConfig = merge(baseWebpackConfig, {
       // increasing file size: https://github.com/vuejs-templates/webpack/issues/1110
       allChunks: true,
     }),*/
-    // Compress extracted CSS. We are using this plugin so that possible
-    // duplicated CSS from different components can be deduped.
-    new OptimizeCSSPlugin({
-      cssProcessorOptions: config.build.productionSourceMap
-        ? { safe: true, map: { inline: false } }
-        : { safe: true }
-    }),
     // generate dist index.html with correct asset hash for caching.
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
@@ -55,12 +56,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         removeAttributeQuotes: true
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
-      },
-      // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      }
     }),
     // keep module.id stable when vendor modules does not change
-    new webpack.HashedModuleIdsPlugin(),
+    new webpack.ids.HashedModuleIdsPlugin(),
     // enable scope hoisting
     new webpack.optimize.ModuleConcatenationPlugin(),
     // split vendor js into its own file
@@ -101,7 +100,14 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ])*/
-  ]
+  ],
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin(),
+      new CssMinimizerPlugin()
+    ],
+  }
 })
 
 if (config.build.productionGzip) {
