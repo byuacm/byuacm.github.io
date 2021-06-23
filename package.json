@@ -17,7 +17,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-dev": "vue-cli-service build --mode development",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-gh-pages": "if [ -f dist/.git ]; then mv dist/.git dist.git.bkp; fi && vue-cli-service build && if [ -f dist.git.bkp ]; then mv dist.git.bkp dist/.git; fi"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",

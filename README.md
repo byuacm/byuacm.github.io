@@ -32,10 +32,6 @@ https://www.w3schools.com/nodejs/nodejs_intro.asp
 
 ## How to update the website
 
-
-### What files to update 
-
-
 ``` 
 # update the code in the main directory
 git pull
@@ -47,13 +43,27 @@ npm run build
 npm i
 
 # now copy the new files created in the /dist folder to where nginx will host the files
-cd dist/
-cp index.html /var/www/html
-cp -r static/ /var/www/html
+cp -r dist/* /var/www/html
 ```
-Webiste is all updated!
 
-### Updating the Node server
+## How to update Github Pages
+
+```
+# Add gh-pages branch as worktree in dist
+rm -r dist
+git worktree add dist gh-pages
+
+# build for production (backup .git in dist since vue build wipes it out)
+npm run build-gh-pages
+
+# commit updated static files
+cd dist
+git add -A
+git commit -m "Deploy"
+git push
+```
+
+### Updating the Node server (old)
 
 ```
 # update the code in the main directory
