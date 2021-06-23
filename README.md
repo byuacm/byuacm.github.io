@@ -49,15 +49,14 @@ cp -r dist/* /var/www/html
 ## How to update Github Pages
 
 ```
-# Add gh-pages branch as worktree in dist
-rm -r dist
-git worktree add dist gh-pages
+# Add gh-pages branch as worktree
+git worktree add gh-pages gh-pages
 
-# build for production (backup .git in dist since vue build wipes it out)
+# build for GH pages
 npm run build-gh-pages
 
 # commit updated static files
-cd dist
+cd gh-pages
 git add -A
 git commit -m "Deploy"
 git push
