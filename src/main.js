@@ -14,14 +14,19 @@
 
 import Vue from "vue";
 import App from "./App.vue";
-import router from "./router";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faTwitter, faFacebookSquare, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPenFancy } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import HomePage from './views/HomePage';
+import Footer from './views/Footer';
+import HomeNavBar from './views/HomeNavBar';
 
 library.add(faLinkedin, faTwitter, faFacebookSquare, faInstagram, faDiscord, faEnvelope, faPenFancy);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
+Vue.component('HomePage', HomePage);
+Vue.component('HomeNavBar', HomeNavBar);
+Vue.component('HomeFooter', Footer);
 
 import MaterialKit from "./plugins/material-kit";
 Vue.use(MaterialKit);
@@ -48,6 +53,5 @@ Vue.filter('striphtml', function (value) {
 });
 
 new Vue({
-  router,
   render: h => h(App)
 }).$mount("#app");

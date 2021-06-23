@@ -1,11 +1,11 @@
 <template>
   <div id="material-kit">
     <div :class="{ 'nav-open': NavbarStore.showNavbar }">
-      <router-view name="header" />
+      <HomeNavBar :colorOnScroll=400 />
       <div>
-        <router-view />
+        <HomePage />
       </div>
-      <router-view name="footer" />
+      <HomeFooter />
     </div>
   </div>
 </template>
