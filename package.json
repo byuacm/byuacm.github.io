@@ -3,90 +3,6 @@
   "version": "1.0.0",
   "description": "A new backend for the acm website using node",
   "author": "BYU ACM <cs.byu.acm@gmail.com>",
-  "private": true,
-  "scripts": {
-    "dev": "NODE_ENV=development webpack serve --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
-    "build": "node build/build.js"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/vue-fontawesome": "^2.0.2",
-    "axios": "^0.21.1",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "file": "^0.2.2",
-    "filereader": "^0.10.3",
-    "js-yaml": "^4.1.0",
-    "moment": "^2.29.1",
-    "mongodb": "^3.6.9",
-    "node-sass": "^6.0.0",
-    "vue": "^2.6.14",
-    "vue-material": "^1.0.0-beta-15",
-    "vue-router": "^3.5.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/plugin-transform-runtime": "^7.14.5",
-    "@babel/preset-env": "^7.14.7",
-    "@babel/preset-react": "^7.14.5",
-    "@soda/friendly-errors-webpack-plugin": "^1.8.0",
-    "autoprefixer": "^10.2.6",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-plugin-transform-vue-jsx": "^3.7.0",
-    "chalk": "^4.1.1",
-    "copy-webpack-plugin": "^9.0.0",
-    "css-loader": "^5.2.6",
-    "css-minimizer-webpack-plugin": "^3.0.1",
-    "file-loader": "^6.2.0",
-    "font-awesome": "^4.7.0",
-    "html-webpack-plugin": "^5.3.2",
-    "mini-css-extract-plugin": "^1.6.0",
-    "node-notifier": "^10.0.0",
-    "nodemon": "^2.0.7",
-    "nouislider": "^15.2.0",
-    "ora": "^5.4.1",
-    "path": "^0.12.7",
-    "portfinder": "^1.0.28",
-    "postcss-import": "^14.0.2",
-    "postcss-loader": "^6.1.0",
-    "postcss-url": "^10.1.3",
-    "rimraf": "^3.0.2",
-    "sass": "^1.35.1",
-    "sass-loader": "^12.1.0",
-    "semver": "^7.3.5",
-    "shelljs": "^0.8.4",
-    "terser-webpack-plugin": "^5.1.3",
-    "url-loader": "^4.1.1",
-    "v-tooltip": "^2.1.3",
-    "vue-carousel": "^0.18.0",
-    "vue-cli": "^2.9.6",
-    "vue-clickaway": "^2.2.2",
-    "vue-lazyload": "^1.3.3",
-    "vue-loader": "^15.9.7",
-    "vue-style-loader": "^4.1.3",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^5.40.0",
-    "webpack-bundle-analyzer": "^4.4.2",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2",
-    "webpack-merge": "^5.8.0"
-  },
-  "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "main": ".postcssrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/byuacm/new-acm-site.git"
@@ -95,5 +11,60 @@
   "bugs": {
     "url": "https://github.com/byuacm/new-acm-site/issues"
   },
-  "homepage": "https://github.com/byuacm/new-acm-site#readme"
+  "homepage": "https://github.com/byuacm/new-acm-site#readme",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "core-js": "^3.8.3",
+    "moment": "^2.29.1",
+    "nouislider": "^15.2.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "v-tooltip": "^2.1.3",
+    "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
+    "vue-clickaway": "^2.2.2",
+    "vue-lazyload": "^1.3.3",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0-beta.2",
+    "@vue/cli-plugin-eslint": "~5.0.0-beta.2",
+    "@vue/cli-service": "~5.0.0-beta.2",
+    "eslint": "^7.20.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/no-use-v-if-with-v-for": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
