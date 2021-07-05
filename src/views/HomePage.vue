@@ -196,7 +196,7 @@ import { Tabs } from "@/components";
 import leadership from "../constants/leadership.js";
 import events from "../constants/events.js";
 
-var officerImgContext = require.context("@/assets/img/officers/", false, /\.jpg$/)
+var officerImgContext = require.context("@/assets/img/officers/", false, /.*/)
 
 export default {
   name: "HomePage",
