@@ -145,7 +145,7 @@
           <div class="md-layout">
             <!-- officers go here! -->
             <div
-              v-for="(leader, index) in leadership"
+              v-for="leader in leadership"
               v-bind:key="leader.name"
               class="md-layout-item md-size-33 md-medium-size-50 md-small-size-100"
             >
@@ -153,7 +153,7 @@
                 <md-card>
                   <md-card-media>
                     <!-- <img :src=leader.photo v-bind:alt="leader.name"> -->
-                    <img :src="officer_images[index]" v-bind:alt="leader.name" />
+                    <img :src="officerImgUrl(leader.photo)" v-bind:alt="leader.name" />
                   </md-card-media>
                   <md-card-header
                     class="md-primary"
@@ -196,6 +196,8 @@ import { Tabs } from "@/components";
 import leadership from "../constants/leadership.js";
 import events from "../constants/events.js";
 
+var officerImgContext = require.context("@/assets/img/officers/", false, /\.jpg$/)
+
 export default {
   name: "HomePage",
   props: {
@@ -208,19 +210,6 @@ export default {
     return {
       leadership,
       events,
-      // TODO: Find a better way to do this lol
-      officer_images: [
-        require("@/assets/img/officers/daniel_ekpo.jpg"),
-        require("@/assets/img/officers/griffin_holt.jpg"),
-        require("@/assets/img/officers/franklin_yuan.jpg"),
-        require("@/assets/img/officers/cache_ostler.jpg"),
-        require("@/assets/img/officers/corban_anderson.jpg"),
-        require("@/assets/img/officers/cailyn_bosworth.jpg"),
-        require("@/assets/img/officers/joshua_wilson.jpg"),
-        require("@/assets/img/officers/riley_norton.jpg"),
-        require("@/assets/img/officers/ignacio_de_almeida.jpg"),
-        require("@/assets/img/officers/kimball_germane.jpg")
-      ],
       printDate: function (event) {
         let preferred_date = "MMM D, h:mm A";
         let stnd_date = "MMM D";
@@ -285,6 +274,9 @@ export default {
         .sort((a, b) => a.start - b.start)
         .slice(0, 4);
     },
+    officerImgUrl: function(path) {
+      return officerImgContext('./' + path)
+    }
   },
   created: function () {
     this.load();
