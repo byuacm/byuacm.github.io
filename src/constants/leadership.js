@@ -23,7 +23,7 @@ const leadership = [
     {
         name: "Samuel Mera Ricardo",
         position: 'Events',
-        bio: "",
+        bio: "Samuel is a sophomore studying Computer Science and getting a minor in Information Technology. He is from Mexico and loves learning about science and technology. Samuel was inspired to pursue a career in technology after watching movies like The Matrix and Hackers, he aspires to develop technology that would help people in their everyday life. In his free time, Samuel likes to play video games, read sci-fi and fantasy novels, practice martial arts, and cook food from around the world.",
         photo: "Samuel Mera Ricardo.jpg",
         linkedIn: 'https://www.linkedin.com/in/samuel-mera-ricardo/'
     },
@@ -58,7 +58,7 @@ const leadership = [
     {
         name: "Lucas Castro",
         position: 'Associate Officer',
-        bio: "",
+        bio: "Lucas is a father, a husband, a tutor, and a Computer Science student in his Junior Year. His mission is to create better experiences for everyone through software. He enjoys building things with JavaScript, React.js, and Node.js, and he occasionally writes about tech stuff. You can ask him about web technologies and software testing. Just make sure that you have some time available; he usually loses track of time when he talks about these things.",
         photo: "profile - Lucas Castro.jpg",
         linkedIn: 'https://www.linkedin.com/in/lucasamonrc/'
     },
