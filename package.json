@@ -18,7 +18,7 @@
     "build": "vue-cli-service build",
     "build-dev": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
-    "build-gh-pages": "rm -r gh-pages/* && vue-cli-service build --dest gh-pages --no-clean"
+    "build-gh-pages": "find gh-pages -mindepth 1 ! -name \"CNAME\" ! -name \".git\" -delete && vue-cli-service build --dest gh-pages --no-clean"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",

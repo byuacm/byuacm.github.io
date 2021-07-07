@@ -1,0 +1,26 @@
+name: GitHub Pages Publish
+
+on: [workflow_dispatch]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: git fetch origin gh-pages:gh-pages && git branch --set-upstream-to=origin/gh-pages gh-pages
+      - run: git worktree add gh-pages gh-pages
+      - run: npm install
+      - run: npm run build-gh-pages
+      - run: |
+          git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          cd gh-pages
+          git add -A
+          git commit -m "Deploy"
+          git push
