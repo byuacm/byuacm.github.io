@@ -65,9 +65,9 @@ const leadership = [
     {
         name: "Miguel Santo",
         position: 'Associate Officer',
-        bio: "",
+        bio: "Miguel is a Junior in Computer Science from Portugal. He is interested in anything related to programming and science. Creating applications is his aspiration.  He is also interested in the area of Artificial intelligence. He hopes to use the knowledge gained to help his fellow man back in his home country. In his free time, he likes to play sports, watch movies and learn languages. He is currently pursuing a minor in French.",
         photo: "Miguel - Miguel Santo.jpg",
-        linkedIn: ''
+        linkedIn: 'http://www.linkedin.com/in/miguel-espirito-santo-9a5238133'
     },
     {
         name: "Dr. Kimball Germane",
