@@ -35,6 +35,13 @@ const leadership = [
         linkedIn: 'https://www.linkedin.com/in/anaiscorral/'
     },
     {
+        name: "Tade Davis",
+        position: 'Networking',
+        bio: "",
+        photo: "MDavis_2020-0310_2 - Tade Davis.jpg",
+        linkedIn: 'https://www.linkedin.com/in/tade-davis-a51362205/'
+    },
+    {
         name: "Jamison Lofthouse",
         position: 'Technology',
         bio: "Jamison is a Senior pursuing a degree in Computer Science. Ever since a young age, he has enjoyed learning how technology works and hopes to push technology into new fields and solve unique problems by utilizing machine learning. He enjoys traveling, spending time outdoors and working on personal projects.",
