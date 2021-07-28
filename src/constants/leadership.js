@@ -77,6 +77,13 @@ const leadership = [
         linkedIn: 'http://www.linkedin.com/in/miguel-espirito-santo-9a5238133'
     },
     {
+        name: "Brian Chi",
+        position: 'Associate Officer',
+        bio: "Brian is an international student from Malaysia currently majoring in Computer Science. He loves playing badminton and 8-ball pool during his free time. He also likes working in a team environment because it provides chances to collaborate with others. Brian's main goals are to develop a genuine understanding for every subject he studies and seek continual learning opportunities.",
+        photo: "Profile photo - Jun xian Chi.jpg",
+        linkedIn: 'http://linkedin.com/in/brian-jun-chi'
+    },
+    {
         name: "Dr. Kimball Germane",
         position: 'Faculty Advisor',
         bio: "Dr. Kimball Germane is an Assistant Professor at Brigham Young University. He received his PhD from the University of Utah in 2018. In his free time he enjoys spending time with his family and tinkering on projects.",
