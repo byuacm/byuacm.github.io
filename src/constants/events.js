@@ -12,7 +12,7 @@ const events = [
   {
     title: 'Combined social with WiCS with Lucid',
     start: moment('September 14 2021 7:00 PM', 'MMM DD YYYY h:mm A'),
-    description: 'Combined social with Women in Computer Science with Lucid',
+    description: 'Combined social with Women in Computer Science and Lucid',
     location: '1170 TMCB',
     rsvp: "https://docs.google.com/forms/d/e/1FAIpQLSco5zo1ZsMIRYavAV6YQ9mxqJ7XI-ZDp2Gdm-yFSXKgCHDVVw/viewform",
     cost: "Free!"
