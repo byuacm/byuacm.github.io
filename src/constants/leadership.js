@@ -18,7 +18,7 @@ const leadership = [
         position: 'Events',
         bio: "Moises is a Computer Science student from Honduras. As a first generation college grad in his family, he wants to show the way to those who will come after him. He envisions himself creating software that will help humanity and will bring much good to the world. He enjoys his family, cooking, and CrossFit.",
         photo: "moises_carpio_lazo.jpg",
-        linkedIn: 'https://www.linkedin.com/in/moises-campos-06816817b/'
+        linkedIn: 'https://www.linkedin.com/in/moisescarpio/'
     },
     {
         name: "Samuel Mera Ricardo",
