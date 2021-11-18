@@ -16,6 +16,20 @@ const events = [
     location: '1170 TMCB',
     rsvp: "https://docs.google.com/forms/d/e/1FAIpQLSco5zo1ZsMIRYavAV6YQ9mxqJ7XI-ZDp2Gdm-yFSXKgCHDVVw/viewform",
     cost: "Free!"
+  },
+  {
+    title: 'Talk with MX',
+    start: moment('November 30 2021 6:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Learn about life at MX',
+    location: '1170 TMCB',
+    cost: "Free!"
+  },
+  {
+    title: 'ACM Closing Social with VIA',
+    start: moment('December 7 2021 6:00 PM', 'MMM DD YYYY h:mm A'),
+    description: 'Last activity of the semester! It\'ll be awesome!',
+    location: '1170 TMCB',
+    cost: "Free!"
   }
 ];
 
