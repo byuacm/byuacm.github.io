@@ -17,12 +17,6 @@
     <div class="main main-raised">
       <div class="section section-basic" id="scroll_to_about">
         <div class="container">
-          <div class="md-layout md-alignment-top-center">
-            <div class="md-layout-item md-size-50 md-medium-size-100">
-              <img src="@/assets/img/secret-santa-poster.png" alt="Secret Santa Poster" class="img-responsive" />
-            </div>
-          </div>
-
           <div class="title">
             <h2 id="about">What We're About</h2>
           </div>
