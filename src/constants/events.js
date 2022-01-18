@@ -27,9 +27,16 @@ const events = [
   {
     title: 'ACM Closing Social with VIA',
     start: moment('December 7 2021 6:00 PM', 'MMM DD YYYY h:mm A'),
-    description: 'Last activity of the semester! It\'ll be awesome!',
+    description: 'Last activity of the semester and secret santa event! It\'ll be awesome!',
     location: '1170 TMCB',
     cost: "Free!"
+  },
+  {
+    title: "Winter Recruiting Dinner",
+    start: moment("February 2 2022 7:00 PM", "MMM DD YYYY h:mm A"),
+    description: "Come meet recruiters and get dinner!",
+    location: "Hinckley Center 3rd floor Assembly Hall",
+    cost: "$15 - sign up: https://byu.az1.qualtrics.com/jfe/form/SV_51GEMcGtuCQlTdY"
   }
 ];
 
