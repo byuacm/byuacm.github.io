@@ -114,12 +114,12 @@
             >
               <h3>{{event.title}}</h3>
               <tabs
-                :tab-name="['Info', 'Deets']"
+                :tab-name="['Info']"
                 :tab-icon="['dashboard', 'schedule']"
                 color-button="primary"
               >
                 <!-- here you can add your content for tab-content -->
-                <template slot="tab-pane-1">
+                <!-- <template slot="tab-pane-1">
                   <p>{{event.description.substring(0, 100) | striphtml }}
                     <span
                       v-if="event.description.length > 100"
@@ -129,8 +129,8 @@
                     Date: {{printDate(event)}}
                   </p>
                   <p slot="location" v-html="event.location"></p>
-                </template>
-                <template slot="tab-pane-2">
+                </template> -->
+                <template slot="tab-pane-1">
                   <p slot="description" v-html="event.description"></p>
                   <p>Date: {{printDate(event)}}</p>
                   <p slot="location" v-html="event.location"></p>
