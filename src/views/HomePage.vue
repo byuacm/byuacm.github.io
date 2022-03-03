@@ -227,7 +227,7 @@
                   <p slot="description" v-html="event.description"></p>
                   <p>Date: {{ printDate(event) }}</p>
                   <p slot="location" v-html="event.location"></p>
-                  <p>RSVP: {{ event.rsvp }}<br />Cost: {{ event.cost }}</p>
+                  <p>RSVP: <a v-bind:href="event.rsvp">{{ event.rsvp }}</a><br />Cost: {{ event.cost }}</p>
                 </template>
               </tabs>
             </div>
