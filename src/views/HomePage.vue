@@ -20,25 +20,16 @@
       <div class="section section-basic" id="scroll_to_about">
         <div class="container">
           <div class="md-layout md-alignment-top-center">
-            <div style="margin-left: auto; margin-right: auto; text-align: center;">
-              <h3>
-                Would your company like to join us for the Recruiting Dinner
-                Winter 2022? Sign up
-                <a
-                  href="https://commerce.cashnet.com/webc?cname=CLUBS%20A%20-%20B"
-                  target="_blank"
-                  >Here!</a
-                >
-              </h3>
-              <h4>(Company/Recruiter sign up is the 1st or 2nd item on list)</h4>
-            </div>
             <div class="md-layout-item md-size-50 md-medium-size-100">
               <img
-                src="@/assets/img/Recruiting Dinner 2022.png"
-                alt="Recruitment dinner"
+                src="@/assets/img/yhack (C).png"
+                alt="Y-Hack Poster"
                 class="img-responsive"
               />
             </div>
+          </div>
+          <div class="md-layout md-alignment-top-center">
+            <a href="https://byu.az1.qualtrics.com/jfe/form/SV_1NROh5xzidhudLg"><h2>Sign up here!</h2></a>
           </div>
 
           <div class="title">

@@ -37,6 +37,14 @@ const events = [
     description: "Come meet recruiters and get dinner!",
     location: "Hinckley Center 3rd floor Assembly Hall",
     cost: "$15 - sign up: https://byu.az1.qualtrics.com/jfe/form/SV_51GEMcGtuCQlTdY"
+  },
+  {
+    title: "Y-Hack",
+    start: moment("March 25 2022", "MMM DD YYYY"),
+    description: "24 hours of food, hacking, workshops, networking, and prizes!",
+    location: "TBD",
+    cost: "FREE!",
+    rsvp: "https://byu.az1.qualtrics.com/jfe/form/SV_1NROh5xzidhudLg"
   }
 ];
 
