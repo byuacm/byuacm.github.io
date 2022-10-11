@@ -19,22 +19,6 @@
     <div class="main main-raised">
       <div class="section section-basic" id="scroll_to_about">
         <div class="container">
-          <div class="md-layout md-alignment-top-center">
-            <div class="md-layout-item md-size-50 md-medium-size-100">
-              <img
-                src="@/assets/img/Updated BYU YHack.png"
-                alt="Y-Hack Poster"
-                class="img-responsive"
-              />
-            </div>
-          </div>
-          <div class="md-layout md-alignment-top-center">
-            <p style="padding-top: 10px; font-size: 24px; text-align: center; line-height: 1.5;">We also want to give a special thanks to BEN - Be Entert [ai] nment for helping to make the YHack possible this year! You can learn more about BEN <a href="https://ben.productplacement.com/">here</a>.</p>
-          </div>
-          <div class="md-layout md-alignment-top-center">
-            <a href="https://byu.az1.qualtrics.com/jfe/form/SV_1NROh5xzidhudLg"><h2>Sign up here!</h2></a>
-          </div>
-
           <div class="title">
             <h2 id="about">What We're About</h2>
           </div>
