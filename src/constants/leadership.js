@@ -1,87 +1,80 @@
 const leadership = [
     {
-        name: "Corban Anderson",
-        position: 'President',
-        bio: "Corban is a Senior studying Computer Science and getting a minor in Business and Entrepreneurship. Someday he hopes to start his own tech startup and build things that others can use and enjoy. In his free time he enjoys playing the piano, reading, running, playing board games, watching movies, trespassing, and working on programming projects. Corban also enjoys binge watching tv shows like The Office and Loki.",
-        photo: "corban_anderson.jpg",
-        linkedIn: 'https://www.linkedin.com/in/corban-anderson-a3546366/'
-    },
-    {
-        name: "Ignacio Almeida",
-        position: 'Vice President',
-        bio: "Ignacio is a Junior Computer Science student from Uruguay who, after getting an AAS in Accounting and learning the language of business, realized that he needed to learn the language of computers to one day help societies or organizations that are struggling financially. In his free time, Ignacio likes to read, play a variety of sports such as tennis, basketball, soccer, or swimming, and he likes to play online or board games with friends.",
-        photo: "ignacio_de_almeida.jpg",
-        linkedIn: 'https://www.linkedin.com/in/ignacio-almeida/'
-    },
-    {
         name: "Moisés Carpio",
-        position: 'Events',
-        bio: "Moises is a Computer Science student from Honduras. As a first generation college grad in his family, he wants to show the way to those who will come after him. He envisions himself creating software that will help humanity and will bring much good to the world. He enjoys his family, cooking, and CrossFit.",
+        position: 'President',
+        bio: "Moises is a Senior pursuing a degree in Computer Science. He was born and raised in San Pedro Sula, Honduras, and later served a mission in Brazil. He is also an entrepreneur, cook, CrossFit enthusiast, and husband. He loves incorporating technology in many aspects of his life. When he is not doing homework, studying, or programming, you can find him cooking, playing soccer, lifting weights, or spending time with family, friends, and colleagues.",
         photo: "moises_carpio_lazo.jpg",
         linkedIn: 'https://www.linkedin.com/in/moisescarpio/'
     },
     {
-        name: "Samuel Mera Ricardo",
-        position: 'Events',
-        bio: "Samuel is a sophomore studying Computer Science and getting a minor in Information Technology. He is from Mexico and loves learning about science and technology. Samuel was inspired to pursue a career in technology after watching movies like The Matrix and Hackers, he aspires to develop technology that would help people in their everyday life. In his free time, Samuel likes to play video games, read sci-fi and fantasy novels, practice martial arts, and cook food from around the world.",
-        photo: "Samuel Mera Ricardo.jpg",
-        linkedIn: 'https://www.linkedin.com/in/samuel-mera-ricardo/'
-    },
-    {
-        name: "Anais Corral Cruz",
-        position: 'Marketing',
-        bio: "Anais is a Junior, pursuing a degree in Marketing at the Marriott School of Business. She is from Spain and loves to travel and get to know other cultures and languages. She speaks three languages and plans to know more in the future. She likes spending her time talking to family, friends, getting to know more people, dancing, traveling, eating, and singing (out loud) in the car! \n She has a passion for marketing and loves to use technology to improve her marketing ideas and strategies.",
-        photo: "anais_corral.jpeg",
-        linkedIn: 'https://www.linkedin.com/in/anaiscorral/'
-    },
-    {
-        name: "Tade Davis",
-        position: 'Networking',
-        bio: "",
-        photo: "MDavis_2020-0310_2 - Tade Davis.jpg",
-        linkedIn: 'https://www.linkedin.com/in/tade-davis-a51362205/'
-    },
-    {
-        name: "Jamison Lofthouse",
-        position: 'Technology',
-        bio: "Jamison is a Senior pursuing a degree in Computer Science. Ever since a young age, he has enjoyed learning how technology works and hopes to push technology into new fields and solve unique problems by utilizing machine learning. He enjoys traveling, spending time outdoors and working on personal projects.",
-        photo: "jamison_lofthouse.jpeg",
-        linkedIn: 'https://www.linkedin.com/in/jdloft/'
-    },
-    {
-        name: "Molly Thornton",
-        position: 'Inter-club Relations',
-        bio: "",
-        photo: "molly_thornton.jpg",
+        name: "Brendan Jensen",
+        position: 'Vice President',
+        bio: "I grew up in Southern California and will be entering my senior year in the CS program (data science emphasis) this fall. I am fascinated by all areas of computer science, but at the moment I am most interested in AI/ML and hope to work in that field after graduating. I served a mission in Lisbon, Portugal and just got married in the spring. In my free time I like to cook, play racquetball, and watch movies.",
+        photo: "brendan_jensen.jpg",
         linkedIn: ''
     },
     {
-        name: "Riley Sinema",
-        position: 'Finance',
-        bio: "Riley is currently a sophomore working on a degree in Computer Science. He was born and raised in Orem Utah and served a mission in the Philippines. He has been interested in studying computers for a long time since his father has a Master’s in Comp Sci. Ever since attending a ACM meeting freshman year he knew that participating in the club would help him to improve his knowledge about computer science and prepare him for finding a career. He would like to help other students to participate in the ACM club especially newer students in order to help them succeed as well. In his free time he likes to golf, skateboard, and do film photography.",
-        photo: "riley_sinema.jpg",
-        linkedIn: 'https://www.linkedin.com/in/riley-sinema-a912b1211/'
+        name: "Travis Hoffman",
+        position: 'Associate Officer',
+        bio: "Hi I'm Travis! I'm from Texas and a CS major here at BYU! Besides my passion for CS I also enjoy music and am a member of the BYU Men's chorus! I first started really exploring computer science here in college and I loved it! If elected into leadership in ACM I will work to help YOU make connections with top employers here in the US and locally in Utah as well as help to plan activities that are FUN and enjoyable for ACM and with other clubs! I want to do my part to help make ACM a place where everybody whether just learning or a seasoned programmer can come learn and have a great time! College is hard enough as it is and together we can make ACM a great place to make new friends and connections that will last well beyond our time here at BYU! ",
+        photo: "travis_hoffman.jpg",
+        linkedIn: ''
     },
     {
-        name: "Lucas Castro",
+        name: "Samuel Seager",
         position: 'Associate Officer',
-        bio: "Lucas is a father, a husband, a tutor, and a Computer Science student in his Junior Year. His mission is to create better experiences for everyone through software. He enjoys building things with JavaScript, React.js, and Node.js, and he occasionally writes about tech stuff. You can ask him about web technologies and software testing. Just make sure that you have some time available; he usually loses track of time when he talks about these things.",
-        photo: "profile - Lucas Castro.jpg",
-        linkedIn: 'https://www.linkedin.com/in/lucasamonrc/'
-    },
-    {
-        name: "Miguel Santo",
-        position: 'Associate Officer',
-        bio: "Miguel is a Junior in Computer Science from Portugal. He is interested in anything related to programming and science. Creating applications is his aspiration.  He is also interested in the area of Artificial intelligence. He hopes to use the knowledge gained to help his fellow man back in his home country. In his free time, he likes to play sports, watch movies and learn languages. He is currently pursuing a minor in French.",
-        photo: "Miguel - Miguel Santo.jpg",
-        linkedIn: 'http://www.linkedin.com/in/miguel-espirito-santo-9a5238133'
+        bio: "My name is Samuel Seager I am from Orem, Utah and I am 6'6\".I love volleyball and basketball and I am a junior this next year.I want to get to know people in the same area of interest and I love to serve and work with other people, something I haven't been able to do since Covid.",
+        photo: "samuel_seager.jpg",
+        linkedIn: ''
     },
     {
         name: "Brian Chi",
-        position: 'Associate Officer',
-        bio: "Brian is an international student from Malaysia currently majoring in Computer Science. He loves playing badminton and 8-ball pool during his free time. He also likes working in a team environment because it provides chances to collaborate with others. Brian's main goals are to develop a genuine understanding for every subject he studies and seek continual learning opportunities.",
+        position: 'Events Officer',
+        bio: "I’m from Malaysia, a country filled with mouthwatering food! I’m currently majoring in Computer Science. I love playing badminton and 8-ball pool during my free time. I enjoy working in a team environment because it provides chances to collaborate with others. My main goals are to develop a genuine understanding for every subject I study and to seek continual learning opportunities.",
         photo: "Profile photo - Jun xian Chi.jpg",
         linkedIn: 'http://linkedin.com/in/brian-jun-chi'
+    },
+    {
+        name: "Peter Hu",
+        position: 'Marketing Officer',
+        bio: "My name is Peter Hu and I’m from Fremont, California! I’m a cs major who loves getting involved and spending time with my fellow techies. I’ve had a great time going to the ACM club this past year and getting valuable knowledge from companies. As a member of the ACM team, I would do my best to help this club grow and thrive!",
+        photo: "peter_hu.jpg",
+        linkedIn: ''
+    },
+    {
+        name: "Spencer Brosnahan",
+        position: 'Finance Officer',
+        bio: "Spencer is a Computer Science student from Heber City, Utah. He is interested in developing and applying artificial intelligence in the medical field. In his free time Spencer enjoys running, mountain biking, playing pickle ball, and almost anything else outside. ",
+        photo: "spencer_brosnahan.jpg",
+        linkedIn: ''
+    },
+    {
+        name: "Samuel Mera Ricardo",
+        position: 'Social Media Officer',
+        bio: "Samuel is a junior studying Computer Science and is getting a minor in Information Technology. He is from Mexico and loves learning about science and technology. Samuel was inspired to pursue a career in technology after watching movies like The Matrix and Hackers; he aspires to develop technology that would help people in their everyday life. In his free time, Samuel likes to play video games, read sci-fi and fantasy novels, practice martial arts, and cook food from around the world.",
+        photo: "samuel_mera_ricardo.jpg",
+        linkedIn: 'http://www.linkedin.com/in/miguel-espirito-santo-9a5238133'
+    },
+    {
+        name: "Max Forsey",
+        position: 'Events Officer',
+        bio: "I love discussing and working with others about complex topics such as ML, NLP, and no-code tools. Outside of CS, I love to hike, play soccer, read, and play Elden Ring ;)",
+        photo: "max_forsey.jpg",
+        linkedIn: ''
+    },
+    {
+        name: "Kyle Ellingson",
+        position: 'Networking Officer',
+        bio: "Kyle grew up in Mesa, Arizona with a computer mouse in his hand. He switched from mechanical engineering to computer science because he wanted to learn basic coding, and has loved it ever since. Having taught at the MTC, written a full-length play, and planned out a slew of multi-ward activities, Kyle wants to expand his growing abilities of leadership even more.",
+        photo: "kyle_ellingson.jpg",
+        linkedIn: ''
+    },
+    {
+        name: "Daniel Blanchard",
+        position: 'Events Officer',
+        bio: "My name is Daniel Blanchard and I am a super senior computer science student with an emphasis in software engineering with a minor in manufacturing. I was studying manufacturing engineering and I was almost finished with my degree when I realized I really liked coding and that I wanted to be in school longer than I needed to be, so I switched my major.  I am from South Jordan, UT and in my free time I enjoy playing soccer and being in nature.",
+        photo: "daniel_blanchard.jpg",
+        linkedIn: ''
     },
     {
         name: "Dr. Kimball Germane",
